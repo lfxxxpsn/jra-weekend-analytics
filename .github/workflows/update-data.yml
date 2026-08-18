@@ -1,0 +1,115 @@
+name: Update JRA weekend data
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: update 只更新本週；bootstrap 重建十二年歷史
+        required: true
+        default: update
+        type: choice
+        options: [update, bootstrap]
+  schedule:
+    - cron: '37 16 * * 4'
+      timezone: Asia/Tokyo
+    - cron: '37 10 * * 5'
+      timezone: Asia/Tokyo
+    - cron: '37 8-18 * * 6,0,1'
+      timezone: Asia/Tokyo
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jra-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name == 'schedule' || inputs.mode == 'update'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run data:update
+        env:
+          JRA_REQUEST_DELAY_MS: '1200'
+      - name: Save derived data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/aggregate-store.json public/data/weekend.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update JRA weekend snapshot"
+            git push
+          fi
+
+  prepare-bootstrap:
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'bootstrap'
+    runs-on: ubuntu-latest
+    outputs:
+      years: ${{ steps.years.outputs.years }}
+    steps:
+      - id: years
+        shell: bash
+        run: node -e "const y=new Date().getUTCFullYear(); process.stdout.write('years='+JSON.stringify(Array.from({length:12},(_,i)=>y-11+i)))" >> "$GITHUB_OUTPUT"
+
+  bootstrap-year:
+    needs: prepare-bootstrap
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        year: ${{ fromJSON(needs.prepare-bootstrap.outputs.years) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run data:bootstrap -- --year ${{ matrix.year }} --output bootstrap-${{ matrix.year }}.json
+        env:
+          JRA_REQUEST_DELAY_MS: '1200'
+      - uses: actions/upload-artifact@v6
+        with:
+          name: bootstrap-${{ matrix.year }}
+          path: bootstrap-${{ matrix.year }}.json
+          retention-days: 2
+
+  merge-bootstrap:
+    needs: bootstrap-year
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: bootstrap-*
+          path: bootstrap-parts
+          merge-multiple: true
+      - run: npm ci
+      - run: npm run data:bootstrap -- --merge bootstrap-parts --store data/aggregate-store.json
+      - run: npm run data:update
+        env:
+          JRA_REQUEST_DELAY_MS: '1200'
+      - name: Save rebuilt aggregate data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/aggregate-store.json public/data/weekend.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: bootstrap ten-year JRA statistics"
+            git pull --rebase
+            git push
+          fi

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+.cache/
+data/*.tmp
+data/bootstrap-parts/
+.env
+.DS_Store
