@@ -5,7 +5,10 @@
     "historyStart": "2016-08-18",
     "historyEnd": "2026-08-17",
     "status": "unavailable",
-    "warnings": ["尚未執行 JRA 資料更新；請從 GitHub Actions 手動執行更新。"]
+    "warnings": [
+      "尚未執行 JRA 資料更新；請從 GitHub Actions 手動執行更新。",
+      "JRA 出馬資料尚未完整（目前 0 場）；保留上次成功資料。"
+    ]
   },
   "meetings": []
 }
