@@ -49,8 +49,8 @@ async function fetchYear(year: number): Promise<ParsedRace[]> {
 }
 
 async function mergeParts(directory: string, storePath: string) {
-  const files = (await readdir(directory)).filter((file) => file.endsWith('.json'))
-  const races = (await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(directory, file), 'utf8')) as ParsedRace[])))
+  const files = await jsonFiles(directory)
+  const races = (await Promise.all(files.map(async (file) => JSON.parse(await readFile(file, 'utf8')) as ParsedRace[])))
     .flat()
     .sort((a, b) => a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue) || a.number - b.number)
   if (!races.length) throw new Error('Bootstrap parts contain no races')
@@ -64,6 +64,16 @@ async function mergeParts(directory: string, storePath: string) {
   pruneStore(store, latest)
   await writeStore(store, storePath)
   process.stdout.write(`Merged ${races.length} races into ${store.buckets.length} aggregate buckets.\n`)
+}
+
+async function jsonFiles(directory: string): Promise<string[]> {
+  const entries = await readdir(directory, { withFileTypes: true })
+  const files = await Promise.all(entries.map(async (entry) => {
+    const path = join(directory, entry.name)
+    if (entry.isDirectory()) return jsonFiles(path)
+    return entry.isFile() && entry.name.endsWith('.json') ? [path] : []
+  }))
+  return files.flat()
 }
 
 async function main() {

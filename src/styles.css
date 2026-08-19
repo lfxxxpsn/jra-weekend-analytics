@@ -33,6 +33,10 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline: 3px soli
 .title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-top: 9px; }
 h1 { margin: 0; color: var(--forest-deep); font-family: Georgia, "Noto Serif TC", serif; font-size: clamp(2rem, 5vw, 3.45rem); line-height: 1; letter-spacing: -.045em; }
 .title-row p { margin: 14px 0 0; color: var(--ink-muted); font-size: 1rem; }
+.view-tabs { display: flex; gap: 22px; margin-top: 30px; }
+.view-tabs button { padding: 9px 0 10px; border: 0; border-bottom: 2px solid transparent; background: transparent; color: var(--ink-muted); cursor: pointer; font-size: .82rem; font-weight: 800; }
+.view-tabs button:hover { color: var(--forest); }
+.view-tabs button.active { border-bottom-color: var(--forest); color: var(--forest); }
 
 .status-badge { display: flex; flex: 0 0 auto; align-items: center; gap: 10px; min-width: 158px; padding: 10px 13px; border: 1px solid var(--line); border-radius: 3px; background: rgba(255,255,255,.55); }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #8d9692; box-shadow: 0 0 0 4px rgba(141,150,146,.15); }
@@ -56,6 +60,9 @@ main { min-height: 52vh; padding: 24px 0 64px; }
 .segmented button { flex: 0 0 auto; border: 0; border-radius: 2px; padding: 8px 13px; background: transparent; color: #59645f; cursor: pointer; font-size: .83rem; font-weight: 700; }
 .segmented button:hover { color: var(--forest); background: rgba(255,255,255,.45); }
 .segmented button.active { color: white; background: var(--forest); box-shadow: 0 1px 2px rgba(14,43,36,.18); }
+.segmented button small { margin-left: 3px; opacity: .72; font-size: .62rem; }
+.archive-filters { margin-bottom: 12px; }
+.archive-filters .filter-group, .archive-filters .segmented { width: 100%; }
 
 .meeting + .meeting { margin-top: 42px; }
 .meeting-heading { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 12px; }
@@ -78,6 +85,7 @@ main { min-height: 52vh; padding: 24px 0 64px; }
 .race-meta span:not(:last-child)::after { content: ""; display: inline-block; width: 2px; height: 2px; margin: 0 0 3px 14px; border-radius: 50%; background: #aab1ad; }
 .weight-state.pending, .weight-state.partial { color: var(--amber); font-weight: 700; }
 .weight-state.published { color: var(--high); font-weight: 700; }
+.prediction-state { color: #315f82; font-weight: 700; }
 .expand-label { margin-left: 8px; color: var(--forest); font-size: .72rem; font-weight: 800; }
 .expand-label::after { content: "+"; display: inline-block; margin-left: 9px; font-size: 1rem; }
 .race-card[open] .expand-label::after { content: "−"; }
@@ -115,6 +123,7 @@ main { min-height: 52vh; padding: 24px 0 64px; }
 .runner-row > * { padding: 10px 12px; }
 .runner-row.table-head { min-height: 36px; color: var(--ink-muted); background: #f0f1ed; font-size: .66rem; font-weight: 800; letter-spacing: .05em; }
 .rank { color: var(--forest); font-family: Georgia, serif; font-size: 1.15rem; font-weight: 800; text-align: center; }
+.rank small { display: block; margin-top: 3px; color: var(--ink-muted); font-family: "Noto Sans TC", sans-serif; font-size: .57rem; font-weight: 700; }
 .runner-name { display: flex; align-items: center; gap: 10px; }
 .runner-name strong, .runner-name small { display: block; }
 .runner-name strong { font-size: .81rem; }
@@ -146,6 +155,7 @@ footer p { margin: 0; }
   .app-shell { width: min(100% - 24px, 680px); }
   .site-header { padding-top: 34px; }
   .title-row { align-items: flex-start; flex-direction: column; }
+  .view-tabs { margin-top: 22px; }
   .status-badge { width: 100%; }
   .filters { align-items: flex-start; flex-direction: column; gap: 12px; }
   .filter-group { width: 100%; align-items: flex-start; flex-direction: column; gap: 5px; }

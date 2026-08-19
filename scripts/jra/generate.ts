@@ -13,7 +13,7 @@ function round(value: number) {
   return Math.round(value * 10) / 10
 }
 
-function makeRace(parsed: ParsedRace, store: AggregateStore): Race {
+export function generateRacePrediction(parsed: ParsedRace, store: AggregateStore): Race {
   const conditionKey = buildConditionKey(parsed.condition)
   const summary = summarizeCondition(store, conditionKey, parsed.date)
   const statsByFeature = new Map(summary.stats.map((stat) => [stat.featureId, stat]))
@@ -85,7 +85,7 @@ export function generateWeekendData(races: ParsedRace[], store: AggregateStore, 
   for (const parsed of races.filter((race) => !race.isResult).sort((a, b) => a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue) || a.number - b.number)) {
     const key = `${parsed.date}|${parsed.venue}`
     const meeting = groups.get(key) ?? { date: parsed.date, dayLabel: japanDayLabel(parsed.date), venue: parsed.venue, races: [] }
-    meeting.races.push(makeRace(parsed, store))
+    meeting.races.push(generateRacePrediction(parsed, store))
     groups.set(key, meeting)
   }
 

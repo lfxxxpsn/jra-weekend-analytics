@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "data:update": "tsx scripts/update-weekend.ts",
-    "data:bootstrap": "tsx scripts/bootstrap-history.ts"
+    "data:bootstrap": "tsx scripts/bootstrap-history.ts",
+    "data:predictions": "tsx scripts/generate-predictions.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

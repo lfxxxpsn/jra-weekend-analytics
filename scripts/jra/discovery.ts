@@ -76,3 +76,8 @@ export function historicalMonthAction(year: number, month: number, checksums: Ma
     label: yyyymm,
   }
 }
+
+export function dateFromCname(cname: string | undefined) {
+  const matches = [...(cname?.matchAll(/20\d{6}/g) ?? [])]
+  return matches.at(-1)?.[0]?.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3') ?? ''
+}

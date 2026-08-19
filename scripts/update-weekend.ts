@@ -1,16 +1,19 @@
 import { readFile } from 'node:fs/promises'
 import { applyRaceResult, pruneStore } from './jra/aggregate'
-import { actionsByCname, findMenuAction, racePageActions } from './jra/discovery'
+import { actionsByCname, dateFromCname, findMenuAction, racePageActions } from './jra/discovery'
 import { generateWeekendData } from './jra/generate'
 import { fetchHtml, type JraAction } from './jra/http'
 import { parseRacePage, stableRaceId } from './jra/parse'
+import { createArchivedPrediction, upsertPredictionRaces } from './jra/prediction-archive'
 import { readStore, writeJsonAtomic, writeStore } from './jra/store'
 import { weekendDataSchema } from '../src/schema'
-import type { ParsedRace, WeekendData } from '../src/types'
+import type { ParsedRace, Race, WeekendData } from '../src/types'
 
 const HOME_URL = 'https://www.jra.go.jp/'
 const OUTPUT_PATH = process.env.WEEKEND_DATA_PATH ?? 'public/data/weekend.json'
 const STORE_PATH = process.env.JRA_STORE_PATH ?? 'data/aggregate-store.json'
+const ARCHIVE_YEAR = Number(process.env.PREDICTION_ARCHIVE_YEAR ?? 2026)
+const ARCHIVE_DIRECTORY = process.env.PREDICTION_ARCHIVE_PATH ?? `public/data/predictions/${ARCHIVE_YEAR}`
 
 function uniqueActions(actions: JraAction[]) {
   return [...new Map(actions.map((action) => [`${action.url}|${action.cname ?? ''}`, action])).values()]
@@ -18,10 +21,6 @@ function uniqueActions(actions: JraAction[]) {
 
 function cnameFrom(action: JraAction) {
   return action.cname ?? new URL(action.url).searchParams.get('CNAME') ?? action.url
-}
-
-function dateFromCname(cname: string | undefined) {
-  return cname?.match(/(20\d{6})/)?.[1]?.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3') ?? ''
 }
 
 function weekendWindow(now = new Date()) {
@@ -52,9 +51,9 @@ async function discoverCurrentRaceActions(homeHtml: string) {
 async function discoverRecentResultActions(homeHtml: string, storeIds: Set<string>) {
   const indexAction = findMenuAction(homeHtml, '/JRADB/accessS.html', 'pw01sli')
   const indexHtml = await fetchHtml(indexAction)
-  const eightDaysAgo = new Date()
-  eightDaysAgo.setDate(eightDaysAgo.getDate() - 8)
-  const cutoff = eightDaysAgo.toISOString().slice(0, 10)
+  const recentWindowStart = new Date()
+  recentWindowStart.setDate(recentWindowStart.getDate() - 35)
+  const cutoff = recentWindowStart.toISOString().slice(0, 10)
   const meetings = actionsByCname(indexHtml, 'pw01srl').filter((action) => dateFromCname(action.cname) >= cutoff)
   const raceActions: JraAction[] = racePageActions(indexHtml, 'result')
   for (const meeting of meetings) {
@@ -118,8 +117,24 @@ async function main() {
     const recentResults = await discoverRecentResultActions(homeHtml, new Set(store.processedRaceIds))
     const resultRaces = await parseActions(recentResults, 'result')
     let updatedResults = 0
-    for (const race of resultRaces.sort((a, b) => a.date.localeCompare(b.date) || a.number - b.number)) {
-      if (applyRaceResult(store, race, true)) updatedResults += 1
+    const archivePredictions: Race[] = []
+    const sortedResults = resultRaces.sort((a, b) => a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue) || a.number - b.number)
+    for (let cursor = 0; cursor < sortedResults.length;) {
+      const date = sortedResults[cursor]?.date
+      if (!date) break
+      const dayRaces: ParsedRace[] = []
+      while (sortedResults[cursor]?.date === date) {
+        const race = sortedResults[cursor]
+        if (race) dayRaces.push(race)
+        cursor += 1
+      }
+      pruneStore(store, date)
+      for (const race of dayRaces) {
+        if (race.date.startsWith(String(ARCHIVE_YEAR))) archivePredictions.push(createArchivedPrediction(race, store))
+      }
+      for (const race of dayRaces) {
+        if (applyRaceResult(store, race, true)) updatedResults += 1
+      }
     }
 
     const { start, end } = weekendWindow()
@@ -131,6 +146,7 @@ async function main() {
     const minimum = Number(process.env.JRA_MIN_EXPECTED_RACES ?? 6)
     if (currentRaces.length < minimum) {
       await preserveWithWarning(previous, `JRA 出馬資料尚未完整（目前 ${currentRaces.length} 場）；保留上次成功資料。`)
+      await upsertPredictionRaces(archivePredictions, ARCHIVE_YEAR, ARCHIVE_DIRECTORY)
       if (updatedResults) {
         pruneStore(store, new Date().toISOString().slice(0, 10))
         await writeStore(store, STORE_PATH)
@@ -140,8 +156,12 @@ async function main() {
 
     pruneStore(store, new Date().toISOString().slice(0, 10))
     const data = generateWeekendData(currentRaces, store)
+    archivePredictions.push(...currentRaces
+      .filter((race) => race.date.startsWith(String(ARCHIVE_YEAR)))
+      .map((race) => createArchivedPrediction(race, store)))
     await writeStore(store, STORE_PATH)
     await writeJsonAtomic(OUTPUT_PATH, data)
+    await upsertPredictionRaces(archivePredictions, ARCHIVE_YEAR, ARCHIVE_DIRECTORY)
     process.stdout.write(`Updated ${currentRaces.length} races; added ${updatedResults} completed results.\n`)
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error)

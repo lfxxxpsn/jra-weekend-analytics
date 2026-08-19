@@ -64,6 +64,7 @@ export interface Runner {
   features: RunnerFeature[]
   score: number
   rank: number | null
+  actualFinish?: number | null
 }
 
 export interface Race {
@@ -84,6 +85,7 @@ export interface Race {
   lowConditions: ConditionStat[]
   otherConditions: ConditionStat[]
   runners: Runner[]
+  predictionStatus?: 'upcoming' | 'completed'
 }
 
 export interface Meeting {
@@ -101,6 +103,31 @@ export interface WeekendData {
     historyEnd: string
     status: DataStatus
     warnings: string[]
+  }
+  meetings: Meeting[]
+}
+
+export interface PredictionArchiveIndex {
+  metadata: {
+    schemaVersion: 1
+    year: number
+    generatedAt: string
+    methodology: 'pre-race-only'
+  }
+  months: Array<{
+    month: string
+    raceCount: number
+    dates: string[]
+  }>
+}
+
+export interface PredictionMonthData {
+  metadata: {
+    schemaVersion: 1
+    year: number
+    month: string
+    generatedAt: string
+    methodology: 'pre-race-only'
   }
   meetings: Meeting[]
 }

@@ -2,7 +2,7 @@ import { z } from 'zod'
 import { FEATURE_IDS } from './types'
 
 const featureIdSchema = z.enum(FEATURE_IDS)
-const conditionStatSchema = z.object({
+export const conditionStatSchema = z.object({
   featureId: featureIdSchema,
   label: z.string(),
   starts: z.number().int().nonnegative(),
@@ -17,7 +17,7 @@ const conditionStatSchema = z.object({
   classification: z.enum(['high', 'low', 'neutral', 'insufficient']),
 })
 
-const raceConditionSchema = z.object({
+export const raceConditionSchema = z.object({
   venue: z.string().min(1),
   kind: z.enum(['flat', 'jump']),
   surface: z.enum(['turf', 'dirt', 'jump', 'unknown']),
@@ -30,7 +30,7 @@ const raceConditionSchema = z.object({
   weightRule: z.string(),
 })
 
-const runnerSchema = z.object({
+export const runnerSchema = z.object({
   id: z.string().min(1),
   number: z.number().int().positive().nullable(),
   frame: z.number().int().positive().nullable(),
@@ -50,9 +50,10 @@ const runnerSchema = z.object({
   })),
   score: z.number(),
   rank: z.number().int().positive().nullable(),
+  actualFinish: z.number().int().positive().nullable().optional(),
 })
 
-const raceSchema = z.object({
+export const raceSchema = z.object({
   id: z.string().min(1),
   sourceUrl: z.string().url(),
   date: z.string().date(),
@@ -70,6 +71,7 @@ const raceSchema = z.object({
   lowConditions: z.array(conditionStatSchema),
   otherConditions: z.array(conditionStatSchema),
   runners: z.array(runnerSchema),
+  predictionStatus: z.enum(['upcoming', 'completed']).optional(),
 })
 
 export const weekendDataSchema = z.object({
@@ -80,6 +82,36 @@ export const weekendDataSchema = z.object({
     historyEnd: z.string().date(),
     status: z.enum(['fresh', 'stale', 'unavailable', 'error']),
     warnings: z.array(z.string()),
+  }),
+  meetings: z.array(z.object({
+    date: z.string().date(),
+    dayLabel: z.string(),
+    venue: z.string().min(1),
+    races: z.array(raceSchema),
+  })),
+})
+
+export const predictionArchiveIndexSchema = z.object({
+  metadata: z.object({
+    schemaVersion: z.literal(1),
+    year: z.number().int().min(1986),
+    generatedAt: z.string().datetime(),
+    methodology: z.literal('pre-race-only'),
+  }),
+  months: z.array(z.object({
+    month: z.string().regex(/^\d{4}-\d{2}$/),
+    raceCount: z.number().int().nonnegative(),
+    dates: z.array(z.string().date()),
+  })),
+})
+
+export const predictionMonthDataSchema = z.object({
+  metadata: z.object({
+    schemaVersion: z.literal(1),
+    year: z.number().int().min(1986),
+    month: z.string().regex(/^\d{4}-\d{2}$/),
+    generatedAt: z.string().datetime(),
+    methodology: z.literal('pre-race-only'),
   }),
   meetings: z.array(z.object({
     date: z.string().date(),

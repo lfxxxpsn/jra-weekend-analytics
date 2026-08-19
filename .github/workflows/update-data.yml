@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: jra-data-update
@@ -39,15 +40,23 @@ jobs:
         env:
           JRA_REQUEST_DELAY_MS: '1200'
       - name: Save derived data
+        id: save
         shell: bash
         run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/aggregate-store.json public/data/weekend.json
+          git add data/aggregate-store.json public/data/weekend.json public/data/predictions/2026
           if ! git diff --cached --quiet; then
             git commit -m "data: update JRA weekend snapshot"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Deploy updated data
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --ref main
 
   prepare-bootstrap:
     if: github.event_name == 'workflow_dispatch' && inputs.mode == 'bootstrap'
@@ -99,17 +108,26 @@ jobs:
           merge-multiple: true
       - run: npm ci
       - run: npm run data:bootstrap -- --merge bootstrap-parts --store data/aggregate-store.json
+      - run: npm run data:predictions -- --parts bootstrap-parts --year 2026 --output public/data/predictions/2026
       - run: npm run data:update
         env:
           JRA_REQUEST_DELAY_MS: '1200'
       - name: Save rebuilt aggregate data
+        id: save
         shell: bash
         run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/aggregate-store.json public/data/weekend.json
+          git add data/aggregate-store.json public/data/weekend.json public/data/predictions/2026
           if ! git diff --cached --quiet; then
             git commit -m "data: bootstrap ten-year JRA statistics"
             git pull --rebase
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Deploy rebuilt data
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --ref main
