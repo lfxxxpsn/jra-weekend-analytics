@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-08",
-    "generatedAt": "2026-08-22T02:06:27.630Z",
+    "generatedAt": "2026-08-22T03:25:29.971Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -61100,8 +61100,8 @@
           "conditionKey": "中京|flat|turf|2000|左|maiden|3歳|open|馬齢",
           "runnerCount": 18,
           "bodyWeightStatus": "partial",
-          "sampleStarts": 1270,
-          "sampleRaces": 83,
+          "sampleStarts": 1288,
+          "sampleRaces": 84,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -61109,10 +61109,10 @@
               "starts": 200,
               "wins": 37,
               "rate": 0.185,
-              "baselineStarts": 1270,
-              "baselineWins": 83,
-              "baselineRate": 0.06535433070866142,
-              "liftPercentagePoints": 11.964566929133857,
+              "baselineStarts": 1288,
+              "baselineWins": 84,
+              "baselineRate": 0.06521739130434782,
+              "liftPercentagePoints": 11.978260869565217,
               "confidenceLow": 0.1373011632273606,
               "confidenceHigh": 0.2445718205011816,
               "classification": "high"
@@ -61121,6 +61121,75 @@
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "4f888bf3bbecd10ccffe",
+              "number": 3,
+              "frame": 2,
+              "name": "テンダーワーズ",
+              "sexAge": "牝3",
+              "jockey": "川端 海翼",
+              "assignedWeight": 52,
+              "bodyWeight": 440,
+              "bodyWeightChange": 2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 12
+                }
+              ],
+              "score": 12,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "bacddee09c26b4665fdf",
+              "number": 9,
+              "frame": 5,
+              "name": "アスクブームキセキ",
+              "sexAge": "牡3",
+              "jockey": "菱田 裕二",
+              "assignedWeight": 57,
+              "bodyWeight": 462,
+              "bodyWeightChange": 0,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 12
+                }
+              ],
+              "score": 12,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "4c221cb03652d334fa5d",
+              "number": 12,
+              "frame": 6,
+              "name": "ノブレスラブリエ",
+              "sexAge": "牝3",
+              "jockey": "松若 風馬",
+              "assignedWeight": 55,
+              "bodyWeight": 446,
+              "bodyWeightChange": -4,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 12
+                }
+              ],
+              "score": 12,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "ffe1a6815254b12f60fc",
               "number": 1,
@@ -61134,7 +61203,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61150,23 +61219,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "4f888bf3bbecd10ccffe",
-              "number": 3,
-              "frame": 2,
-              "name": "テンダーワーズ",
-              "sexAge": "牝3",
-              "jockey": "川端 海翼",
-              "assignedWeight": 52,
-              "bodyWeight": 440,
-              "bodyWeightChange": 2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61182,7 +61235,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61198,7 +61251,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61214,7 +61267,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61230,7 +61283,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61246,23 +61299,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "bacddee09c26b4665fdf",
-              "number": 9,
-              "frame": 5,
-              "name": "アスクブームキセキ",
-              "sexAge": "牡3",
-              "jockey": "菱田 裕二",
-              "assignedWeight": 57,
-              "bodyWeight": 462,
-              "bodyWeightChange": 0,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61278,7 +61315,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61294,23 +61331,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "4c221cb03652d334fa5d",
-              "number": 12,
-              "frame": 6,
-              "name": "ノブレスラブリエ",
-              "sexAge": "牝3",
-              "jockey": "松若 風馬",
-              "assignedWeight": 55,
-              "bodyWeight": 446,
-              "bodyWeightChange": -4,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61326,7 +61347,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61342,7 +61363,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61358,7 +61379,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61374,7 +61395,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61390,7 +61411,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61406,7 +61427,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             }
           ],
@@ -61434,9 +61455,9 @@
           },
           "conditionKey": "中京|flat|dirt|1400|左|maiden|3歳|female-only|馬齢",
           "runnerCount": 16,
-          "bodyWeightStatus": "pending",
-          "sampleStarts": 594,
-          "sampleRaces": 38,
+          "bodyWeightStatus": "partial",
+          "sampleStarts": 610,
+          "sampleRaces": 39,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -61444,10 +61465,10 @@
               "starts": 74,
               "wins": 12,
               "rate": 0.16216216216216217,
-              "baselineStarts": 594,
-              "baselineWins": 38,
-              "baselineRate": 0.06397306397306397,
-              "liftPercentagePoints": 9.81890981890982,
+              "baselineStarts": 610,
+              "baselineWins": 39,
+              "baselineRate": 0.06393442622950819,
+              "liftPercentagePoints": 9.822773593265397,
               "confidenceLow": 0.09526970042922198,
               "confidenceHigh": 0.26240023441281624,
               "classification": "high"
@@ -61456,6 +61477,75 @@
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "624775942d882d897fe4",
+              "number": 6,
+              "frame": 3,
+              "name": "プレデンシア",
+              "sexAge": "牝3",
+              "jockey": "田口 貫太",
+              "assignedWeight": 55,
+              "bodyWeight": 484,
+              "bodyWeightChange": -4,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 8.4
+                }
+              ],
+              "score": 8.4,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "db1581ea929931b8aafe",
+              "number": 10,
+              "frame": 5,
+              "name": "タガノプディング",
+              "sexAge": "牝3",
+              "jockey": "団野 大成",
+              "assignedWeight": 55,
+              "bodyWeight": 452,
+              "bodyWeightChange": 0,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 8.4
+                }
+              ],
+              "score": 8.4,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "c34f7a9b4dc1d7a1c111",
+              "number": 14,
+              "frame": 7,
+              "name": "マカロンブルー",
+              "sexAge": "牝3",
+              "jockey": "今村 聖奈",
+              "assignedWeight": 53,
+              "bodyWeight": 444,
+              "bodyWeightChange": 6,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 8.4
+                }
+              ],
+              "score": 8.4,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "cb25af199e79d0ebc4ad",
               "number": 1,
@@ -61469,7 +61559,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61480,12 +61570,12 @@
               "sexAge": "牝3",
               "jockey": "秋山 稔樹",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 468,
+              "bodyWeightChange": 4,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61496,12 +61586,12 @@
               "sexAge": "牝3",
               "jockey": "森田 誠也",
               "assignedWeight": 52,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 450,
+              "bodyWeightChange": 2,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61517,7 +61607,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61528,28 +61618,12 @@
               "sexAge": "牝3",
               "jockey": "幸 英明",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 460,
+              "bodyWeightChange": -6,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "624775942d882d897fe4",
-              "number": 6,
-              "frame": 3,
-              "name": "プレデンシア",
-              "sexAge": "牝3",
-              "jockey": "田口 貫太",
-              "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61560,12 +61634,12 @@
               "sexAge": "牝3",
               "jockey": "国分 恭介",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 512,
+              "bodyWeightChange": 8,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61576,12 +61650,12 @@
               "sexAge": "牝3",
               "jockey": "西村 淳也",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 440,
+              "bodyWeightChange": -6,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61592,28 +61666,12 @@
               "sexAge": "牝3",
               "jockey": "亀田 温心",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 464,
+              "bodyWeightChange": 20,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "db1581ea929931b8aafe",
-              "number": 10,
-              "frame": 5,
-              "name": "タガノプディング",
-              "sexAge": "牝3",
-              "jockey": "団野 大成",
-              "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61624,12 +61682,12 @@
               "sexAge": "牝3",
               "jockey": "松若 風馬",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 512,
+              "bodyWeightChange": -6,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61640,12 +61698,12 @@
               "sexAge": "牝3",
               "jockey": "長岡 禎仁",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 456,
+              "bodyWeightChange": 2,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61656,28 +61714,12 @@
               "sexAge": "牝3",
               "jockey": "菱田 裕二",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 478,
+              "bodyWeightChange": 0,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "c34f7a9b4dc1d7a1c111",
-              "number": 14,
-              "frame": 7,
-              "name": "マカロンブルー",
-              "sexAge": "牝3",
-              "jockey": "今村 聖奈",
-              "assignedWeight": 53,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61688,12 +61730,12 @@
               "sexAge": "牝3",
               "jockey": "J.コレット",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 480,
+              "bodyWeightChange": -2,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -61704,12 +61746,12 @@
               "sexAge": "牝3",
               "jockey": "中井 裕二",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 462,
+              "bodyWeightChange": 6,
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             }
           ],
@@ -64252,8 +64294,8 @@
           "conditionKey": "新潟|flat|dirt|1800|左|maiden|3歳|female-only|馬齢",
           "runnerCount": 15,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1113,
-          "sampleRaces": 77,
+          "sampleStarts": 1128,
+          "sampleRaces": 78,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -64261,10 +64303,10 @@
               "starts": 178,
               "wins": 37,
               "rate": 0.20786516853932585,
-              "baselineStarts": 1113,
-              "baselineWins": 77,
-              "baselineRate": 0.06918238993710692,
-              "liftPercentagePoints": 13.868277860221895,
+              "baselineStarts": 1128,
+              "baselineWins": 78,
+              "baselineRate": 0.06914893617021277,
+              "liftPercentagePoints": 13.871623236911306,
               "confidenceLow": 0.15473547212612587,
               "confidenceHigh": 0.2733381919859365,
               "classification": "high"
@@ -64273,6 +64315,75 @@
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "627fab7c3e97d943a410",
+              "number": 4,
+              "frame": 3,
+              "name": "カルダモン",
+              "sexAge": "牝3",
+              "jockey": "原 優介",
+              "assignedWeight": 55,
+              "bodyWeight": 476,
+              "bodyWeightChange": 2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 13.9
+                }
+              ],
+              "score": 13.9,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "d6060cfa8e44ee60d081",
+              "number": 7,
+              "frame": 4,
+              "name": "ラショナルポイント",
+              "sexAge": "牝3",
+              "jockey": "斎藤 新",
+              "assignedWeight": 55,
+              "bodyWeight": 476,
+              "bodyWeightChange": 4,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 13.9
+                }
+              ],
+              "score": 13.9,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "0ae2a9d25c7ecfe9cad1",
+              "number": 8,
+              "frame": 5,
+              "name": "フィクセルリリア",
+              "sexAge": "牝3",
+              "jockey": "吉田 豊",
+              "assignedWeight": 55,
+              "bodyWeight": 454,
+              "bodyWeightChange": 0,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 13.9
+                }
+              ],
+              "score": 13.9,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "173813fd1abbd6ff15d8",
               "number": 1,
@@ -64286,7 +64397,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64302,7 +64413,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64318,23 +64429,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "627fab7c3e97d943a410",
-              "number": 4,
-              "frame": 3,
-              "name": "カルダモン",
-              "sexAge": "牝3",
-              "jockey": "原 優介",
-              "assignedWeight": 55,
-              "bodyWeight": 476,
-              "bodyWeightChange": 2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64350,7 +64445,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64366,39 +64461,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "d6060cfa8e44ee60d081",
-              "number": 7,
-              "frame": 4,
-              "name": "ラショナルポイント",
-              "sexAge": "牝3",
-              "jockey": "斎藤 新",
-              "assignedWeight": 55,
-              "bodyWeight": 476,
-              "bodyWeightChange": 4,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "0ae2a9d25c7ecfe9cad1",
-              "number": 8,
-              "frame": 5,
-              "name": "フィクセルリリア",
-              "sexAge": "牝3",
-              "jockey": "吉田 豊",
-              "assignedWeight": 55,
-              "bodyWeight": 454,
-              "bodyWeightChange": 0,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64414,7 +64477,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64430,7 +64493,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64446,7 +64509,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64462,7 +64525,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64478,7 +64541,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64494,7 +64557,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64510,7 +64573,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             }
           ],
@@ -64539,8 +64602,8 @@
           "conditionKey": "新潟|flat|turf|1600|左 外|maiden|3歳|open|馬齢",
           "runnerCount": 18,
           "bodyWeightStatus": "published",
-          "sampleStarts": 601,
-          "sampleRaces": 35,
+          "sampleStarts": 619,
+          "sampleRaces": 36,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -64548,26 +64611,12 @@
               "starts": 86,
               "wins": 12,
               "rate": 0.13953488372093023,
-              "baselineStarts": 601,
-              "baselineWins": 35,
-              "baselineRate": 0.05823627287853577,
-              "liftPercentagePoints": 8.129861084239446,
+              "baselineStarts": 619,
+              "baselineWins": 36,
+              "baselineRate": 0.05815831987075929,
+              "liftPercentagePoints": 8.137656385017095,
               "confidenceLow": 0.08165766761659309,
               "confidenceHigh": 0.2282388613855618,
-              "classification": "high"
-            },
-            {
-              "featureId": "bodyWeight500Plus",
-              "label": "馬體重 500 公斤以上",
-              "starts": 37,
-              "wins": 5,
-              "rate": 0.13513513513513514,
-              "baselineStarts": 601,
-              "baselineWins": 35,
-              "baselineRate": 0.05823627287853577,
-              "liftPercentagePoints": 7.6898862256599365,
-              "confidenceLow": 0.059132072625076235,
-              "confidenceHigh": 0.27977727470705577,
               "classification": "high"
             }
           ],
@@ -64575,25 +64624,71 @@
           "otherConditions": [],
           "runners": [
             {
-              "id": "25e86586a0fb789ba04e",
-              "number": 18,
-              "frame": 8,
-              "name": "ハニージョー",
-              "sexAge": "牡3",
-              "jockey": "石川 裕紀人",
-              "assignedWeight": 57,
-              "bodyWeight": 506,
-              "bodyWeightChange": -4,
+              "id": "144c72fcb06c8c095889",
+              "number": 6,
+              "frame": 3,
+              "name": "セシルブリュネ",
+              "sexAge": "牝3",
+              "jockey": "斎藤 新",
+              "assignedWeight": 55,
+              "bodyWeight": 396,
+              "bodyWeightChange": -6,
               "scratched": false,
               "features": [
                 {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
                   "value": true,
-                  "contribution": 4.7
+                  "contribution": 7.5
                 }
               ],
-              "score": 4.7,
+              "score": 7.5,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "4cd5d8b75724faaf7712",
+              "number": 9,
+              "frame": 5,
+              "name": "ワインダークシー",
+              "sexAge": "牡3",
+              "jockey": "田辺 裕信",
+              "assignedWeight": 57,
+              "bodyWeight": 428,
+              "bodyWeightChange": 0,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 7.5
+                }
+              ],
+              "score": 7.5,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "3b3b985253ef26fe107e",
+              "number": 11,
+              "frame": 6,
+              "name": "ヘクトルテソーロ",
+              "sexAge": "牡3",
+              "jockey": "藤懸 貴志",
+              "assignedWeight": 57,
+              "bodyWeight": 446,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 7.5
+                }
+              ],
+              "score": 7.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -64610,7 +64705,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64626,7 +64721,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64642,7 +64737,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64658,7 +64753,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64674,23 +64769,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
-              "actualFinish": null
-            },
-            {
-              "id": "144c72fcb06c8c095889",
-              "number": 6,
-              "frame": 3,
-              "name": "セシルブリュネ",
-              "sexAge": "牝3",
-              "jockey": "斎藤 新",
-              "assignedWeight": 55,
-              "bodyWeight": 396,
-              "bodyWeightChange": -6,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64706,7 +64785,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64722,23 +64801,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
-              "actualFinish": null
-            },
-            {
-              "id": "4cd5d8b75724faaf7712",
-              "number": 9,
-              "frame": 5,
-              "name": "ワインダークシー",
-              "sexAge": "牡3",
-              "jockey": "田辺 裕信",
-              "assignedWeight": 57,
-              "bodyWeight": 428,
-              "bodyWeightChange": 0,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64754,23 +64817,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
-              "actualFinish": null
-            },
-            {
-              "id": "3b3b985253ef26fe107e",
-              "number": 11,
-              "frame": 6,
-              "name": "ヘクトルテソーロ",
-              "sexAge": "牡3",
-              "jockey": "藤懸 貴志",
-              "assignedWeight": 57,
-              "bodyWeight": 446,
-              "bodyWeightChange": -2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64786,7 +64833,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64802,7 +64849,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64818,7 +64865,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64834,7 +64881,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64850,7 +64897,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -64866,7 +64913,23 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 4,
+              "actualFinish": null
+            },
+            {
+              "id": "25e86586a0fb789ba04e",
+              "number": 18,
+              "frame": 8,
+              "name": "ハニージョー",
+              "sexAge": "牡3",
+              "jockey": "石川 裕紀人",
+              "assignedWeight": 57,
+              "bodyWeight": 506,
+              "bodyWeightChange": -4,
+              "scratched": false,
+              "features": [],
+              "score": 0,
+              "rank": 4,
               "actualFinish": null
             }
           ],
@@ -67381,8 +67444,8 @@
           "conditionKey": "札幌|flat|dirt|1700|右|maiden|3歳|open|馬齢",
           "runnerCount": 13,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1993,
-          "sampleRaces": 148,
+          "sampleStarts": 2007,
+          "sampleRaces": 149,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -67390,10 +67453,10 @@
               "starts": 379,
               "wins": 65,
               "rate": 0.17150395778364116,
-              "baselineStarts": 1993,
-              "baselineWins": 148,
-              "baselineRate": 0.07425990968389362,
-              "liftPercentagePoints": 9.724404809974754,
+              "baselineStarts": 2007,
+              "baselineWins": 149,
+              "baselineRate": 0.07424015944195317,
+              "liftPercentagePoints": 9.7263798341688,
               "confidenceLow": 0.13689690479838798,
               "confidenceHigh": 0.21270355659347753,
               "classification": "high"
@@ -67401,21 +67464,90 @@
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 310,
+              "starts": 313,
               "wins": 33,
-              "rate": 0.1064516129032258,
-              "baselineStarts": 1993,
-              "baselineWins": 148,
-              "baselineRate": 0.07425990968389362,
-              "liftPercentagePoints": 3.219170321933218,
-              "confidenceLow": 0.07680838651339025,
-              "confidenceHigh": 0.1457293522694862,
+              "rate": 0.10543130990415335,
+              "baselineStarts": 2007,
+              "baselineWins": 149,
+              "baselineRate": 0.07424015944195317,
+              "liftPercentagePoints": 3.1191150462200183,
+              "confidenceLow": 0.07606226163638433,
+              "confidenceHigh": 0.14436838888425438,
               "classification": "high"
             }
           ],
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "d1f72c5de74607e33e69",
+              "number": 4,
+              "frame": 3,
+              "name": "イーサンミラー",
+              "sexAge": "牡3",
+              "jockey": "R.ヘルナンデス",
+              "assignedWeight": 57,
+              "bodyWeight": 420,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 9.7
+                }
+              ],
+              "score": 9.7,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "009458b008d675c10347",
+              "number": 8,
+              "frame": 5,
+              "name": "メイショウセンドウ",
+              "sexAge": "牡3",
+              "jockey": "横山 和生",
+              "assignedWeight": 57,
+              "bodyWeight": 474,
+              "bodyWeightChange": 6,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 9.7
+                }
+              ],
+              "score": 9.7,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "a9d3a5f6a71f556099db",
+              "number": 14,
+              "frame": 8,
+              "name": "リン",
+              "sexAge": "牡3",
+              "jockey": "松山 弘平",
+              "assignedWeight": 57,
+              "bodyWeight": 474,
+              "bodyWeightChange": 6,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 9.7
+                }
+              ],
+              "score": 9.7,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "a1e26a1acb8614d9f45f",
               "number": 2,
@@ -67432,11 +67564,11 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 3.2
+                  "contribution": 3.1
                 }
               ],
-              "score": 3.2,
-              "rank": 1,
+              "score": 3.1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67455,11 +67587,11 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 3.2
+                  "contribution": 3.1
                 }
               ],
-              "score": 3.2,
-              "rank": 1,
+              "score": 3.1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67475,23 +67607,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
-              "actualFinish": null
-            },
-            {
-              "id": "d1f72c5de74607e33e69",
-              "number": 4,
-              "frame": 3,
-              "name": "イーサンミラー",
-              "sexAge": "牡3",
-              "jockey": "R.ヘルナンデス",
-              "assignedWeight": 57,
-              "bodyWeight": 420,
-              "bodyWeightChange": -2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67507,7 +67623,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67523,7 +67639,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67539,23 +67655,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
-              "actualFinish": null
-            },
-            {
-              "id": "009458b008d675c10347",
-              "number": 8,
-              "frame": 5,
-              "name": "メイショウセンドウ",
-              "sexAge": "牡3",
-              "jockey": "横山 和生",
-              "assignedWeight": 57,
-              "bodyWeight": 474,
-              "bodyWeightChange": 6,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67571,7 +67671,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67587,7 +67687,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67603,7 +67703,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67619,23 +67719,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 3,
-              "actualFinish": null
-            },
-            {
-              "id": "a9d3a5f6a71f556099db",
-              "number": 14,
-              "frame": 8,
-              "name": "リン",
-              "sexAge": "牡3",
-              "jockey": "松山 弘平",
-              "assignedWeight": 57,
-              "bodyWeight": 474,
-              "bodyWeightChange": 6,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 3,
+              "rank": 6,
               "actualFinish": null
             },
             {
@@ -67654,10 +67738,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 3.2
+                  "contribution": 3.1
                 }
               ],
-              "score": 3.2,
+              "score": 3.1,
               "rank": null,
               "actualFinish": null
             }
@@ -67687,8 +67771,8 @@
           "conditionKey": "札幌|flat|turf|2000|右|maiden|3歳|open|馬齢",
           "runnerCount": 16,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1082,
-          "sampleRaces": 72,
+          "sampleStarts": 1098,
+          "sampleRaces": 73,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -67696,10 +67780,10 @@
               "starts": 221,
               "wins": 39,
               "rate": 0.17647058823529413,
-              "baselineStarts": 1082,
-              "baselineWins": 73,
-              "baselineRate": 0.06746765249537892,
-              "liftPercentagePoints": 10.90029357399152,
+              "baselineStarts": 1098,
+              "baselineWins": 74,
+              "baselineRate": 0.06739526411657559,
+              "liftPercentagePoints": 10.907532411871854,
               "confidenceLow": 0.1318623891301107,
               "confidenceHigh": 0.23213430898981022,
               "classification": "high"
@@ -67708,6 +67792,75 @@
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "4d9080121d74bdfc4f18",
+              "number": 8,
+              "frame": 4,
+              "name": "フローレンスフーガ",
+              "sexAge": "牡3",
+              "jockey": "古川 吉洋",
+              "assignedWeight": 57,
+              "bodyWeight": 480,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 10.9
+                }
+              ],
+              "score": 10.9,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "c7d5ea33c196ef3c4747",
+              "number": 10,
+              "frame": 5,
+              "name": "マンサニージャ",
+              "sexAge": "牝3",
+              "jockey": "丹内 祐次",
+              "assignedWeight": 55,
+              "bodyWeight": 434,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 10.9
+                }
+              ],
+              "score": 10.9,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "4d0ee62a0ca50e0f2c11",
+              "number": 11,
+              "frame": 6,
+              "name": "コワンニシタガウ",
+              "sexAge": "牡3",
+              "jockey": "武 豊",
+              "assignedWeight": 57,
+              "bodyWeight": 482,
+              "bodyWeightChange": 0,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 10.9
+                }
+              ],
+              "score": 10.9,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "625981afca3bc6fefc20",
               "number": 1,
@@ -67721,7 +67874,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67737,7 +67890,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67753,7 +67906,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67769,7 +67922,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67785,7 +67938,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67801,7 +67954,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67817,23 +67970,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "4d9080121d74bdfc4f18",
-              "number": 8,
-              "frame": 4,
-              "name": "フローレンスフーガ",
-              "sexAge": "牡3",
-              "jockey": "古川 吉洋",
-              "assignedWeight": 57,
-              "bodyWeight": 480,
-              "bodyWeightChange": -2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67849,39 +67986,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "c7d5ea33c196ef3c4747",
-              "number": 10,
-              "frame": 5,
-              "name": "マンサニージャ",
-              "sexAge": "牝3",
-              "jockey": "丹内 祐次",
-              "assignedWeight": 55,
-              "bodyWeight": 434,
-              "bodyWeightChange": -2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "4d0ee62a0ca50e0f2c11",
-              "number": 11,
-              "frame": 6,
-              "name": "コワンニシタガウ",
-              "sexAge": "牡3",
-              "jockey": "武 豊",
-              "assignedWeight": 57,
-              "bodyWeight": 482,
-              "bodyWeightChange": 0,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67897,7 +68002,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67913,7 +68018,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67929,7 +68034,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67945,7 +68050,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -67961,7 +68066,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             }
           ],
@@ -68245,7 +68350,7 @@
           },
           "conditionKey": "札幌|flat|turf|2600|右|maiden|3歳|open|馬齢",
           "runnerCount": 14,
-          "bodyWeightStatus": "pending",
+          "bodyWeightStatus": "published",
           "sampleStarts": 284,
           "sampleRaces": 21,
           "highConditions": [
@@ -68275,8 +68380,8 @@
               "sexAge": "牝3",
               "jockey": "R.ヘルナンデス",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 422,
+              "bodyWeightChange": -4,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68291,8 +68396,8 @@
               "sexAge": "牡3",
               "jockey": "池添 謙一",
               "assignedWeight": 57,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 478,
+              "bodyWeightChange": 0,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68307,8 +68412,8 @@
               "sexAge": "牡3",
               "jockey": "河原田 菜々",
               "assignedWeight": 53,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 480,
+              "bodyWeightChange": 2,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68323,8 +68428,8 @@
               "sexAge": "牝3",
               "jockey": "小林 美駒",
               "assignedWeight": 52,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 498,
+              "bodyWeightChange": 6,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68339,8 +68444,8 @@
               "sexAge": "牝3",
               "jockey": "S.ナレドゥ",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 444,
+              "bodyWeightChange": 10,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68355,8 +68460,8 @@
               "sexAge": "牡3",
               "jockey": "松本 大輝",
               "assignedWeight": 57,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 478,
+              "bodyWeightChange": -2,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68371,8 +68476,8 @@
               "sexAge": "牡3",
               "jockey": "長浜 鴻緒",
               "assignedWeight": 56,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 476,
+              "bodyWeightChange": -4,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68387,8 +68492,8 @@
               "sexAge": "牝3",
               "jockey": "Z.ロイド",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 476,
+              "bodyWeightChange": 2,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68403,8 +68508,8 @@
               "sexAge": "牡3",
               "jockey": "松山 弘平",
               "assignedWeight": 57,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 508,
+              "bodyWeightChange": -2,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68419,8 +68524,8 @@
               "sexAge": "牡3",
               "jockey": "岩田 望来",
               "assignedWeight": 57,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 488,
+              "bodyWeightChange": 4,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68435,8 +68540,8 @@
               "sexAge": "牝3",
               "jockey": "R.フーリー",
               "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 512,
+              "bodyWeightChange": 8,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68451,8 +68556,8 @@
               "sexAge": "牡3",
               "jockey": "武 豊",
               "assignedWeight": 57,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 434,
+              "bodyWeightChange": -2,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68467,8 +68572,8 @@
               "sexAge": "牝3",
               "jockey": "遠藤 汰月",
               "assignedWeight": 52,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 428,
+              "bodyWeightChange": 0,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -68483,8 +68588,8 @@
               "sexAge": "牡3",
               "jockey": "横山 和生",
               "assignedWeight": 57,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
+              "bodyWeight": 488,
+              "bodyWeightChange": 0,
               "scratched": false,
               "features": [],
               "score": 0,
@@ -76591,8 +76696,8 @@
           "conditionKey": "札幌|flat|dirt|1700|右|maiden|3歳|open|馬齢",
           "runnerCount": 14,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 1993,
-          "sampleRaces": 148,
+          "sampleStarts": 2007,
+          "sampleRaces": 149,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -76600,10 +76705,10 @@
               "starts": 379,
               "wins": 65,
               "rate": 0.17150395778364116,
-              "baselineStarts": 1993,
-              "baselineWins": 148,
-              "baselineRate": 0.07425990968389362,
-              "liftPercentagePoints": 9.724404809974754,
+              "baselineStarts": 2007,
+              "baselineWins": 149,
+              "baselineRate": 0.07424015944195317,
+              "liftPercentagePoints": 9.7263798341688,
               "confidenceLow": 0.13689690479838798,
               "confidenceHigh": 0.21270355659347753,
               "classification": "high"
@@ -76611,15 +76716,15 @@
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 310,
+              "starts": 313,
               "wins": 33,
-              "rate": 0.1064516129032258,
-              "baselineStarts": 1993,
-              "baselineWins": 148,
-              "baselineRate": 0.07425990968389362,
-              "liftPercentagePoints": 3.219170321933218,
-              "confidenceLow": 0.07680838651339025,
-              "confidenceHigh": 0.1457293522694862,
+              "rate": 0.10543130990415335,
+              "baselineStarts": 2007,
+              "baselineWins": 149,
+              "baselineRate": 0.07424015944195317,
+              "liftPercentagePoints": 3.1191150462200183,
+              "confidenceLow": 0.07606226163638433,
+              "confidenceHigh": 0.14436838888425438,
               "classification": "high"
             }
           ],
