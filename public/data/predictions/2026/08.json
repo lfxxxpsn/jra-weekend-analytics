@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-08",
-    "generatedAt": "2026-08-22T09:58:10.830Z",
+    "generatedAt": "2026-08-22T23:57:21.908Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -60437,8 +60437,8 @@
       "venue": "中京",
       "races": [
         {
-          "id": "760334c803f03974f9ff",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010120260822%2F5D",
+          "id": "8f4594c1d32931288dba",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010120260822%2F3C",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 1,
@@ -60459,35 +60459,35 @@
           "conditionKey": "中京|flat|turf|1600|左|maiden|2歳|open|馬齢",
           "runnerCount": 9,
           "bodyWeightStatus": "published",
-          "sampleStarts": 427,
-          "sampleRaces": 37,
+          "sampleStarts": 436,
+          "sampleRaces": 38,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 106,
-              "wins": 21,
-              "rate": 0.19811320754716982,
-              "baselineStarts": 427,
-              "baselineWins": 37,
-              "baselineRate": 0.08665105386416862,
-              "liftPercentagePoints": 11.14621536830012,
-              "confidenceLow": 0.1333879484800526,
-              "confidenceHigh": 0.28395484332196047,
+              "starts": 109,
+              "wins": 22,
+              "rate": 0.2018348623853211,
+              "baselineStarts": 436,
+              "baselineWins": 38,
+              "baselineRate": 0.0871559633027523,
+              "liftPercentagePoints": 11.46788990825688,
+              "confidenceLow": 0.13723625011246085,
+              "confidenceHigh": 0.2867350512515751,
               "classification": "high"
             },
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 31,
+              "starts": 32,
               "wins": 6,
-              "rate": 0.1935483870967742,
-              "baselineStarts": 427,
-              "baselineWins": 37,
-              "baselineRate": 0.08665105386416862,
-              "liftPercentagePoints": 10.689733323260556,
-              "confidenceLow": 0.09186883586347631,
-              "confidenceHigh": 0.3628060355545985,
+              "rate": 0.1875,
+              "baselineStarts": 436,
+              "baselineWins": 38,
+              "baselineRate": 0.0871559633027523,
+              "liftPercentagePoints": 10.034403669724771,
+              "confidenceLow": 0.08889423936162782,
+              "confidenceHigh": 0.3530949575492244,
               "classification": "high"
             }
           ],
@@ -60510,10 +60510,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 11.1
+                  "contribution": 11.5
                 }
               ],
-              "score": 11.1,
+              "score": 11.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -60533,10 +60533,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 11.1
+                  "contribution": 11.5
                 }
               ],
-              "score": 11.1,
+              "score": 11.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -60556,10 +60556,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 11.1
+                  "contribution": 11.5
                 }
               ],
-              "score": 11.1,
+              "score": 11.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -60579,10 +60579,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 6
+                  "contribution": 5.7
                 }
               ],
-              "score": 6,
+              "score": 5.7,
               "rank": 4,
               "actualFinish": null
             },
@@ -60670,8 +60670,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "b0d4d887e4389b7d2ccd",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010220260822%2F12",
+          "id": "f38683e6293291fd6860",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010220260822%2FF1",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 2,
@@ -60692,8 +60692,8 @@
           "conditionKey": "中京|flat|dirt|1800|左|maiden-new|2歳|open|馬齢",
           "runnerCount": 10,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 297,
-          "sampleRaces": 26,
+          "sampleStarts": 307,
+          "sampleRaces": 27,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -60862,8 +60862,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "eecfd324ab46abfbcc50",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010320260822%2FC7",
+          "id": "c87c9f37179d7c49c015",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010320260822%2FA6",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 3,
@@ -60884,35 +60884,35 @@
           "conditionKey": "中京|flat|turf|2200|左|class-1|3歳以上|open|定量",
           "runnerCount": 8,
           "bodyWeightStatus": "published",
-          "sampleStarts": 622,
-          "sampleRaces": 46,
+          "sampleStarts": 630,
+          "sampleRaces": 47,
           "highConditions": [
             {
               "featureId": "lastStartWon",
               "label": "前走勝利",
-              "starts": 48,
-              "wins": 8,
-              "rate": 0.16666666666666666,
-              "baselineStarts": 622,
-              "baselineWins": 46,
-              "baselineRate": 0.07395498392282958,
-              "liftPercentagePoints": 9.271168274383708,
-              "confidenceLow": 0.08695410039453223,
-              "confidenceHigh": 0.29578100037396254,
+              "starts": 49,
+              "wins": 9,
+              "rate": 0.1836734693877551,
+              "baselineStarts": 630,
+              "baselineWins": 47,
+              "baselineRate": 0.0746031746031746,
+              "liftPercentagePoints": 10.907029478458051,
+              "confidenceLow": 0.09976228838458356,
+              "confidenceHigh": 0.31357871567282575,
               "classification": "high"
             },
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 168,
-              "wins": 26,
-              "rate": 0.15476190476190477,
-              "baselineStarts": 622,
-              "baselineWins": 46,
-              "baselineRate": 0.07395498392282958,
-              "liftPercentagePoints": 8.080692083907518,
-              "confidenceLow": 0.10785477160945135,
-              "confidenceHigh": 0.2171049587468768,
+              "starts": 171,
+              "wins": 27,
+              "rate": 0.15789473684210525,
+              "baselineStarts": 630,
+              "baselineWins": 47,
+              "baselineRate": 0.0746031746031746,
+              "liftPercentagePoints": 8.329156223893065,
+              "confidenceLow": 0.11084065015508984,
+              "confidenceHigh": 0.21998222037457815,
               "classification": "high"
             }
           ],
@@ -60935,16 +60935,16 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.1
+                  "contribution": 8.3
                 },
                 {
                   "featureId": "lastStartWon",
                   "label": "前走勝利",
                   "value": true,
-                  "contribution": 6.4
+                  "contribution": 7.6
                 }
               ],
-              "score": 14.5,
+              "score": 15.9,
               "rank": 1,
               "actualFinish": null
             },
@@ -60964,10 +60964,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.1
+                  "contribution": 8.3
                 }
               ],
-              "score": 8.1,
+              "score": 8.3,
               "rank": 2,
               "actualFinish": null
             },
@@ -60987,10 +60987,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.1
+                  "contribution": 8.3
                 }
               ],
-              "score": 8.1,
+              "score": 8.3,
               "rank": 2,
               "actualFinish": null
             },
@@ -61078,8 +61078,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "3b41f3dac29587bab196",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010420260822%2F7C",
+          "id": "ec3633d2643ba197826c",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010420260822%2F5B",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 4,
@@ -61100,21 +61100,21 @@
           "conditionKey": "中京|flat|turf|2000|左|maiden|3歳|open|馬齢",
           "runnerCount": 18,
           "bodyWeightStatus": "partial",
-          "sampleStarts": 1288,
-          "sampleRaces": 84,
+          "sampleStarts": 1306,
+          "sampleRaces": 85,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 200,
-              "wins": 37,
-              "rate": 0.185,
-              "baselineStarts": 1288,
-              "baselineWins": 84,
-              "baselineRate": 0.06521739130434782,
-              "liftPercentagePoints": 11.978260869565217,
-              "confidenceLow": 0.1373011632273606,
-              "confidenceHigh": 0.2445718205011816,
+              "starts": 203,
+              "wins": 38,
+              "rate": 0.18719211822660098,
+              "baselineStarts": 1306,
+              "baselineWins": 85,
+              "baselineRate": 0.06508422664624809,
+              "liftPercentagePoints": 12.210789158035288,
+              "confidenceLow": 0.13952650746931672,
+              "confidenceHigh": 0.24647708175064675,
               "classification": "high"
             }
           ],
@@ -61137,10 +61137,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 12
+                  "contribution": 12.2
                 }
               ],
-              "score": 12,
+              "score": 12.2,
               "rank": 1,
               "actualFinish": null
             },
@@ -61160,10 +61160,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 12
+                  "contribution": 12.2
                 }
               ],
-              "score": 12,
+              "score": 12.2,
               "rank": 1,
               "actualFinish": null
             },
@@ -61183,10 +61183,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 12
+                  "contribution": 12.2
                 }
               ],
-              "score": 12,
+              "score": 12.2,
               "rank": 1,
               "actualFinish": null
             },
@@ -61434,8 +61434,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "07dd669d6b08c4f2ad7b",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010520260822%2F31",
+          "id": "a62817ff5f37767a36b4",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010520260822%2F10",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 5,
@@ -61456,21 +61456,21 @@
           "conditionKey": "中京|flat|dirt|1400|左|maiden|3歳|female-only|馬齢",
           "runnerCount": 16,
           "bodyWeightStatus": "partial",
-          "sampleStarts": 610,
-          "sampleRaces": 39,
+          "sampleStarts": 626,
+          "sampleRaces": 40,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 74,
-              "wins": 12,
-              "rate": 0.16216216216216217,
-              "baselineStarts": 610,
-              "baselineWins": 39,
-              "baselineRate": 0.06393442622950819,
-              "liftPercentagePoints": 9.822773593265397,
-              "confidenceLow": 0.09526970042922198,
-              "confidenceHigh": 0.26240023441281624,
+              "starts": 77,
+              "wins": 13,
+              "rate": 0.16883116883116883,
+              "baselineStarts": 626,
+              "baselineWins": 40,
+              "baselineRate": 0.06389776357827476,
+              "liftPercentagePoints": 10.493340525289408,
+              "confidenceLow": 0.1014057303066853,
+              "confidenceHigh": 0.2677309517975779,
               "classification": "high"
             }
           ],
@@ -61493,10 +61493,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.4
+                  "contribution": 9.2
                 }
               ],
-              "score": 8.4,
+              "score": 9.2,
               "rank": 1,
               "actualFinish": null
             },
@@ -61516,10 +61516,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.4
+                  "contribution": 9.2
                 }
               ],
-              "score": 8.4,
+              "score": 9.2,
               "rank": 1,
               "actualFinish": null
             },
@@ -61539,10 +61539,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.4
+                  "contribution": 9.2
                 }
               ],
-              "score": 8.4,
+              "score": 9.2,
               "rank": 1,
               "actualFinish": null
             },
@@ -61758,8 +61758,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "93948900f87fcddcb626",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010620260822%2FE6",
+          "id": "25c50d910b3107193a75",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010620260822%2FC5",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 6,
@@ -61780,21 +61780,21 @@
           "conditionKey": "中京|flat|dirt|1800|左|class-2|3歳以上|open|定量",
           "runnerCount": 14,
           "bodyWeightStatus": "published",
-          "sampleStarts": 440,
-          "sampleRaces": 31,
+          "sampleStarts": 454,
+          "sampleRaces": 32,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 103,
-              "wins": 15,
-              "rate": 0.14563106796116504,
-              "baselineStarts": 440,
-              "baselineWins": 31,
-              "baselineRate": 0.07045454545454545,
-              "liftPercentagePoints": 7.517652250661959,
-              "confidenceLow": 0.09028388487703763,
-              "confidenceHigh": 0.2264616524417596,
+              "starts": 106,
+              "wins": 16,
+              "rate": 0.1509433962264151,
+              "baselineStarts": 454,
+              "baselineWins": 32,
+              "baselineRate": 0.07048458149779736,
+              "liftPercentagePoints": 8.045881472861772,
+              "confidenceLow": 0.0950977731355798,
+              "confidenceHigh": 0.2312048298854978,
               "classification": "high"
             }
           ],
@@ -61817,10 +61817,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 8
                 }
               ],
-              "score": 7.5,
+              "score": 8,
               "rank": 1,
               "actualFinish": null
             },
@@ -61840,10 +61840,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 8
                 }
               ],
-              "score": 7.5,
+              "score": 8,
               "rank": 1,
               "actualFinish": null
             },
@@ -61863,10 +61863,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 8
                 }
               ],
-              "score": 7.5,
+              "score": 8,
               "rank": 1,
               "actualFinish": null
             },
@@ -62050,8 +62050,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "4bd57b75ac2b048e01a8",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010720260822%2F9B",
+          "id": "a35e474eeb5e7a0da666",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010720260822%2F7A",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 7,
@@ -62072,8 +62072,8 @@
           "conditionKey": "中京|flat|dirt|1400|左|class-3|3歳以上|open|定量",
           "runnerCount": 16,
           "bodyWeightStatus": "published",
-          "sampleStarts": 156,
-          "sampleRaces": 10,
+          "sampleStarts": 172,
+          "sampleRaces": 11,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -62338,8 +62338,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "d8c2f8049a2c3c4f3e80",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010820260822%2F50",
+          "id": "490266bf47d284e7cada",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010820260822%2F2F",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 8,
@@ -62360,21 +62360,21 @@
           "conditionKey": "中京|flat|dirt|1900|左|class-1|3歳以上|open|定量",
           "runnerCount": 10,
           "bodyWeightStatus": "published",
-          "sampleStarts": 749,
-          "sampleRaces": 59,
+          "sampleStarts": 759,
+          "sampleRaces": 60,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 171,
-              "wins": 22,
-              "rate": 0.1286549707602339,
-              "baselineStarts": 749,
-              "baselineWins": 59,
-              "baselineRate": 0.0787716955941255,
-              "liftPercentagePoints": 4.988327516610841,
-              "confidenceLow": 0.08651816391679772,
-              "confidenceHigh": 0.18711008016241454,
+              "starts": 174,
+              "wins": 23,
+              "rate": 0.13218390804597702,
+              "baselineStarts": 759,
+              "baselineWins": 60,
+              "baselineRate": 0.07905138339920949,
+              "liftPercentagePoints": 5.3132524646767525,
+              "confidenceLow": 0.0897205141884268,
+              "confidenceHigh": 0.19053787305055442,
               "classification": "high"
             }
           ],
@@ -62397,10 +62397,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5
+                  "contribution": 5.3
                 }
               ],
-              "score": 5,
+              "score": 5.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -62420,10 +62420,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5
+                  "contribution": 5.3
                 }
               ],
-              "score": 5,
+              "score": 5.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -62443,10 +62443,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5
+                  "contribution": 5.3
                 }
               ],
-              "score": 5,
+              "score": 5.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -62566,8 +62566,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "5a44aebeafd94ae8b669",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603010920260822%2F05",
+          "id": "af5c36302a970c1b4402",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603010920260822%2FE4",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 9,
@@ -62694,8 +62694,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "24cc69b9a28b0683f7db",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603011020260822%2FFA",
+          "id": "6df2b5ce89fdac6d8b3f",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603011020260822%2FD9",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 10,
@@ -62716,77 +62716,91 @@
           "conditionKey": "中京|flat|dirt|1800|左|class-1|3歳以上|open|定量",
           "runnerCount": 12,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1426,
-          "sampleRaces": 110,
+          "sampleStarts": 1438,
+          "sampleRaces": 111,
           "highConditions": [
             {
               "featureId": "wonSameOrHigherClass",
               "label": "曾在同級或更高級別勝利",
-              "starts": 76,
-              "wins": 14,
-              "rate": 0.18421052631578946,
-              "baselineStarts": 1426,
-              "baselineWins": 111,
-              "baselineRate": 0.07784011220196353,
-              "liftPercentagePoints": 10.637041411382594,
-              "confidenceLow": 0.11302493284924942,
-              "confidenceHigh": 0.2857847102440753,
+              "starts": 77,
+              "wins": 15,
+              "rate": 0.19480519480519481,
+              "baselineStarts": 1438,
+              "baselineWins": 112,
+              "baselineRate": 0.07788595271210014,
+              "liftPercentagePoints": 11.691924209309468,
+              "confidenceLow": 0.12176294266340366,
+              "confidenceHigh": 0.2968532153542507,
               "classification": "high"
             },
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 313,
-              "wins": 46,
-              "rate": 0.14696485623003194,
-              "baselineStarts": 1426,
-              "baselineWins": 111,
-              "baselineRate": 0.07784011220196353,
-              "liftPercentagePoints": 6.912474402806841,
-              "confidenceLow": 0.11202353896888703,
-              "confidenceHigh": 0.19046704307589493,
+              "starts": 316,
+              "wins": 47,
+              "rate": 0.14873417721518986,
+              "baselineStarts": 1438,
+              "baselineWins": 112,
+              "baselineRate": 0.07788595271210014,
+              "liftPercentagePoints": 7.084822450308972,
+              "confidenceLow": 0.11372906189538093,
+              "confidenceHigh": 0.19217736178434056,
+              "classification": "high"
+            },
+            {
+              "featureId": "lastStartWon",
+              "label": "前走勝利",
+              "starts": 84,
+              "wins": 12,
+              "rate": 0.14285714285714285,
+              "baselineStarts": 1438,
+              "baselineWins": 112,
+              "baselineRate": 0.07788595271210014,
+              "liftPercentagePoints": 6.497119014504271,
+              "confidenceLow": 0.08364938218850577,
+              "confidenceHigh": 0.23330295019159655,
               "classification": "high"
             },
             {
               "featureId": "wonSameVenue",
               "label": "曾在相同競馬場勝利",
-              "starts": 184,
-              "wins": 24,
-              "rate": 0.13043478260869565,
-              "baselineStarts": 1426,
-              "baselineWins": 111,
-              "baselineRate": 0.07784011220196353,
-              "liftPercentagePoints": 5.259467040673211,
-              "confidenceLow": 0.08924104420325069,
-              "confidenceHigh": 0.18674467993879243,
+              "starts": 185,
+              "wins": 25,
+              "rate": 0.13513513513513514,
+              "baselineStarts": 1438,
+              "baselineWins": 112,
+              "baselineRate": 0.07788595271210014,
+              "liftPercentagePoints": 5.7249182423035005,
+              "confidenceLow": 0.09323567080582339,
+              "confidenceHigh": 0.19187947331496355,
               "classification": "high"
             },
             {
               "featureId": "wonSameDistance",
               "label": "曾勝出相同距離",
-              "starts": 575,
-              "wins": 61,
-              "rate": 0.10608695652173913,
-              "baselineStarts": 1426,
-              "baselineWins": 111,
-              "baselineRate": 0.07784011220196353,
-              "liftPercentagePoints": 2.8246844319775604,
-              "confidenceLow": 0.08347804194267647,
-              "confidenceHigh": 0.1339244391505967,
+              "starts": 576,
+              "wins": 62,
+              "rate": 0.1076388888888889,
+              "baselineStarts": 1438,
+              "baselineWins": 112,
+              "baselineRate": 0.07788595271210014,
+              "liftPercentagePoints": 2.975293617678876,
+              "confidenceLow": 0.08487834212696899,
+              "confidenceHigh": 0.1355984225618702,
               "classification": "high"
             },
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 398,
+              "starts": 402,
               "wins": 42,
-              "rate": 0.10552763819095477,
-              "baselineStarts": 1426,
-              "baselineWins": 111,
-              "baselineRate": 0.07784011220196353,
-              "liftPercentagePoints": 2.768752598899124,
-              "confidenceLow": 0.07902332787132942,
-              "confidenceHigh": 0.13957424888528314,
+              "rate": 0.1044776119402985,
+              "baselineStarts": 1438,
+              "baselineWins": 112,
+              "baselineRate": 0.07788595271210014,
+              "liftPercentagePoints": 2.6591659228198368,
+              "confidenceLow": 0.07822731742651468,
+              "confidenceHigh": 0.13821574804533446,
               "classification": "high"
             }
           ],
@@ -62809,22 +62823,22 @@
                   "featureId": "wonSameOrHigherClass",
                   "label": "曾在同級或更高級別勝利",
                   "value": true,
-                  "contribution": 9.3
+                  "contribution": 10.3
                 },
                 {
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6.9
+                  "contribution": 7.1
                 },
                 {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
                   "value": true,
-                  "contribution": 5.3
+                  "contribution": 6
                 }
               ],
-              "score": 24.3,
+              "score": 32.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -62844,16 +62858,16 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6.9
+                  "contribution": 7.1
                 },
                 {
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 2.8
+                  "contribution": 2.7
                 }
               ],
-              "score": 9.7,
+              "score": 9.8,
               "rank": 2,
               "actualFinish": null
             },
@@ -62873,10 +62887,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6.9
+                  "contribution": 7.1
                 }
               ],
-              "score": 6.9,
+              "score": 7.1,
               "rank": 3,
               "actualFinish": null
             },
@@ -62896,10 +62910,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 2.8
+                  "contribution": 2.7
                 }
               ],
-              "score": 2.8,
+              "score": 2.7,
               "rank": 4,
               "actualFinish": null
             },
@@ -62919,10 +62933,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 2.8
+                  "contribution": 2.7
                 }
               ],
-              "score": 2.8,
+              "score": 2.7,
               "rank": 4,
               "actualFinish": null
             },
@@ -62942,10 +62956,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 2.8
+                  "contribution": 2.7
                 }
               ],
-              "score": 2.8,
+              "score": 2.7,
               "rank": 4,
               "actualFinish": null
             },
@@ -63049,8 +63063,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "a27ff2d86c4757d36193",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603011120260822%2FAF",
+          "id": "c18115bcb6b5d6cdd023",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603011120260822%2F8E",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 11,
@@ -63071,21 +63085,21 @@
           "conditionKey": "中京|flat|turf|1600|左|maiden|3歳|open|馬齢",
           "runnerCount": 14,
           "bodyWeightStatus": "partial",
-          "sampleStarts": 893,
-          "sampleRaces": 58,
+          "sampleStarts": 908,
+          "sampleRaces": 59,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 157,
-              "wins": 31,
-              "rate": 0.19745222929936307,
-              "baselineStarts": 893,
-              "baselineWins": 58,
-              "baselineRate": 0.06494960806270997,
-              "liftPercentagePoints": 13.25026212366531,
-              "confidenceLow": 0.14273446406922466,
-              "confidenceHigh": 0.26662231925051355,
+              "starts": 160,
+              "wins": 32,
+              "rate": 0.2,
+              "baselineStarts": 908,
+              "baselineWins": 59,
+              "baselineRate": 0.06497797356828194,
+              "liftPercentagePoints": 13.502202643171806,
+              "confidenceLow": 0.14538182327188187,
+              "confidenceHigh": 0.2686863987181377,
               "classification": "high"
             }
           ],
@@ -63108,10 +63122,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 13.3
+                  "contribution": 13.5
                 }
               ],
-              "score": 13.3,
+              "score": 13.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -63131,10 +63145,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 13.3
+                  "contribution": 13.5
                 }
               ],
-              "score": 13.3,
+              "score": 13.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -63154,10 +63168,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 13.3
+                  "contribution": 13.5
                 }
               ],
-              "score": 13.3,
+              "score": 13.5,
               "rank": 1,
               "actualFinish": null
             },
@@ -63373,8 +63387,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "51f11f6ed64813ad5dc6",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0107202603011220260822%2F64",
+          "id": "30575c235f39b69f47f5",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1007202603011220260822%2F43",
           "date": "2026-08-22",
           "venue": "中京",
           "number": 12,
@@ -63395,21 +63409,21 @@
           "conditionKey": "中京|flat|turf|1200|左|maiden|3歳|open|馬齢",
           "runnerCount": 17,
           "bodyWeightStatus": "published",
-          "sampleStarts": 440,
-          "sampleRaces": 25,
+          "sampleStarts": 457,
+          "sampleRaces": 26,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 70,
-              "wins": 9,
-              "rate": 0.12857142857142856,
-              "baselineStarts": 440,
-              "baselineWins": 25,
-              "baselineRate": 0.056818181818181816,
-              "liftPercentagePoints": 7.175324675324673,
-              "confidenceLow": 0.06914021991242263,
-              "confidenceHigh": 0.22664968713184502,
+              "starts": 73,
+              "wins": 10,
+              "rate": 0.136986301369863,
+              "baselineStarts": 457,
+              "baselineWins": 26,
+              "baselineRate": 0.05689277899343545,
+              "liftPercentagePoints": 8.009352237642755,
+              "confidenceLow": 0.07614307799620812,
+              "confidenceHigh": 0.2341263593918733,
               "classification": "high"
             }
           ],
@@ -63432,10 +63446,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6
+                  "contribution": 6.8
                 }
               ],
-              "score": 6,
+              "score": 6.8,
               "rank": 1,
               "actualFinish": null
             },
@@ -63455,10 +63469,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6
+                  "contribution": 6.8
                 }
               ],
-              "score": 6,
+              "score": 6.8,
               "rank": 1,
               "actualFinish": null
             },
@@ -63478,10 +63492,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6
+                  "contribution": 6.8
                 }
               ],
-              "score": 6,
+              "score": 6.8,
               "rank": 1,
               "actualFinish": null
             },
@@ -63736,8 +63750,8 @@
       "venue": "新潟",
       "races": [
         {
-          "id": "c9ef8838cd35ce3371b5",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010120260822%2F7F",
+          "id": "e215b8a011f3523431fd",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010120260822%2F5E",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 1,
@@ -63758,21 +63772,21 @@
           "conditionKey": "新潟|flat|turf|1800|左 外|maiden|2歳|open|馬齢",
           "runnerCount": 7,
           "bodyWeightStatus": "published",
-          "sampleStarts": 535,
-          "sampleRaces": 45,
+          "sampleStarts": 542,
+          "sampleRaces": 46,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 104,
-              "wins": 25,
-              "rate": 0.2403846153846154,
-              "baselineStarts": 535,
-              "baselineWins": 45,
-              "baselineRate": 0.08411214953271028,
-              "liftPercentagePoints": 15.627246585190512,
-              "confidenceLow": 0.16845266546271026,
-              "confidenceHigh": 0.3308129240686023,
+              "starts": 107,
+              "wins": 26,
+              "rate": 0.24299065420560748,
+              "baselineStarts": 542,
+              "baselineWins": 46,
+              "baselineRate": 0.08487084870848709,
+              "liftPercentagePoints": 15.81198054971204,
+              "confidenceLow": 0.17155744423820674,
+              "confidenceHigh": 0.3322389643304172,
               "classification": "high"
             }
           ],
@@ -63795,10 +63809,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 15.6
+                  "contribution": 15.8
                 }
               ],
-              "score": 15.6,
+              "score": 15.8,
               "rank": 1,
               "actualFinish": null
             },
@@ -63818,10 +63832,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 15.6
+                  "contribution": 15.8
                 }
               ],
-              "score": 15.6,
+              "score": 15.8,
               "rank": 1,
               "actualFinish": null
             },
@@ -63841,10 +63855,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 15.6
+                  "contribution": 15.8
                 }
               ],
-              "score": 15.6,
+              "score": 15.8,
               "rank": 1,
               "actualFinish": null
             },
@@ -63916,8 +63930,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "593c75f56b50661fc3ad",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010220260822%2F34",
+          "id": "4d00451c1c3ba21069cb",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010220260822%2F13",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 2,
@@ -63938,21 +63952,21 @@
           "conditionKey": "新潟|flat|dirt|1800|左|maiden|2歳|open|馬齢",
           "runnerCount": 12,
           "bodyWeightStatus": "published",
-          "sampleStarts": 556,
-          "sampleRaces": 43,
+          "sampleStarts": 568,
+          "sampleRaces": 44,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 73,
-              "wins": 15,
-              "rate": 0.2054794520547945,
-              "baselineStarts": 556,
-              "baselineWins": 43,
-              "baselineRate": 0.07733812949640288,
-              "liftPercentagePoints": 12.814132255839162,
-              "confidenceLow": 0.1286685959377339,
-              "confidenceHigh": 0.3117386834525963,
+              "starts": 76,
+              "wins": 16,
+              "rate": 0.21052631578947367,
+              "baselineStarts": 568,
+              "baselineWins": 44,
+              "baselineRate": 0.07746478873239436,
+              "liftPercentagePoints": 13.30615270570793,
+              "confidenceLow": 0.13395033382180127,
+              "confidenceHigh": 0.31495850568041306,
               "classification": "high"
             }
           ],
@@ -63975,10 +63989,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 10.9
+                  "contribution": 11.6
                 }
               ],
-              "score": 10.9,
+              "score": 11.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -63998,10 +64012,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 10.9
+                  "contribution": 11.6
                 }
               ],
-              "score": 10.9,
+              "score": 11.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -64021,10 +64035,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 10.9
+                  "contribution": 11.6
                 }
               ],
-              "score": 10.9,
+              "score": 11.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -64176,8 +64190,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "05e0db98cbc8fd2aa165",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010320260822%2FE9",
+          "id": "6a86d799899d70987e15",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010320260822%2FC8",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 3,
@@ -64198,8 +64212,8 @@
           "conditionKey": "新潟|flat|turf|1600|左 外|maiden-new|2歳|open|馬齢",
           "runnerCount": 12,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 701,
-          "sampleRaces": 49,
+          "sampleStarts": 713,
+          "sampleRaces": 50,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -64416,8 +64430,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "c37550823a3d46eb3886",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010420260822%2F9E",
+          "id": "e5433c17533a1ca70216",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010420260822%2F7D",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 4,
@@ -64438,21 +64452,21 @@
           "conditionKey": "新潟|flat|dirt|1800|左|maiden|3歳|female-only|馬齢",
           "runnerCount": 15,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1128,
-          "sampleRaces": 78,
+          "sampleStarts": 1143,
+          "sampleRaces": 79,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 178,
-              "wins": 37,
-              "rate": 0.20786516853932585,
-              "baselineStarts": 1128,
-              "baselineWins": 78,
-              "baselineRate": 0.06914893617021277,
-              "liftPercentagePoints": 13.871623236911306,
-              "confidenceLow": 0.15473547212612587,
-              "confidenceHigh": 0.2733381919859365,
+              "starts": 181,
+              "wins": 38,
+              "rate": 0.20994475138121546,
+              "baselineStarts": 1143,
+              "baselineWins": 79,
+              "baselineRate": 0.06911636045494313,
+              "liftPercentagePoints": 14.082839092627234,
+              "confidenceLow": 0.15695093859763162,
+              "confidenceHigh": 0.27499511683577726,
               "classification": "high"
             }
           ],
@@ -64475,10 +64489,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 13.9
+                  "contribution": 14.1
                 }
               ],
-              "score": 13.9,
+              "score": 14.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -64498,10 +64512,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 13.9
+                  "contribution": 14.1
                 }
               ],
-              "score": 13.9,
+              "score": 14.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -64521,10 +64535,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 13.9
+                  "contribution": 14.1
                 }
               ],
-              "score": 13.9,
+              "score": 14.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -64724,8 +64738,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "96e19286a61c02a40563",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010520260822%2F53",
+          "id": "d06162ae23de972f1faf",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010520260822%2F32",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 5,
@@ -64746,21 +64760,21 @@
           "conditionKey": "新潟|flat|turf|1600|左 外|maiden|3歳|open|馬齢",
           "runnerCount": 18,
           "bodyWeightStatus": "published",
-          "sampleStarts": 619,
-          "sampleRaces": 36,
+          "sampleStarts": 637,
+          "sampleRaces": 37,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 86,
-              "wins": 12,
-              "rate": 0.13953488372093023,
-              "baselineStarts": 619,
-              "baselineWins": 36,
-              "baselineRate": 0.05815831987075929,
-              "liftPercentagePoints": 8.137656385017095,
-              "confidenceLow": 0.08165766761659309,
-              "confidenceHigh": 0.2282388613855618,
+              "starts": 89,
+              "wins": 13,
+              "rate": 0.14606741573033707,
+              "baselineStarts": 637,
+              "baselineWins": 37,
+              "baselineRate": 0.058084772370486655,
+              "liftPercentagePoints": 8.798264335985042,
+              "confidenceLow": 0.08739377564182574,
+              "confidenceHigh": 0.2340311028609144,
               "classification": "high"
             }
           ],
@@ -64783,10 +64797,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 8.3
                 }
               ],
-              "score": 7.5,
+              "score": 8.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -64806,10 +64820,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 8.3
                 }
               ],
-              "score": 7.5,
+              "score": 8.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -64829,10 +64843,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 8.3
                 }
               ],
-              "score": 7.5,
+              "score": 8.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -65080,8 +65094,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "4c61ebf019162b28a856",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010620260822%2F08",
+          "id": "b1ad6c7c692168db8731",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010620260822%2FE7",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 6,
@@ -65102,8 +65116,8 @@
           "conditionKey": "新潟|flat|turf|1600|左 外|class-3|3歳以上|open|ハンデ",
           "runnerCount": 18,
           "bodyWeightStatus": "published",
-          "sampleStarts": 50,
-          "sampleRaces": 3,
+          "sampleStarts": 68,
+          "sampleRaces": 4,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -65400,8 +65414,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "7575f6e5efc5d1399366",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010720260822%2FBD",
+          "id": "315b7a8696c16c058a9f",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010720260822%2F9C",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 7,
@@ -65422,8 +65436,8 @@
           "conditionKey": "新潟|flat|turf|1400|左|listed|3歳以上|open|別定",
           "runnerCount": 18,
           "bodyWeightStatus": "published",
-          "sampleStarts": 131,
-          "sampleRaces": 8,
+          "sampleStarts": 149,
+          "sampleRaces": 9,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -65720,8 +65734,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "e975ef61c044e135a962",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010820260822%2F72",
+          "id": "d8f37a13e48feaff1623",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010820260822%2F51",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 8,
@@ -65742,21 +65756,21 @@
           "conditionKey": "新潟|flat|dirt|1200|左|class-2|3歳以上|open|定量",
           "runnerCount": 15,
           "bodyWeightStatus": "published",
-          "sampleStarts": 533,
-          "sampleRaces": 36,
+          "sampleStarts": 548,
+          "sampleRaces": 37,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 180,
-              "wins": 21,
-              "rate": 0.11666666666666667,
-              "baselineStarts": 533,
-              "baselineWins": 36,
-              "baselineRate": 0.0675422138836773,
-              "liftPercentagePoints": 4.912445278298937,
-              "confidenceLow": 0.07758508751636232,
-              "confidenceHigh": 0.17176870400851563,
+              "starts": 183,
+              "wins": 22,
+              "rate": 0.12021857923497267,
+              "baselineStarts": 548,
+              "baselineWins": 37,
+              "baselineRate": 0.06751824817518248,
+              "liftPercentagePoints": 5.270033105979019,
+              "confidenceLow": 0.08074501197882482,
+              "confidenceHigh": 0.17530931425259258,
               "classification": "high"
             }
           ],
@@ -65779,10 +65793,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 4.9
+                  "contribution": 5.3
                 }
               ],
-              "score": 4.9,
+              "score": 5.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -65802,10 +65816,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 4.9
+                  "contribution": 5.3
                 }
               ],
-              "score": 4.9,
+              "score": 5.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -65825,10 +65839,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 4.9
+                  "contribution": 5.3
                 }
               ],
-              "score": 4.9,
+              "score": 5.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -66028,8 +66042,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "6a142a12de772bc58220",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603010920260822%2F27",
+          "id": "708abb7bf40f5bb37290",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603010920260822%2F06",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 9,
@@ -66050,27 +66064,70 @@
           "conditionKey": "新潟|flat|dirt|1800|左|class-1|3歳以上|female-only|定量",
           "runnerCount": 13,
           "bodyWeightStatus": "published",
-          "sampleStarts": 593,
-          "sampleRaces": 45,
+          "sampleStarts": 606,
+          "sampleRaces": 46,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 128,
-              "wins": 19,
-              "rate": 0.1484375,
-              "baselineStarts": 593,
-              "baselineWins": 45,
-              "baselineRate": 0.07588532883642496,
-              "liftPercentagePoints": 7.255217116357504,
-              "confidenceLow": 0.09713386823483508,
-              "confidenceHigh": 0.22022878513102212,
+              "starts": 131,
+              "wins": 20,
+              "rate": 0.15267175572519084,
+              "baselineStarts": 606,
+              "baselineWins": 46,
+              "baselineRate": 0.07590759075907591,
+              "liftPercentagePoints": 7.676416496611493,
+              "confidenceLow": 0.10105740445609404,
+              "confidenceHigh": 0.22407667879417884,
+              "classification": "high"
+            },
+            {
+              "featureId": "wonSameDistance",
+              "label": "曾勝出相同距離",
+              "starts": 239,
+              "wins": 27,
+              "rate": 0.11297071129707113,
+              "baselineStarts": 606,
+              "baselineWins": 46,
+              "baselineRate": 0.07590759075907591,
+              "liftPercentagePoints": 3.706312053799522,
+              "confidenceLow": 0.07881029626473528,
+              "confidenceHigh": 0.15937624179134738,
               "classification": "high"
             }
           ],
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "4673177ea56d95b07904",
+              "number": 12,
+              "frame": 7,
+              "name": "タマモチョコチップ",
+              "sexAge": "牝3",
+              "jockey": "石田 拓郎",
+              "assignedWeight": 51,
+              "bodyWeight": 444,
+              "bodyWeightChange": 2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 7.7
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": true,
+                  "contribution": 3.7
+                }
+              ],
+              "score": 11.4,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "2a3e24a65b5d570c591b",
               "number": 6,
@@ -66087,11 +66144,11 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.3
+                  "contribution": 7.7
                 }
               ],
-              "score": 7.3,
-              "rank": 1,
+              "score": 7.7,
+              "rank": 2,
               "actualFinish": null
             },
             {
@@ -66110,34 +66167,11 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.3
+                  "contribution": 7.7
                 }
               ],
-              "score": 7.3,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "4673177ea56d95b07904",
-              "number": 12,
-              "frame": 7,
-              "name": "タマモチョコチップ",
-              "sexAge": "牝3",
-              "jockey": "石田 拓郎",
-              "assignedWeight": 51,
-              "bodyWeight": 444,
-              "bodyWeightChange": 2,
-              "scratched": false,
-              "features": [
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": true,
-                  "contribution": 7.3
-                }
-              ],
-              "score": 7.3,
-              "rank": 1,
+              "score": 7.7,
+              "rank": 2,
               "actualFinish": null
             },
             {
@@ -66336,8 +66370,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "b40f2fd9579456b7378a",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603011020260822%2F1C",
+          "id": "df57f29f391e3ffb5596",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603011020260822%2FFB",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 10,
@@ -66358,35 +66392,49 @@
           "conditionKey": "新潟|flat|turf|1600|左 外|class-1|3歳以上|open|定量",
           "runnerCount": 15,
           "bodyWeightStatus": "published",
-          "sampleStarts": 620,
-          "sampleRaces": 39,
+          "sampleStarts": 635,
+          "sampleRaces": 40,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 159,
-              "wins": 20,
-              "rate": 0.12578616352201258,
-              "baselineStarts": 620,
-              "baselineWins": 40,
-              "baselineRate": 0.06451612903225806,
-              "liftPercentagePoints": 6.127003448975452,
-              "confidenceLow": 0.08292190587236171,
-              "confidenceHigh": 0.18630659593553014,
+              "starts": 162,
+              "wins": 21,
+              "rate": 0.12962962962962962,
+              "baselineStarts": 635,
+              "baselineWins": 41,
+              "baselineRate": 0.06456692913385827,
+              "liftPercentagePoints": 6.506270049577136,
+              "confidenceLow": 0.08637142881967508,
+              "confidenceHigh": 0.19004655074636867,
               "classification": "high"
             },
             {
               "featureId": "wonSameDistance",
               "label": "曾勝出相同距離",
-              "starts": 234,
-              "wins": 26,
-              "rate": 0.1111111111111111,
-              "baselineStarts": 620,
-              "baselineWins": 40,
-              "baselineRate": 0.06451612903225806,
-              "liftPercentagePoints": 4.659498207885305,
-              "confidenceLow": 0.076960908633952,
-              "confidenceHigh": 0.15782392295143927,
+              "starts": 235,
+              "wins": 27,
+              "rate": 0.1148936170212766,
+              "baselineStarts": 635,
+              "baselineWins": 41,
+              "baselineRate": 0.06456692913385827,
+              "liftPercentagePoints": 5.032668788741833,
+              "confidenceLow": 0.0801728765142241,
+              "confidenceHigh": 0.16200269089111902,
+              "classification": "high"
+            },
+            {
+              "featureId": "wonSameSurface",
+              "label": "曾在相同跑道勝利",
+              "starts": 441,
+              "wins": 39,
+              "rate": 0.08843537414965986,
+              "baselineStarts": 635,
+              "baselineWins": 41,
+              "baselineRate": 0.06456692913385827,
+              "liftPercentagePoints": 2.3868445015801596,
+              "confidenceLow": 0.0653661046488027,
+              "confidenceHigh": 0.11861309154148167,
               "classification": "high"
             }
           ],
@@ -66409,16 +66457,22 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6.1
+                  "contribution": 6.5
                 },
                 {
                   "featureId": "wonSameDistance",
                   "label": "曾勝出相同距離",
                   "value": true,
-                  "contribution": 4.7
+                  "contribution": 5
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": true,
+                  "contribution": 2.4
                 }
               ],
-              "score": 10.8,
+              "score": 13.9,
               "rank": 1,
               "actualFinish": null
             },
@@ -66438,10 +66492,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6.1
+                  "contribution": 6.5
                 }
               ],
-              "score": 6.1,
+              "score": 6.5,
               "rank": 2,
               "actualFinish": null
             },
@@ -66461,10 +66515,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 6.1
+                  "contribution": 6.5
                 }
               ],
-              "score": 6.1,
+              "score": 6.5,
               "rank": 2,
               "actualFinish": null
             },
@@ -66664,8 +66718,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "7e78ab369b562a50f78d",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603011120260822%2FD1",
+          "id": "e66204b6afcd8035d940",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603011120260822%2FB0",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 11,
@@ -66686,21 +66740,21 @@
           "conditionKey": "新潟|flat|turf|2000|左|maiden|3歳|open|馬齢",
           "runnerCount": 12,
           "bodyWeightStatus": "published",
-          "sampleStarts": 941,
-          "sampleRaces": 58,
+          "sampleStarts": 953,
+          "sampleRaces": 59,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 163,
-              "wins": 22,
-              "rate": 0.13496932515337423,
-              "baselineStarts": 941,
-              "baselineWins": 58,
-              "baselineRate": 0.061636556854410204,
-              "liftPercentagePoints": 7.333276829896403,
-              "confidenceLow": 0.0908488623755377,
-              "confidenceHigh": 0.19589976626384242,
+              "starts": 166,
+              "wins": 23,
+              "rate": 0.13855421686746988,
+              "baselineStarts": 953,
+              "baselineWins": 59,
+              "baselineRate": 0.06190975865687303,
+              "liftPercentagePoints": 7.664445821059685,
+              "confidenceLow": 0.09413175500728677,
+              "confidenceHigh": 0.1993275623802084,
               "classification": "high"
             }
           ],
@@ -66723,10 +66777,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.3
+                  "contribution": 7.7
                 }
               ],
-              "score": 7.3,
+              "score": 7.7,
               "rank": 1,
               "actualFinish": null
             },
@@ -66746,10 +66800,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.3
+                  "contribution": 7.7
                 }
               ],
-              "score": 7.3,
+              "score": 7.7,
               "rank": 1,
               "actualFinish": null
             },
@@ -66769,10 +66823,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.3
+                  "contribution": 7.7
                 }
               ],
-              "score": 7.3,
+              "score": 7.7,
               "rank": 1,
               "actualFinish": null
             },
@@ -66924,8 +66978,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "c6eb5d44b4bc7461b274",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0104202603011220260822%2F86",
+          "id": "a0e06d97798f1541298d",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1004202603011220260822%2F65",
           "date": "2026-08-22",
           "venue": "新潟",
           "number": 12,
@@ -66946,21 +67000,21 @@
           "conditionKey": "新潟|flat|dirt|1200|左|maiden|3歳|open|馬齢",
           "runnerCount": 14,
           "bodyWeightStatus": "published",
-          "sampleStarts": 2203,
-          "sampleRaces": 149,
+          "sampleStarts": 2218,
+          "sampleRaces": 150,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 405,
-              "wins": 78,
-              "rate": 0.1925925925925926,
-              "baselineStarts": 2203,
-              "baselineWins": 149,
-              "baselineRate": 0.06763504312301408,
-              "liftPercentagePoints": 12.495754946957852,
-              "confidenceLow": 0.15714735254921872,
-              "confidenceHigh": 0.233814819597647,
+              "starts": 408,
+              "wins": 79,
+              "rate": 0.19362745098039216,
+              "baselineStarts": 2218,
+              "baselineWins": 150,
+              "baselineRate": 0.06762849413886383,
+              "liftPercentagePoints": 12.599895684152834,
+              "confidenceLow": 0.15821541689518465,
+              "confidenceHigh": 0.23475508438491913,
               "classification": "high"
             },
             {
@@ -66969,10 +67023,10 @@
               "starts": 259,
               "wins": 30,
               "rate": 0.11583011583011583,
-              "baselineStarts": 2203,
-              "baselineWins": 149,
-              "baselineRate": 0.06763504312301408,
-              "liftPercentagePoints": 4.819507270710176,
+              "baselineStarts": 2218,
+              "baselineWins": 150,
+              "baselineRate": 0.06762849413886383,
+              "liftPercentagePoints": 4.8201621691252,
               "confidenceLow": 0.08235067826194584,
               "confidenceHigh": 0.16053933610412102,
               "classification": "high"
@@ -66997,10 +67051,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 12.5
+                  "contribution": 12.6
                 }
               ],
-              "score": 12.5,
+              "score": 12.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -67020,10 +67074,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 12.5
+                  "contribution": 12.6
                 }
               ],
-              "score": 12.5,
+              "score": 12.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -67043,10 +67097,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 12.5
+                  "contribution": 12.6
                 }
               ],
-              "score": 12.5,
+              "score": 12.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -67253,8 +67307,8 @@
       "venue": "札幌",
       "races": [
         {
-          "id": "270823bb0cca045142b1",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010120260822%2F70",
+          "id": "b1d0515322c9262fd190",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010120260822%2F4F",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 1,
@@ -67275,21 +67329,21 @@
           "conditionKey": "札幌|flat|dirt|1700|右|maiden|2歳|open|馬齢",
           "runnerCount": 12,
           "bodyWeightStatus": "published",
-          "sampleStarts": 340,
-          "sampleRaces": 27,
+          "sampleStarts": 352,
+          "sampleRaces": 28,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 63,
-              "wins": 11,
-              "rate": 0.1746031746031746,
-              "baselineStarts": 340,
-              "baselineWins": 27,
-              "baselineRate": 0.07941176470588235,
-              "liftPercentagePoints": 9.519140989729225,
-              "confidenceLow": 0.10039293923176863,
-              "confidenceHigh": 0.28621659734425586,
+              "starts": 66,
+              "wins": 12,
+              "rate": 0.18181818181818182,
+              "baselineStarts": 352,
+              "baselineWins": 28,
+              "baselineRate": 0.07954545454545454,
+              "liftPercentagePoints": 10.227272727272728,
+              "confidenceLow": 0.1071850142576424,
+              "confidenceHigh": 0.2914541921751999,
               "classification": "high"
             }
           ],
@@ -67312,10 +67366,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.6
+                  "contribution": 8.3
                 }
               ],
-              "score": 7.6,
+              "score": 8.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -67335,10 +67389,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.6
+                  "contribution": 8.3
                 }
               ],
-              "score": 7.6,
+              "score": 8.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -67358,10 +67412,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.6
+                  "contribution": 8.3
                 }
               ],
-              "score": 7.6,
+              "score": 8.3,
               "rank": 1,
               "actualFinish": null
             },
@@ -67513,8 +67567,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "d0bbba4975fafb8412ee",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010220260822%2F25",
+          "id": "bf4ad181dc3ae4ce79cd",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010220260822%2F04",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 2,
@@ -67535,21 +67589,21 @@
           "conditionKey": "札幌|flat|turf|1800|右|maiden|2歳|open|馬齢",
           "runnerCount": 6,
           "bodyWeightStatus": "published",
-          "sampleStarts": 364,
-          "sampleRaces": 43,
+          "sampleStarts": 370,
+          "sampleRaces": 44,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 111,
-              "wins": 29,
-              "rate": 0.26126126126126126,
-              "baselineStarts": 364,
-              "baselineWins": 43,
-              "baselineRate": 0.11813186813186813,
-              "liftPercentagePoints": 14.312939312939314,
-              "confidenceLow": 0.18850083133789378,
-              "confidenceHigh": 0.3499939301422667,
+              "starts": 114,
+              "wins": 30,
+              "rate": 0.2631578947368421,
+              "baselineStarts": 370,
+              "baselineWins": 44,
+              "baselineRate": 0.11891891891891893,
+              "liftPercentagePoints": 14.423897581792316,
+              "confidenceLow": 0.19099844110067174,
+              "confidenceHigh": 0.35075930828494417,
               "classification": "high"
             }
           ],
@@ -67572,10 +67626,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 14.3
+                  "contribution": 14.4
                 }
               ],
-              "score": 14.3,
+              "score": 14.4,
               "rank": 1,
               "actualFinish": null
             },
@@ -67595,10 +67649,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 14.3
+                  "contribution": 14.4
                 }
               ],
-              "score": 14.3,
+              "score": 14.4,
               "rank": 1,
               "actualFinish": null
             },
@@ -67618,10 +67672,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 14.3
+                  "contribution": 14.4
                 }
               ],
-              "score": 14.3,
+              "score": 14.4,
               "rank": 1,
               "actualFinish": null
             },
@@ -67677,8 +67731,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "e42579032a4dadea8940",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010320260822%2FDA",
+          "id": "8cff4fc5c80e6ac42339",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010320260822%2FB9",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 3,
@@ -67699,35 +67753,35 @@
           "conditionKey": "札幌|flat|dirt|1700|右|maiden|3歳|open|馬齢",
           "runnerCount": 13,
           "bodyWeightStatus": "published",
-          "sampleStarts": 2007,
-          "sampleRaces": 149,
+          "sampleStarts": 2021,
+          "sampleRaces": 150,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 379,
-              "wins": 65,
-              "rate": 0.17150395778364116,
-              "baselineStarts": 2007,
-              "baselineWins": 149,
-              "baselineRate": 0.07424015944195317,
-              "liftPercentagePoints": 9.7263798341688,
-              "confidenceLow": 0.13689690479838798,
-              "confidenceHigh": 0.21270355659347753,
+              "starts": 382,
+              "wins": 66,
+              "rate": 0.17277486910994763,
+              "baselineStarts": 2021,
+              "baselineWins": 150,
+              "baselineRate": 0.07422068283028203,
+              "liftPercentagePoints": 9.855418627966559,
+              "confidenceLow": 0.13816964947787494,
+              "confidenceHigh": 0.21389606868211608,
               "classification": "high"
             },
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 313,
+              "starts": 316,
               "wins": 33,
-              "rate": 0.10543130990415335,
-              "baselineStarts": 2007,
-              "baselineWins": 149,
-              "baselineRate": 0.07424015944195317,
-              "liftPercentagePoints": 3.1191150462200183,
-              "confidenceLow": 0.07606226163638433,
-              "confidenceHigh": 0.14436838888425438,
+              "rate": 0.10443037974683544,
+              "baselineStarts": 2021,
+              "baselineWins": 150,
+              "baselineRate": 0.07422068283028203,
+              "liftPercentagePoints": 3.020969691655341,
+              "confidenceLow": 0.0753304984549466,
+              "confidenceHigh": 0.1430325912744695,
               "classification": "high"
             }
           ],
@@ -67750,10 +67804,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 9.7
+                  "contribution": 9.9
                 }
               ],
-              "score": 9.7,
+              "score": 9.9,
               "rank": 1,
               "actualFinish": null
             },
@@ -67773,10 +67827,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 9.7
+                  "contribution": 9.9
                 }
               ],
-              "score": 9.7,
+              "score": 9.9,
               "rank": 1,
               "actualFinish": null
             },
@@ -67796,10 +67850,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 9.7
+                  "contribution": 9.9
                 }
               ],
-              "score": 9.7,
+              "score": 9.9,
               "rank": 1,
               "actualFinish": null
             },
@@ -67819,10 +67873,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 3.1
+                  "contribution": 3
                 }
               ],
-              "score": 3.1,
+              "score": 3,
               "rank": 4,
               "actualFinish": null
             },
@@ -67842,10 +67896,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 3.1
+                  "contribution": 3
                 }
               ],
-              "score": 3.1,
+              "score": 3,
               "rank": 4,
               "actualFinish": null
             },
@@ -67993,10 +68047,10 @@
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 3.1
+                  "contribution": 3
                 }
               ],
-              "score": 3.1,
+              "score": 3,
               "rank": null,
               "actualFinish": null
             }
@@ -68004,8 +68058,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "ca924ddad695bae7174d",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010420260822%2F8F",
+          "id": "2a92e0e6b68153c5dfe2",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010420260822%2F6E",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 4,
@@ -68026,21 +68080,21 @@
           "conditionKey": "札幌|flat|turf|2000|右|maiden|3歳|open|馬齢",
           "runnerCount": 16,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1098,
-          "sampleRaces": 73,
+          "sampleStarts": 1114,
+          "sampleRaces": 74,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 221,
-              "wins": 39,
-              "rate": 0.17647058823529413,
-              "baselineStarts": 1098,
-              "baselineWins": 74,
-              "baselineRate": 0.06739526411657559,
-              "liftPercentagePoints": 10.907532411871854,
-              "confidenceLow": 0.1318623891301107,
-              "confidenceHigh": 0.23213430898981022,
+              "starts": 224,
+              "wins": 40,
+              "rate": 0.17857142857142858,
+              "baselineStarts": 1114,
+              "baselineWins": 75,
+              "baselineRate": 0.06732495511669659,
+              "liftPercentagePoints": 11.124647345473198,
+              "confidenceLow": 0.1339651795649425,
+              "confidenceHigh": 0.23401678685383268,
               "classification": "high"
             }
           ],
@@ -68063,10 +68117,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 10.9
+                  "contribution": 11.1
                 }
               ],
-              "score": 10.9,
+              "score": 11.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -68086,10 +68140,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 10.9
+                  "contribution": 11.1
                 }
               ],
-              "score": 10.9,
+              "score": 11.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -68109,10 +68163,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 10.9
+                  "contribution": 11.1
                 }
               ],
-              "score": 10.9,
+              "score": 11.1,
               "rank": 1,
               "actualFinish": null
             },
@@ -68328,8 +68382,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "b5e48b7da47873681515",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010520260822%2F44",
+          "id": "856b221a2f06a9730d3a",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010520260822%2F23",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 5,
@@ -68350,8 +68404,8 @@
           "conditionKey": "札幌|flat|turf|1500|右|maiden-new|2歳|open|馬齢",
           "runnerCount": 14,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 326,
-          "sampleRaces": 29,
+          "sampleStarts": 340,
+          "sampleRaces": 30,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -68584,8 +68638,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "c207f26206ffa8046fdd",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010620260822%2FF9",
+          "id": "27d48fec499b2b235ac6",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010620260822%2FD8",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 6,
@@ -68606,21 +68660,21 @@
           "conditionKey": "札幌|flat|turf|2600|右|maiden|3歳|open|馬齢",
           "runnerCount": 13,
           "bodyWeightStatus": "published",
-          "sampleStarts": 297,
-          "sampleRaces": 22,
+          "sampleStarts": 310,
+          "sampleRaces": 23,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 61,
-              "wins": 9,
-              "rate": 0.14754098360655737,
-              "baselineStarts": 297,
-              "baselineWins": 22,
-              "baselineRate": 0.07407407407407407,
-              "liftPercentagePoints": 7.346690953248331,
-              "confidenceLow": 0.07961078689389503,
-              "confidenceHigh": 0.2572346950189511,
+              "starts": 64,
+              "wins": 10,
+              "rate": 0.15625,
+              "baselineStarts": 310,
+              "baselineWins": 23,
+              "baselineRate": 0.07419354838709677,
+              "liftPercentagePoints": 8.205645161290324,
+              "confidenceLow": 0.08714748876961674,
+              "confidenceHigh": 0.2642829020230532,
               "classification": "high"
             }
           ],
@@ -68643,10 +68697,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5.7
+                  "contribution": 6.6
                 }
               ],
-              "score": 5.7,
+              "score": 6.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -68666,10 +68720,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5.7
+                  "contribution": 6.6
                 }
               ],
-              "score": 5.7,
+              "score": 6.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -68689,10 +68743,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5.7
+                  "contribution": 6.6
                 }
               ],
-              "score": 5.7,
+              "score": 6.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -68876,8 +68930,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "28881d1b9e72d1af1264",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010720260822%2FAE",
+          "id": "aaa672b0b69994af02ce",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010720260822%2F8D",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 7,
@@ -68898,49 +68952,49 @@
           "conditionKey": "札幌|flat|dirt|1000|右|class-1|3歳以上|open|定量",
           "runnerCount": 12,
           "bodyWeightStatus": "published",
-          "sampleStarts": 755,
-          "sampleRaces": 65,
+          "sampleStarts": 767,
+          "sampleRaces": 66,
           "highConditions": [
             {
               "featureId": "lastStartWon",
               "label": "前走勝利",
-              "starts": 60,
-              "wins": 10,
-              "rate": 0.16666666666666666,
-              "baselineStarts": 755,
-              "baselineWins": 65,
-              "baselineRate": 0.08609271523178808,
-              "liftPercentagePoints": 8.057395143487858,
-              "confidenceLow": 0.09313077201321034,
-              "confidenceHigh": 0.28031851497207827,
-              "classification": "high"
-            },
-            {
-              "featureId": "lastStartTop3",
-              "label": "前走前三名",
-              "starts": 192,
-              "wins": 32,
-              "rate": 0.16666666666666666,
-              "baselineStarts": 755,
-              "baselineWins": 65,
-              "baselineRate": 0.08609271523178808,
-              "liftPercentagePoints": 8.057395143487858,
-              "confidenceLow": 0.12060131558197143,
-              "confidenceHigh": 0.22580925295913523,
+              "starts": 61,
+              "wins": 11,
+              "rate": 0.18032786885245902,
+              "baselineStarts": 767,
+              "baselineWins": 66,
+              "baselineRate": 0.08604954367666232,
+              "liftPercentagePoints": 9.42783251757967,
+              "confidenceLow": 0.10379034061426573,
+              "confidenceHigh": 0.2947439336787807,
               "classification": "high"
             },
             {
               "featureId": "wonSameVenue",
               "label": "曾在相同競馬場勝利",
-              "starts": 63,
-              "wins": 10,
-              "rate": 0.15873015873015872,
-              "baselineStarts": 755,
-              "baselineWins": 65,
-              "baselineRate": 0.08609271523178808,
-              "liftPercentagePoints": 7.263744349837065,
-              "confidenceLow": 0.08856997432352591,
-              "confidenceHigh": 0.2681180762318169,
+              "starts": 64,
+              "wins": 11,
+              "rate": 0.171875,
+              "baselineStarts": 767,
+              "baselineWins": 66,
+              "baselineRate": 0.08604954367666232,
+              "liftPercentagePoints": 8.582545632333769,
+              "confidenceLow": 0.09877641267316228,
+              "confidenceHigh": 0.2821344149016591,
+              "classification": "high"
+            },
+            {
+              "featureId": "lastStartTop3",
+              "label": "前走前三名",
+              "starts": 195,
+              "wins": 33,
+              "rate": 0.16923076923076924,
+              "baselineStarts": 767,
+              "baselineWins": 66,
+              "baselineRate": 0.08604954367666232,
+              "liftPercentagePoints": 8.318122555410692,
+              "confidenceLow": 0.12311352620779996,
+              "confidenceHigh": 0.22812886974958527,
               "classification": "high"
             }
           ],
@@ -68963,22 +69017,22 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.1
+                  "contribution": 8.3
                 },
                 {
                   "featureId": "lastStartWon",
                   "label": "前走勝利",
                   "value": true,
-                  "contribution": 6.2
+                  "contribution": 7.4
                 },
                 {
                   "featureId": "wonSameVenue",
                   "label": "曾在相同競馬場勝利",
                   "value": true,
-                  "contribution": 5.8
+                  "contribution": 6.9
                 }
               ],
-              "score": 20.1,
+              "score": 22.6,
               "rank": 1,
               "actualFinish": null
             },
@@ -68998,10 +69052,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.1
+                  "contribution": 8.3
                 }
               ],
-              "score": 8.1,
+              "score": 8.3,
               "rank": 2,
               "actualFinish": null
             },
@@ -69021,10 +69075,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 8.1
+                  "contribution": 8.3
                 }
               ],
-              "score": 8.1,
+              "score": 8.3,
               "rank": 2,
               "actualFinish": null
             },
@@ -69176,8 +69230,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "4d41514538aaab6962cd",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010820260822%2F63",
+          "id": "c22c147db756e55356fb",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010820260822%2F42",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 8,
@@ -69198,35 +69252,49 @@
           "conditionKey": "札幌|flat|dirt|1700|右|class-1|3歳以上|female-only|定量",
           "runnerCount": 10,
           "bodyWeightStatus": "published",
-          "sampleStarts": 543,
-          "sampleRaces": 44,
+          "sampleStarts": 553,
+          "sampleRaces": 45,
           "highConditions": [
+            {
+              "featureId": "wonSameOrHigherClass",
+              "label": "曾在同級或更高級別勝利",
+              "starts": 30,
+              "wins": 7,
+              "rate": 0.23333333333333334,
+              "baselineStarts": 553,
+              "baselineWins": 45,
+              "baselineRate": 0.081374321880651,
+              "liftPercentagePoints": 15.195901145268234,
+              "confidenceLow": 0.11792239210501229,
+              "confidenceHigh": 0.40928672330324267,
+              "classification": "high"
+            },
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 135,
-              "wins": 21,
-              "rate": 0.15555555555555556,
-              "baselineStarts": 543,
-              "baselineWins": 44,
-              "baselineRate": 0.08103130755064457,
-              "liftPercentagePoints": 7.452424800491099,
-              "confidenceLow": 0.10405019069443462,
-              "confidenceHigh": 0.22612174624665513,
+              "starts": 138,
+              "wins": 22,
+              "rate": 0.15942028985507245,
+              "baselineStarts": 553,
+              "baselineWins": 45,
+              "baselineRate": 0.081374321880651,
+              "liftPercentagePoints": 7.804596797442145,
+              "confidenceLow": 0.10769814388423765,
+              "confidenceHigh": 0.22959077558649588,
               "classification": "high"
             },
             {
               "featureId": "wonSameDistance",
               "label": "曾勝出相同距離",
-              "starts": 152,
-              "wins": 20,
-              "rate": 0.13157894736842105,
-              "baselineStarts": 543,
-              "baselineWins": 44,
-              "baselineRate": 0.08103130755064457,
-              "liftPercentagePoints": 5.054763981777648,
-              "confidenceLow": 0.08681644830640736,
-              "confidenceHigh": 0.1945050987002969,
+              "starts": 153,
+              "wins": 21,
+              "rate": 0.13725490196078433,
+              "baselineStarts": 553,
+              "baselineWins": 45,
+              "baselineRate": 0.081374321880651,
+              "liftPercentagePoints": 5.588058008013333,
+              "confidenceLow": 0.09155625124127832,
+              "confidenceHigh": 0.200723348048706,
               "classification": "high"
             }
           ],
@@ -69246,19 +69314,25 @@
               "scratched": false,
               "features": [
                 {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": true,
+                  "contribution": 8.3
+                },
+                {
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 7.8
                 },
                 {
                   "featureId": "wonSameDistance",
                   "label": "曾勝出相同距離",
                   "value": true,
-                  "contribution": 5.1
+                  "contribution": 5.6
                 }
               ],
-              "score": 12.6,
+              "score": 21.7,
               "rank": 1,
               "actualFinish": null
             },
@@ -69278,10 +69352,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 7.8
                 }
               ],
-              "score": 7.5,
+              "score": 7.8,
               "rank": 2,
               "actualFinish": null
             },
@@ -69301,10 +69375,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 7.5
+                  "contribution": 7.8
                 }
               ],
-              "score": 7.5,
+              "score": 7.8,
               "rank": 2,
               "actualFinish": null
             },
@@ -69424,8 +69498,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "d588c6a9570900c39026",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602010920260822%2F18",
+          "id": "c79e3a86e5b24fe72eba",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602010920260822%2FF7",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 9,
@@ -69680,8 +69754,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "3da7167c6293dfa98b37",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602011020260822%2F0D",
+          "id": "46522590cf898a48ecd2",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602011020260822%2FEC",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 10,
@@ -69702,8 +69776,8 @@
           "conditionKey": "札幌|flat|turf|1200|右|class-2|3歳以上|open|定量",
           "runnerCount": 14,
           "bodyWeightStatus": "published",
-          "sampleStarts": 442,
-          "sampleRaces": 30,
+          "sampleStarts": 456,
+          "sampleRaces": 31,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -69936,8 +70010,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "885b703ed530b3c639a5",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602011120260822%2FC2",
+          "id": "5c402356e50b3c3cc2e6",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602011120260822%2FA1",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 11,
@@ -69958,8 +70032,8 @@
           "conditionKey": "札幌|flat|turf|2000|右|class-3|3歳以上|open|定量",
           "runnerCount": 14,
           "bodyWeightStatus": "published",
-          "sampleStarts": 154,
-          "sampleRaces": 11,
+          "sampleStarts": 167,
+          "sampleRaces": 12,
           "highConditions": [],
           "lowConditions": [],
           "otherConditions": [],
@@ -70192,8 +70266,8 @@
           "predictionStatus": "upcoming"
         },
         {
-          "id": "508161bfcdc3b56c7d66",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0101202602011220260822%2F77",
+          "id": "8dbaab8600c9b82765a3",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1001202602011220260822%2F56",
           "date": "2026-08-22",
           "venue": "札幌",
           "number": 12,
@@ -70214,35 +70288,49 @@
           "conditionKey": "札幌|flat|dirt|1700|右|class-1|3歳以上|open|定量",
           "runnerCount": 11,
           "bodyWeightStatus": "published",
-          "sampleStarts": 1397,
-          "sampleRaces": 109,
+          "sampleStarts": 1408,
+          "sampleRaces": 110,
           "highConditions": [
+            {
+              "featureId": "wonSameOrHigherClass",
+              "label": "曾在同級或更高級別勝利",
+              "starts": 96,
+              "wins": 13,
+              "rate": 0.13541666666666666,
+              "baselineStarts": 1408,
+              "baselineWins": 110,
+              "baselineRate": 0.078125,
+              "liftPercentagePoints": 5.729166666666666,
+              "confidenceLow": 0.0808762979676279,
+              "confidenceHigh": 0.21801314290671706,
+              "classification": "high"
+            },
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 353,
-              "wins": 47,
-              "rate": 0.13314447592067988,
-              "baselineStarts": 1397,
-              "baselineWins": 109,
-              "baselineRate": 0.07802433786685756,
-              "liftPercentagePoints": 5.512013805382232,
-              "confidenceLow": 0.10162379802047727,
-              "confidenceHigh": 0.1725639648412518,
+              "starts": 356,
+              "wins": 48,
+              "rate": 0.1348314606741573,
+              "baselineStarts": 1408,
+              "baselineWins": 110,
+              "baselineRate": 0.078125,
+              "liftPercentagePoints": 5.6706460674157295,
+              "confidenceLow": 0.10322567947173214,
+              "confidenceHigh": 0.17423418064449675,
               "classification": "high"
             },
             {
               "featureId": "wonSameSurface",
               "label": "曾在相同跑道勝利",
-              "starts": 962,
-              "wins": 94,
-              "rate": 0.09771309771309772,
-              "baselineStarts": 1397,
-              "baselineWins": 109,
-              "baselineRate": 0.07802433786685756,
-              "liftPercentagePoints": 1.9688759846240163,
-              "confidenceLow": 0.08051864966431321,
-              "confidenceHigh": 0.1181077089435579,
+              "starts": 963,
+              "wins": 95,
+              "rate": 0.09865005192107996,
+              "baselineStarts": 1408,
+              "baselineWins": 110,
+              "baselineRate": 0.078125,
+              "liftPercentagePoints": 2.0525051921079966,
+              "confidenceLow": 0.08138086746129489,
+              "confidenceHigh": 0.11910864395401867,
               "classification": "high"
             }
           ],
@@ -70265,16 +70353,22 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5.5
+                  "contribution": 5.7
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": true,
+                  "contribution": 5.6
                 },
                 {
                   "featureId": "wonSameSurface",
                   "label": "曾在相同跑道勝利",
                   "value": true,
-                  "contribution": 2
+                  "contribution": 2.1
                 }
               ],
-              "score": 7.5,
+              "score": 13.4,
               "rank": 1,
               "actualFinish": null
             },
@@ -70294,10 +70388,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5.5
+                  "contribution": 5.7
                 }
               ],
-              "score": 5.5,
+              "score": 5.7,
               "rank": 2,
               "actualFinish": null
             },
@@ -70317,10 +70411,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 5.5
+                  "contribution": 5.7
                 }
               ],
-              "score": 5.5,
+              "score": 5.7,
               "rank": 2,
               "actualFinish": null
             },
@@ -71472,7 +71566,7 @@
           "date": "2026-08-23",
           "venue": "中京",
           "number": 6,
-          "startTime": "15:00",
+          "startTime": "15:01",
           "name": "有松特別",
           "condition": {
             "venue": "中京",
@@ -74125,21 +74219,21 @@
           "conditionKey": "新潟|flat|dirt|1200|左|maiden|3歳|open|馬齢",
           "runnerCount": 15,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 2203,
-          "sampleRaces": 149,
+          "sampleStarts": 2218,
+          "sampleRaces": 150,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 405,
-              "wins": 78,
-              "rate": 0.1925925925925926,
-              "baselineStarts": 2203,
-              "baselineWins": 149,
-              "baselineRate": 0.06763504312301408,
-              "liftPercentagePoints": 12.495754946957852,
-              "confidenceLow": 0.15714735254921872,
-              "confidenceHigh": 0.233814819597647,
+              "starts": 408,
+              "wins": 79,
+              "rate": 0.19362745098039216,
+              "baselineStarts": 2218,
+              "baselineWins": 150,
+              "baselineRate": 0.06762849413886383,
+              "liftPercentagePoints": 12.599895684152834,
+              "confidenceLow": 0.15821541689518465,
+              "confidenceHigh": 0.23475508438491913,
               "classification": "high"
             },
             {
@@ -74148,10 +74242,10 @@
               "starts": 259,
               "wins": 30,
               "rate": 0.11583011583011583,
-              "baselineStarts": 2203,
-              "baselineWins": 149,
-              "baselineRate": 0.06763504312301408,
-              "liftPercentagePoints": 4.819507270710176,
+              "baselineStarts": 2218,
+              "baselineWins": 150,
+              "baselineRate": 0.06762849413886383,
+              "liftPercentagePoints": 4.8201621691252,
               "confidenceLow": 0.08235067826194584,
               "confidenceHigh": 0.16053933610412102,
               "classification": "high"
@@ -75208,7 +75302,7 @@
           "date": "2026-08-23",
           "venue": "新潟",
           "number": 8,
-          "startTime": "16:00",
+          "startTime": "16:01",
           "name": "飯豊特別",
           "condition": {
             "venue": "新潟",
@@ -77059,35 +77153,35 @@
           "conditionKey": "札幌|flat|dirt|1700|右|maiden|3歳|open|馬齢",
           "runnerCount": 14,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 2007,
-          "sampleRaces": 149,
+          "sampleStarts": 2021,
+          "sampleRaces": 150,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 379,
-              "wins": 65,
-              "rate": 0.17150395778364116,
-              "baselineStarts": 2007,
-              "baselineWins": 149,
-              "baselineRate": 0.07424015944195317,
-              "liftPercentagePoints": 9.7263798341688,
-              "confidenceLow": 0.13689690479838798,
-              "confidenceHigh": 0.21270355659347753,
+              "starts": 382,
+              "wins": 66,
+              "rate": 0.17277486910994763,
+              "baselineStarts": 2021,
+              "baselineWins": 150,
+              "baselineRate": 0.07422068283028203,
+              "liftPercentagePoints": 9.855418627966559,
+              "confidenceLow": 0.13816964947787494,
+              "confidenceHigh": 0.21389606868211608,
               "classification": "high"
             },
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 313,
+              "starts": 316,
               "wins": 33,
-              "rate": 0.10543130990415335,
-              "baselineStarts": 2007,
-              "baselineWins": 149,
-              "baselineRate": 0.07424015944195317,
-              "liftPercentagePoints": 3.1191150462200183,
-              "confidenceLow": 0.07606226163638433,
-              "confidenceHigh": 0.14436838888425438,
+              "rate": 0.10443037974683544,
+              "baselineStarts": 2021,
+              "baselineWins": 150,
+              "baselineRate": 0.07422068283028203,
+              "liftPercentagePoints": 3.020969691655341,
+              "confidenceLow": 0.0753304984549466,
+              "confidenceHigh": 0.1430325912744695,
               "classification": "high"
             }
           ],
@@ -78253,7 +78347,7 @@
           "date": "2026-08-23",
           "venue": "札幌",
           "number": 8,
-          "startTime": "14:00",
+          "startTime": "14:01",
           "name": "3歳以上1勝クラス",
           "condition": {
             "venue": "札幌",
