@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T04:18:33.899Z",
+  "generatedAt": "2026-08-22T05:05:21.686Z",
   "buckets": [
     {
       "month": "2016-08",
@@ -581868,16 +581868,16 @@
     {
       "month": "2026-08",
       "conditionKey": "札幌|flat|dirt|1000|右|class-1|3歳以上|open|定量",
-      "raceCount": 2,
-      "totalStarts": 23,
-      "totalWins": 2,
+      "raceCount": 3,
+      "totalStarts": 35,
+      "totalWins": 3,
       "features": {
         "lastStartTop3": {
           "starts": 6,
           "wins": 1
         },
         "bodyWeight500Plus": {
-          "starts": 4,
+          "starts": 6,
           "wins": 1
         },
         "wonSameSurface": {
@@ -624239,7 +624239,8 @@
     "8fc732036fb646493da8",
     "8a808e9f33a41869bf33",
     "2a39644f35a776f1c8fc",
-    "c9b29bbe57403f0cec87"
+    "c9b29bbe57403f0cec87",
+    "246cfc52778a0f7cc81d"
   ],
   "horses": {
     "d6c7d782796686f168d7": {
@@ -876370,6 +876371,120 @@
     "08e9a4fa391acc00c549": {
       "lastRaceDate": "2026-08-22",
       "lastFinish": 13,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "2e954c70151b2586d4b7": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 1,
+      "wonDistances": [
+        1000
+      ],
+      "wonVenues": [
+        "札幌"
+      ],
+      "wonSurfaces": [
+        "dirt"
+      ],
+      "highestWonClassRank": 1,
+      "updatedAt": "2026-08-22"
+    },
+    "71d635c72e7ad26e80a4": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 2,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "4be1153f61dec0180d56": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "4a67ab470103a3b8ff2b": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 4,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "a67ecc7013a892b350c7": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 5,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "62834b09f1cd4fa4a757": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 6,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "764bb9cbfce08e6d491a": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 7,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "b643cb70eb5d7a998be7": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "43753f088fbc4f15058a": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 9,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "1ab1890b26a5f9d60497": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 10,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "64b48fb89e142384eb2d": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 11,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-08-22"
+    },
+    "474bda890641682daa46": {
+      "lastRaceDate": "2026-08-22",
+      "lastFinish": 12,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
