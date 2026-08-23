@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-08",
-    "generatedAt": "2026-08-23T09:03:53.050Z",
+    "generatedAt": "2026-08-23T09:58:34.451Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -73403,8 +73403,8 @@
           "conditionKey": "中京|flat|dirt|1200|左|maiden|3歳|open|馬齢",
           "runnerCount": 15,
           "bodyWeightStatus": "partial",
-          "sampleStarts": 1462,
-          "sampleRaces": 94,
+          "sampleStarts": 1478,
+          "sampleRaces": 95,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -73412,10 +73412,10 @@
               "starts": 185,
               "wins": 42,
               "rate": 0.22702702702702704,
-              "baselineStarts": 1462,
-              "baselineWins": 94,
-              "baselineRate": 0.06429548563611491,
-              "liftPercentagePoints": 16.27315413909121,
+              "baselineStarts": 1478,
+              "baselineWins": 95,
+              "baselineRate": 0.06427604871447902,
+              "liftPercentagePoints": 16.275097831254804,
               "confidenceLow": 0.17257395044323523,
               "confidenceHigh": 0.29258626849157576,
               "classification": "high"
@@ -73423,15 +73423,15 @@
             {
               "featureId": "bodyWeight500Plus",
               "label": "馬體重 500 公斤以上",
-              "starts": 142,
+              "starts": 143,
               "wins": 19,
-              "rate": 0.13380281690140844,
-              "baselineStarts": 1462,
-              "baselineWins": 94,
-              "baselineRate": 0.06429548563611491,
-              "liftPercentagePoints": 6.950733126529353,
-              "confidenceLow": 0.08736005100333503,
-              "confidenceHigh": 0.19953751457466187,
+              "rate": 0.13286713286713286,
+              "baselineStarts": 1478,
+              "baselineWins": 95,
+              "baselineRate": 0.06427604871447902,
+              "liftPercentagePoints": 6.859108415265385,
+              "confidenceLow": 0.0867367023090865,
+              "confidenceHigh": 0.1982070738415411,
               "classification": "high"
             }
           ],
@@ -73451,14 +73451,43 @@
               "scratched": false,
               "features": [
                 {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 16.3
+                },
+                {
                   "featureId": "bodyWeight500Plus",
                   "label": "馬體重 500 公斤以上",
                   "value": true,
-                  "contribution": 7
+                  "contribution": 6.9
                 }
               ],
-              "score": 7,
+              "score": 23.2,
               "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "bd4a210ec1f6a8f802a7",
+              "number": 9,
+              "frame": 5,
+              "name": "シャインゴーツ",
+              "sexAge": "牡3",
+              "jockey": "今村 聖奈",
+              "assignedWeight": 55,
+              "bodyWeight": 446,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 16.3
+                }
+              ],
+              "score": 16.3,
+              "rank": 2,
               "actualFinish": null
             },
             {
@@ -73474,7 +73503,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73490,7 +73519,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73506,7 +73535,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73522,7 +73551,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73538,7 +73567,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73554,23 +73583,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
-              "actualFinish": null
-            },
-            {
-              "id": "bd4a210ec1f6a8f802a7",
-              "number": 9,
-              "frame": 5,
-              "name": "シャインゴーツ",
-              "sexAge": "牡3",
-              "jockey": "今村 聖奈",
-              "assignedWeight": 55,
-              "bodyWeight": 446,
-              "bodyWeightChange": -2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73586,7 +73599,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73602,7 +73615,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73618,7 +73631,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73634,7 +73647,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73650,7 +73663,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73666,7 +73679,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73682,7 +73695,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 2,
+              "rank": 3,
               "actualFinish": null
             },
             {
@@ -73696,8 +73709,15 @@
               "bodyWeight": 420,
               "bodyWeightChange": 0,
               "scratched": true,
-              "features": [],
-              "score": 0,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 16.3
+                }
+              ],
+              "score": 16.3,
               "rank": null,
               "actualFinish": null
             }
@@ -76767,8 +76787,8 @@
           "conditionKey": "新潟|flat|dirt|1800|左|maiden|3歳|open|馬齢",
           "runnerCount": 11,
           "bodyWeightStatus": "published",
-          "sampleStarts": 2800,
-          "sampleRaces": 195,
+          "sampleStarts": 2812,
+          "sampleRaces": 196,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
@@ -76776,10 +76796,10 @@
               "starts": 477,
               "wins": 97,
               "rate": 0.20335429769392033,
-              "baselineStarts": 2800,
-              "baselineWins": 196,
-              "baselineRate": 0.07,
-              "liftPercentagePoints": 13.335429769392032,
+              "baselineStarts": 2812,
+              "baselineWins": 197,
+              "baselineRate": 0.07005689900426743,
+              "liftPercentagePoints": 13.32973986896529,
               "confidenceLow": 0.16967019555549767,
               "confidenceHigh": 0.241778397910625,
               "classification": "high"
@@ -76788,6 +76808,75 @@
           "lowConditions": [],
           "otherConditions": [],
           "runners": [
+            {
+              "id": "1228933292b1c6960844",
+              "number": 4,
+              "frame": 4,
+              "name": "タニセンローマ",
+              "sexAge": "牡3",
+              "jockey": "小林 脩斗",
+              "assignedWeight": 57,
+              "bodyWeight": 478,
+              "bodyWeightChange": 2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 13.3
+                }
+              ],
+              "score": 13.3,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "aaca5a947f0f3d6cba43",
+              "number": 7,
+              "frame": 6,
+              "name": "クリムゾンリーフ",
+              "sexAge": "牡3",
+              "jockey": "坂井 瑠星",
+              "assignedWeight": 57,
+              "bodyWeight": 472,
+              "bodyWeightChange": 2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 13.3
+                }
+              ],
+              "score": 13.3,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "3c11c2ff079b3f768575",
+              "number": 8,
+              "frame": 6,
+              "name": "トルネードアイル",
+              "sexAge": "牡3",
+              "jockey": "北村 友一",
+              "assignedWeight": 57,
+              "bodyWeight": 504,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": true,
+                  "contribution": 13.3
+                }
+              ],
+              "score": 13.3,
+              "rank": 1,
+              "actualFinish": null
+            },
             {
               "id": "153d1cc205b34f17d53d",
               "number": 2,
@@ -76801,7 +76890,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76817,23 +76906,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "1228933292b1c6960844",
-              "number": 4,
-              "frame": 4,
-              "name": "タニセンローマ",
-              "sexAge": "牡3",
-              "jockey": "小林 脩斗",
-              "assignedWeight": 57,
-              "bodyWeight": 478,
-              "bodyWeightChange": 2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76849,7 +76922,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76865,39 +76938,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "aaca5a947f0f3d6cba43",
-              "number": 7,
-              "frame": 6,
-              "name": "クリムゾンリーフ",
-              "sexAge": "牡3",
-              "jockey": "坂井 瑠星",
-              "assignedWeight": 57,
-              "bodyWeight": 472,
-              "bodyWeightChange": 2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "3c11c2ff079b3f768575",
-              "number": 8,
-              "frame": 6,
-              "name": "トルネードアイル",
-              "sexAge": "牡3",
-              "jockey": "北村 友一",
-              "assignedWeight": 57,
-              "bodyWeight": 504,
-              "bodyWeightChange": -2,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76913,7 +76954,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76929,7 +76970,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76945,7 +76986,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
@@ -76961,7 +77002,7 @@
               "scratched": false,
               "features": [],
               "score": 0,
-              "rank": 1,
+              "rank": 4,
               "actualFinish": null
             },
             {
