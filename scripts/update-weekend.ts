@@ -1,10 +1,10 @@
 import { readFile } from 'node:fs/promises'
 import { applyRaceResult, pruneStore } from './jra/aggregate'
-import { actionsByCname, dateFromCname, findMenuAction, racePageActions } from './jra/discovery'
+import { actionsByCname, dateFromCname, findMenuAction, raceIdentityFromCname, racePageActions } from './jra/discovery'
 import { generateWeekendData } from './jra/generate'
 import { fetchHtml, type JraAction } from './jra/http'
 import { parseRacePage, stableRaceId } from './jra/parse'
-import { createArchivedPrediction, upsertPredictionRaces } from './jra/prediction-archive'
+import { createArchivedPrediction, readPendingPredictionRaceIdentities, upsertPredictionRaces } from './jra/prediction-archive'
 import { readStore, writeJsonAtomic, writeStore } from './jra/store'
 import { weekendDataSchema } from '../src/schema'
 import type { ParsedRace, Race, WeekendData } from '../src/types'
@@ -48,7 +48,7 @@ async function discoverCurrentRaceActions(homeHtml: string) {
   return uniqueActions(raceActions)
 }
 
-async function discoverRecentResultActions(homeHtml: string, storeIds: Set<string>) {
+async function discoverRecentResultActions(homeHtml: string, storeIds: Set<string>, pendingPredictionIds: Set<string>) {
   const indexAction = findMenuAction(homeHtml, '/JRADB/accessS.html', 'pw01sli')
   const indexHtml = await fetchHtml(indexAction)
   const recentWindowStart = new Date()
@@ -60,7 +60,10 @@ async function discoverRecentResultActions(homeHtml: string, storeIds: Set<strin
     const meetingHtml = await fetchHtml(meeting)
     raceActions.push(...racePageActions(meetingHtml, 'result'))
   }
-  return uniqueActions(raceActions).filter((action) => !storeIds.has(stableRaceId(cnameFrom(action))))
+  return uniqueActions(raceActions).filter((action) => {
+    const cname = cnameFrom(action)
+    return !storeIds.has(stableRaceId(cname)) || pendingPredictionIds.has(raceIdentityFromCname(cname))
+  })
 }
 
 async function parseActions(actions: JraAction[], mode: 'entry' | 'result') {
@@ -114,7 +117,8 @@ async function main() {
     const store = await readStore(STORE_PATH)
     const homeHtml = await fetchHtml({ url: HOME_URL })
 
-    const recentResults = await discoverRecentResultActions(homeHtml, new Set(store.processedRaceIds))
+    const pendingPredictionIds = await readPendingPredictionRaceIdentities(ARCHIVE_DIRECTORY)
+    const recentResults = await discoverRecentResultActions(homeHtml, new Set(store.processedRaceIds), pendingPredictionIds)
     const resultRaces = await parseActions(recentResults, 'result')
     let updatedResults = 0
     const archivePredictions: Race[] = []

@@ -10,6 +10,7 @@ import type {
   Race,
 } from '../../src/types'
 import { applyRaceResult, pruneStore } from './aggregate'
+import { raceIdentityFromCname } from './discovery'
 import { generateRacePrediction } from './generate'
 import { EMPTY_STORE, writeJsonAtomic } from './store'
 
@@ -140,7 +141,8 @@ async function readMonth(outputDirectory: string, year: number, month: string, g
 }
 
 function mergeCompletedPrediction(existing: Race, incoming: Race) {
-  if (incoming.predictionStatus !== 'completed' || existing.predictionStatus === 'completed') return incoming
+  if (existing.predictionStatus === 'completed') return existing
+  if (incoming.predictionStatus !== 'completed') return incoming
   const actualById = new Map(incoming.runners.map((runner) => [runner.id, runner.actualFinish]))
   const actualByName = new Map(incoming.runners.map((runner) => [runner.name, runner.actualFinish]))
   return {
@@ -155,6 +157,25 @@ function mergeCompletedPrediction(existing: Race, incoming: Race) {
   }
 }
 
+export async function readPendingPredictionRaceIdentities(outputDirectory: string) {
+  let files: string[]
+  try {
+    files = (await readdir(outputDirectory)).filter((file) => /^\d{2}\.json$/.test(file))
+  } catch {
+    return new Set<string>()
+  }
+
+  const pending = new Set<string>()
+  for (const file of files) {
+    const month = predictionMonthDataSchema.parse(JSON.parse(await readFile(join(outputDirectory, file), 'utf8')))
+    for (const race of month.meetings.flatMap((meeting) => meeting.races)) {
+      if (race.predictionStatus === 'completed') continue
+      const identity = raceIdentityFromCname(new URL(race.sourceUrl).searchParams.get('CNAME') ?? undefined)
+      if (identity) pending.add(identity)
+    }
+  }
+  return pending
+}
 export async function upsertPredictionRaces(
   races: Race[],
   year: number,

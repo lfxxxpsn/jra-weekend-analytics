@@ -81,3 +81,12 @@ export function dateFromCname(cname: string | undefined) {
   const matches = [...(cname?.matchAll(/20\d{6}/g) ?? [])]
   return matches.at(-1)?.[0]?.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3') ?? ''
 }
+
+export function raceIdentityFromCname(cname: string | undefined) {
+  if (!cname) return ''
+  try {
+    return decodeURIComponent(cname).match(/^pw01[ds]de([^/]+)/i)?.[1] ?? ''
+  } catch {
+    return ''
+  }
+}

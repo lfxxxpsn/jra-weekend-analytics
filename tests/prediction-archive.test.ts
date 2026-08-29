@@ -1,5 +1,9 @@
+import { mkdtemp, readFile, rm } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
 import { predictionArchiveIndexSchema, predictionMonthDataSchema } from '../src/schema'
-import { generatePredictionArchive } from '../scripts/jra/prediction-archive'
+import { createArchivedPrediction, generatePredictionArchive, readPendingPredictionRaceIdentities, upsertPredictionRaces } from '../scripts/jra/prediction-archive'
+import { EMPTY_STORE } from '../scripts/jra/store'
 import type { ParsedRace } from '../src/types'
 
 const condition = {
@@ -68,5 +72,36 @@ describe('2026 pre-race prediction archive', () => {
     expect(predictions.find((race) => race.id === 'target-c')?.sampleStarts).toBe(32)
     expect(predictions.find((race) => race.id === 'target-a')?.runners[0]?.actualFinish).toBe(1)
     expect(predictions.every((race) => race.predictionStatus === 'completed')).toBe(true)
+  })
+
+  it('preserves completed results and repairs pending archive entries', async () => {
+    const directory = await mkdtemp(join(tmpdir(), 'prediction-archive-'))
+    try {
+      const cnameCore = '0107202603030320260829'
+      const parsed = resultRace('same-race', '2026-08-29', 3)
+      const entry = createArchivedPrediction({
+        ...parsed,
+        sourceUrl: `https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde${cnameCore}/D8`,
+        isResult: false,
+      }, structuredClone(EMPTY_STORE))
+      const completed = createArchivedPrediction({
+        ...parsed,
+        sourceUrl: `https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde${cnameCore}/7A`,
+      }, structuredClone(EMPTY_STORE))
+
+      await upsertPredictionRaces([entry], 2026, directory)
+      expect(await readPendingPredictionRaceIdentities(directory)).toEqual(new Set([cnameCore]))
+
+      await upsertPredictionRaces([completed, entry], 2026, directory)
+      const month = predictionMonthDataSchema.parse(JSON.parse(
+        await readFile(join(directory, '08.json'), 'utf8'),
+      ))
+      const race = month.meetings.flatMap((meeting) => meeting.races)[0]
+      expect(race?.predictionStatus).toBe('completed')
+      expect(race?.runners[0]?.actualFinish).toBe(1)
+      expect(await readPendingPredictionRaceIdentities(directory)).toEqual(new Set())
+    } finally {
+      await rm(directory, { recursive: true, force: true })
+    }
   })
 })
