@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schemaVersion": 1,
-    "fetchedAt": "2026-08-29T11:22:44.110Z",
+    "fetchedAt": "2026-08-29T11:31:12.572Z",
     "historyStart": "2016-08-28",
     "historyEnd": "2026-08-28",
     "status": "fresh",
@@ -10672,7 +10672,7 @@
             "weightRule": "定量"
           },
           "conditionKey": "中京|flat|dirt|1200|左|class-2|3歳以上|open|定量",
-          "runnerCount": 12,
+          "runnerCount": 13,
           "bodyWeightStatus": "published",
           "sampleStarts": 401,
           "sampleRaces": 27,
@@ -12497,6 +12497,162 @@
               "rank": 4
             },
             {
+              "id": "37281ff4cbd6f0f266af",
+              "number": 12,
+              "frame": 8,
+              "name": "バッハアルプゼー",
+              "sexAge": "牡4",
+              "jockey": "西村 淳也",
+              "assignedWeight": 58,
+              "bodyWeight": 498,
+              "bodyWeightChange": 12,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 52,
+                    "wins": 5,
+                    "rate": 0.09615384615384616,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": 2.8822175330903517,
+                    "confidenceLow": 0.041773735183410265,
+                    "confidenceHigh": 0.20609881861160995,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 106,
+                    "wins": 13,
+                    "rate": 0.12264150943396226,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": 5.530983861101962,
+                    "confidenceLow": 0.0730905203798097,
+                    "confidenceHigh": 0.19858796937270662,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 100,
+                    "wins": 10,
+                    "rate": 0.1,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": 3.2668329177057363,
+                    "confidenceLow": 0.05522854161313613,
+                    "confidenceHigh": 0.1743673043676654,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 295,
+                    "wins": 23,
+                    "rate": 0.07796610169491526,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": 1.063443087197262,
+                    "confidenceLow": 0.052511836543671475,
+                    "confidenceHigh": 0.11427083360666908,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 120,
+                    "wins": 8,
+                    "rate": 0.06666666666666667,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": -0.06650041562759751,
+                    "confidenceLow": 0.03416489747129059,
+                    "confidenceHigh": 0.12605267077718166,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 363,
+                    "wins": 26,
+                    "rate": 0.07162534435261708,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": 0.4293673529674441,
+                    "confidenceLow": 0.04934441240012281,
+                    "confidenceHigh": 0.1028782362853044,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 15,
+                    "wins": 5,
+                    "rate": 0.3333333333333333,
+                    "baselineStarts": 401,
+                    "baselineWins": 27,
+                    "baselineRate": 0.06733167082294264,
+                    "liftPercentagePoints": 26.60016625103907,
+                    "confidenceLow": 0.15176100694691236,
+                    "confidenceHigh": 0.5828687484878702,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 4
+            },
+            {
               "id": "380f15a6a21fafd2cca3",
               "number": 13,
               "frame": 8,
@@ -12651,162 +12807,6 @@
               ],
               "score": 0,
               "rank": 4
-            },
-            {
-              "id": "37281ff4cbd6f0f266af",
-              "number": 12,
-              "frame": 8,
-              "name": "バッハアルプゼー",
-              "sexAge": "牡4",
-              "jockey": "西村 淳也",
-              "assignedWeight": 58,
-              "bodyWeight": 498,
-              "bodyWeightChange": 12,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 52,
-                    "wins": 5,
-                    "rate": 0.09615384615384616,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": 2.8822175330903517,
-                    "confidenceLow": 0.041773735183410265,
-                    "confidenceHigh": 0.20609881861160995,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 106,
-                    "wins": 13,
-                    "rate": 0.12264150943396226,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": 5.530983861101962,
-                    "confidenceLow": 0.0730905203798097,
-                    "confidenceHigh": 0.19858796937270662,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 100,
-                    "wins": 10,
-                    "rate": 0.1,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": 3.2668329177057363,
-                    "confidenceLow": 0.05522854161313613,
-                    "confidenceHigh": 0.1743673043676654,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 295,
-                    "wins": 23,
-                    "rate": 0.07796610169491526,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": 1.063443087197262,
-                    "confidenceLow": 0.052511836543671475,
-                    "confidenceHigh": 0.11427083360666908,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 120,
-                    "wins": 8,
-                    "rate": 0.06666666666666667,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": -0.06650041562759751,
-                    "confidenceLow": 0.03416489747129059,
-                    "confidenceHigh": 0.12605267077718166,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 363,
-                    "wins": 26,
-                    "rate": 0.07162534435261708,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": 0.4293673529674441,
-                    "confidenceLow": 0.04934441240012281,
-                    "confidenceHigh": 0.1028782362853044,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 15,
-                    "wins": 5,
-                    "rate": 0.3333333333333333,
-                    "baselineStarts": 401,
-                    "baselineWins": 27,
-                    "baselineRate": 0.06733167082294264,
-                    "liftPercentagePoints": 26.60016625103907,
-                    "confidenceLow": 0.15176100694691236,
-                    "confidenceHigh": 0.5828687484878702,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -15301,7 +15301,7 @@
             "weightRule": "定量"
           },
           "conditionKey": "中京|flat|turf|1400|左|class-2|3歳以上|open|定量",
-          "runnerCount": 13,
+          "runnerCount": 14,
           "bodyWeightStatus": "published",
           "sampleStarts": 218,
           "sampleRaces": 16,
@@ -16814,6 +16814,162 @@
               "rank": 4
             },
             {
+              "id": "b58a43958181624beb5b",
+              "number": 10,
+              "frame": 6,
+              "name": "ワンコールアウェイ",
+              "sexAge": "牝4",
+              "jockey": "吉村 誠之助",
+              "assignedWeight": 56,
+              "bodyWeight": 484,
+              "bodyWeightChange": 14,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 19,
+                    "wins": 2,
+                    "rate": 0.10526315789473684,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": 3.1868662481892795,
+                    "confidenceLow": 0.029357941395096582,
+                    "confidenceHigh": 0.31394550494841694,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 46,
+                    "wins": 7,
+                    "rate": 0.15217391304347827,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": 7.877941763063423,
+                    "confidenceLow": 0.07572186234017478,
+                    "confidenceHigh": 0.2822441740631509,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 31,
+                    "wins": 2,
+                    "rate": 0.06451612903225806,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": -0.8878366380585978,
+                    "confidenceLow": 0.017874407775063144,
+                    "confidenceHigh": 0.20718988318746434,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 122,
+                    "wins": 10,
+                    "rate": 0.08196721311475409,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": 0.8572717701910051,
+                    "confidenceLow": 0.045130355407972465,
+                    "confidenceHigh": 0.1443268670049657,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 77,
+                    "wins": 7,
+                    "rate": 0.09090909090909091,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": 1.7514595496246872,
+                    "confidenceLow": 0.044735141893571646,
+                    "confidenceHigh": 0.17596311247051816,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 185,
+                    "wins": 15,
+                    "rate": 0.08108108108108109,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": 0.7686585668237045,
+                    "confidenceLow": 0.04974942723880138,
+                    "confidenceHigh": 0.12945684934432436,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 21,
+                    "wins": 1,
+                    "rate": 0.047619047619047616,
+                    "baselineStarts": 218,
+                    "baselineWins": 16,
+                    "baselineRate": 0.07339449541284404,
+                    "liftPercentagePoints": -2.577544779379642,
+                    "confidenceLow": 0.008455769471923294,
+                    "confidenceHigh": 0.22669816586235464,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 4
+            },
+            {
               "id": "e15750d88512bcc5079f",
               "number": 11,
               "frame": 7,
@@ -17436,162 +17592,6 @@
               ],
               "score": 0,
               "rank": 4
-            },
-            {
-              "id": "b58a43958181624beb5b",
-              "number": 10,
-              "frame": 6,
-              "name": "ワンコールアウェイ",
-              "sexAge": "牝4",
-              "jockey": "吉村 誠之助",
-              "assignedWeight": 56,
-              "bodyWeight": 484,
-              "bodyWeightChange": 14,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 19,
-                    "wins": 2,
-                    "rate": 0.10526315789473684,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": 3.1868662481892795,
-                    "confidenceLow": 0.029357941395096582,
-                    "confidenceHigh": 0.31394550494841694,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 46,
-                    "wins": 7,
-                    "rate": 0.15217391304347827,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": 7.877941763063423,
-                    "confidenceLow": 0.07572186234017478,
-                    "confidenceHigh": 0.2822441740631509,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 31,
-                    "wins": 2,
-                    "rate": 0.06451612903225806,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": -0.8878366380585978,
-                    "confidenceLow": 0.017874407775063144,
-                    "confidenceHigh": 0.20718988318746434,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 122,
-                    "wins": 10,
-                    "rate": 0.08196721311475409,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": 0.8572717701910051,
-                    "confidenceLow": 0.045130355407972465,
-                    "confidenceHigh": 0.1443268670049657,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 77,
-                    "wins": 7,
-                    "rate": 0.09090909090909091,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": 1.7514595496246872,
-                    "confidenceLow": 0.044735141893571646,
-                    "confidenceHigh": 0.17596311247051816,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 185,
-                    "wins": 15,
-                    "rate": 0.08108108108108109,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": 0.7686585668237045,
-                    "confidenceLow": 0.04974942723880138,
-                    "confidenceHigh": 0.12945684934432436,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 21,
-                    "wins": 1,
-                    "rate": 0.047619047619047616,
-                    "baselineStarts": 218,
-                    "baselineWins": 16,
-                    "baselineRate": 0.07339449541284404,
-                    "liftPercentagePoints": -2.577544779379642,
-                    "confidenceLow": 0.008455769471923294,
-                    "confidenceHigh": 0.22669816586235464,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -45556,7 +45556,7 @@
             "weightRule": "定量"
           },
           "conditionKey": "新潟|flat|turf|2200|左|class-1|3歳以上|open|定量",
-          "runnerCount": 12,
+          "runnerCount": 13,
           "bodyWeightStatus": "published",
           "sampleStarts": 456,
           "sampleRaces": 36,
@@ -46454,6 +46454,162 @@
               "assignedWeight": 58,
               "bodyWeight": 472,
               "bodyWeightChange": 2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 32,
+                    "wins": 2,
+                    "rate": 0.0625,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": -1.8640350877192984,
+                    "confidenceLow": 0.01731020319515724,
+                    "confidenceHigh": 0.20147467248003584,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 127,
+                    "wins": 20,
+                    "rate": 0.15748031496062992,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": 7.633996408343694,
+                    "confidenceLow": 0.1043173129612993,
+                    "confidenceHigh": 0.2307565473400116,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 76,
+                    "wins": 7,
+                    "rate": 0.09210526315789473,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": 1.0964912280701746,
+                    "confidenceLow": 0.04533342778112862,
+                    "confidenceHigh": 0.1781290278810825,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 53,
+                    "wins": 5,
+                    "rate": 0.09433962264150944,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": 1.3199271764316456,
+                    "confidenceLow": 0.04097203744189685,
+                    "confidenceHigh": 0.20253975673701435,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 78,
+                    "wins": 9,
+                    "rate": 0.11538461538461539,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": 3.4244264507422404,
+                    "confidenceLow": 0.06190440604142224,
+                    "confidenceHigh": 0.2049720968617468,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 311,
+                    "wins": 31,
+                    "rate": 0.09967845659163987,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": 1.853810571444689,
+                    "confidenceLow": 0.07111351881419684,
+                    "confidenceHigh": 0.13801259412640568,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 39,
+                    "wins": 6,
+                    "rate": 0.15384615384615385,
+                    "baselineStarts": 456,
+                    "baselineWins": 37,
+                    "baselineRate": 0.08114035087719298,
+                    "liftPercentagePoints": 7.270580296896087,
+                    "confidenceLow": 0.07247373845051468,
+                    "confidenceHigh": 0.2972976986573431,
+                    "classification": "neutral"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 4
+            },
+            {
+              "id": "774ebe9c6ed8d9eb8c15",
+              "number": 5,
+              "frame": 4,
+              "name": "ノーマジック",
+              "sexAge": "牝5",
+              "jockey": "水沼 元輝",
+              "assignedWeight": 53,
+              "bodyWeight": 480,
+              "bodyWeightChange": 12,
               "scratched": false,
               "features": [
                 {
@@ -47535,162 +47691,6 @@
               ],
               "score": 0,
               "rank": 4
-            },
-            {
-              "id": "774ebe9c6ed8d9eb8c15",
-              "number": 5,
-              "frame": 4,
-              "name": "ノーマジック",
-              "sexAge": "牝5",
-              "jockey": "水沼 元輝",
-              "assignedWeight": 53,
-              "bodyWeight": 480,
-              "bodyWeightChange": 12,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 32,
-                    "wins": 2,
-                    "rate": 0.0625,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": -1.8640350877192984,
-                    "confidenceLow": 0.01731020319515724,
-                    "confidenceHigh": 0.20147467248003584,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 127,
-                    "wins": 20,
-                    "rate": 0.15748031496062992,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": 7.633996408343694,
-                    "confidenceLow": 0.1043173129612993,
-                    "confidenceHigh": 0.2307565473400116,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 76,
-                    "wins": 7,
-                    "rate": 0.09210526315789473,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": 1.0964912280701746,
-                    "confidenceLow": 0.04533342778112862,
-                    "confidenceHigh": 0.1781290278810825,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 53,
-                    "wins": 5,
-                    "rate": 0.09433962264150944,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": 1.3199271764316456,
-                    "confidenceLow": 0.04097203744189685,
-                    "confidenceHigh": 0.20253975673701435,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 78,
-                    "wins": 9,
-                    "rate": 0.11538461538461539,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": 3.4244264507422404,
-                    "confidenceLow": 0.06190440604142224,
-                    "confidenceHigh": 0.2049720968617468,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 311,
-                    "wins": 31,
-                    "rate": 0.09967845659163987,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": 1.853810571444689,
-                    "confidenceLow": 0.07111351881419684,
-                    "confidenceHigh": 0.13801259412640568,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 39,
-                    "wins": 6,
-                    "rate": 0.15384615384615385,
-                    "baselineStarts": 456,
-                    "baselineWins": 37,
-                    "baselineRate": 0.08114035087719298,
-                    "liftPercentagePoints": 7.270580296896087,
-                    "confidenceLow": 0.07247373845051468,
-                    "confidenceHigh": 0.2972976986573431,
-                    "classification": "neutral"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -50654,7 +50654,7 @@
             "weightRule": "馬齢"
           },
           "conditionKey": "新潟|flat|turf|2000|左|maiden|3歳|open|馬齢",
-          "runnerCount": 17,
+          "runnerCount": 18,
           "bodyWeightStatus": "published",
           "sampleStarts": 971,
           "sampleRaces": 60,
@@ -52323,6 +52323,162 @@
               "rank": 4
             },
             {
+              "id": "c0fb4454416b7145e3fc",
+              "number": 8,
+              "frame": 4,
+              "name": "スイートハイデン",
+              "sexAge": "牝3",
+              "jockey": "岩田 康誠",
+              "assignedWeight": 55,
+              "bodyWeight": 486,
+              "bodyWeightChange": 6,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 1,
+                    "wins": 1,
+                    "rate": 1,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": 93.82080329557158,
+                    "confidenceLow": 0.20654329147389294,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 166,
+                    "wins": 23,
+                    "rate": 0.13855421686746988,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": 7.676224982318564,
+                    "confidenceLow": 0.09413175500728677,
+                    "confidenceHigh": 0.1993275623802084,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 73,
+                    "wins": 2,
+                    "rate": 0.0273972602739726,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": -3.4394706770311645,
+                    "confidenceLow": 0.007545600452515571,
+                    "confidenceHigh": 0.09450328973196782,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 1,
+                    "wins": 1,
+                    "rate": 1,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": 93.82080329557158,
+                    "confidenceLow": 0.20654329147389294,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 1,
+                    "wins": 1,
+                    "rate": 1,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": 93.82080329557158,
+                    "confidenceLow": 0.20654329147389294,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 1,
+                    "wins": 1,
+                    "rate": 1,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": 93.82080329557158,
+                    "confidenceLow": 0.20654329147389294,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 1,
+                    "wins": 1,
+                    "rate": 1,
+                    "baselineStarts": 971,
+                    "baselineWins": 60,
+                    "baselineRate": 0.061791967044284246,
+                    "liftPercentagePoints": 93.82080329557158,
+                    "confidenceLow": 0.20654329147389294,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 4
+            },
+            {
               "id": "3d79d0882189428be8bd",
               "number": 9,
               "frame": 5,
@@ -53413,162 +53569,6 @@
               ],
               "score": 0,
               "rank": 4
-            },
-            {
-              "id": "c0fb4454416b7145e3fc",
-              "number": 8,
-              "frame": 4,
-              "name": "スイートハイデン",
-              "sexAge": "牝3",
-              "jockey": "岩田 康誠",
-              "assignedWeight": 55,
-              "bodyWeight": 486,
-              "bodyWeightChange": 6,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 1,
-                    "wins": 1,
-                    "rate": 1,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": 93.82080329557158,
-                    "confidenceLow": 0.20654329147389294,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 166,
-                    "wins": 23,
-                    "rate": 0.13855421686746988,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": 7.676224982318564,
-                    "confidenceLow": 0.09413175500728677,
-                    "confidenceHigh": 0.1993275623802084,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 73,
-                    "wins": 2,
-                    "rate": 0.0273972602739726,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": -3.4394706770311645,
-                    "confidenceLow": 0.007545600452515571,
-                    "confidenceHigh": 0.09450328973196782,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 1,
-                    "wins": 1,
-                    "rate": 1,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": 93.82080329557158,
-                    "confidenceLow": 0.20654329147389294,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 1,
-                    "wins": 1,
-                    "rate": 1,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": 93.82080329557158,
-                    "confidenceLow": 0.20654329147389294,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 1,
-                    "wins": 1,
-                    "rate": 1,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": 93.82080329557158,
-                    "confidenceLow": 0.20654329147389294,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 1,
-                    "wins": 1,
-                    "rate": 1,
-                    "baselineStarts": 971,
-                    "baselineWins": 60,
-                    "baselineRate": 0.061791967044284246,
-                    "liftPercentagePoints": 93.82080329557158,
-                    "confidenceLow": 0.20654329147389294,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -53593,7 +53593,7 @@
             "weightRule": "馬齢"
           },
           "conditionKey": "新潟|flat|dirt|1200|左|maiden|3歳|open|馬齢",
-          "runnerCount": 11,
+          "runnerCount": 12,
           "bodyWeightStatus": "published",
           "sampleStarts": 2260,
           "sampleRaces": 153,
@@ -55262,6 +55262,162 @@
               "rank": 4
             },
             {
+              "id": "f2eb512f3bd1defb9c89",
+              "number": 13,
+              "frame": 7,
+              "name": "テラシエスタ",
+              "sexAge": "牡3",
+              "jockey": "小林 脩斗",
+              "assignedWeight": 57,
+              "bodyWeight": 460,
+              "bodyWeightChange": 0,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 93.23008849557523,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 411,
+                    "wins": 80,
+                    "rate": 0.19464720194647203,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 12.694808690222425,
+                    "confidenceLow": 0.15926948120183015,
+                    "confidenceHigh": 0.2356803020407377,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 261,
+                    "wins": 30,
+                    "rate": 0.11494252873563218,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 4.724341369138439,
+                    "confidenceLow": 0.08171000248777127,
+                    "confidenceHigh": 0.15934578331023028,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 93.23008849557523,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 93.23008849557523,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 93.23008849557523,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2260,
+                    "baselineWins": 153,
+                    "baselineRate": 0.06769911504424779,
+                    "liftPercentagePoints": 93.23008849557523,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 4
+            },
+            {
               "id": "17d080b70fd9659a531d",
               "number": 14,
               "frame": 8,
@@ -55884,162 +56040,6 @@
               ],
               "score": 4.7,
               "rank": null
-            },
-            {
-              "id": "f2eb512f3bd1defb9c89",
-              "number": 13,
-              "frame": 7,
-              "name": "テラシエスタ",
-              "sexAge": "牡3",
-              "jockey": "小林 脩斗",
-              "assignedWeight": 57,
-              "bodyWeight": 460,
-              "bodyWeightChange": 0,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 93.23008849557523,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 411,
-                    "wins": 80,
-                    "rate": 0.19464720194647203,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 12.694808690222425,
-                    "confidenceLow": 0.15926948120183015,
-                    "confidenceHigh": 0.2356803020407377,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 261,
-                    "wins": 30,
-                    "rate": 0.11494252873563218,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 4.724341369138439,
-                    "confidenceLow": 0.08171000248777127,
-                    "confidenceHigh": 0.15934578331023028,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 93.23008849557523,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 93.23008849557523,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 93.23008849557523,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2260,
-                    "baselineWins": 153,
-                    "baselineRate": 0.06769911504424779,
-                    "liftPercentagePoints": 93.23008849557523,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         }
@@ -56071,7 +56071,7 @@
             "weightRule": "馬齢"
           },
           "conditionKey": "札幌|flat|dirt|1700|右|maiden|3歳|open|馬齢",
-          "runnerCount": 13,
+          "runnerCount": 14,
           "bodyWeightStatus": "published",
           "sampleStarts": 2053,
           "sampleRaces": 153,
@@ -57740,6 +57740,162 @@
               "rank": 5
             },
             {
+              "id": "4afdb15e286d34efaa22",
+              "number": 9,
+              "frame": 6,
+              "name": "ゴールデンダガー",
+              "sexAge": "牡3",
+              "jockey": "横山 琉人",
+              "assignedWeight": 57,
+              "bodyWeight": 482,
+              "bodyWeightChange": 10,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 92.54749147588895,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 385,
+                    "wins": 67,
+                    "rate": 0.17402597402597403,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 9.950088878486346,
+                    "confidenceLow": 0.13942485050558817,
+                    "confidenceHigh": 0.21506808440672573,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 323,
+                    "wins": 34,
+                    "rate": 0.10526315789473684,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 3.073807265362627,
+                    "confidenceLow": 0.07630927773972392,
+                    "confidenceHigh": 0.14349627944761084,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 92.54749147588895,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 92.54749147588895,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 92.54749147588895,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 2,
+                    "wins": 2,
+                    "rate": 1,
+                    "baselineStarts": 2053,
+                    "baselineWins": 153,
+                    "baselineRate": 0.07452508524111057,
+                    "liftPercentagePoints": 92.54749147588895,
+                    "confidenceLow": 0.3423719528896193,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 5
+            },
+            {
               "id": "073786d7b63ff7310c56",
               "number": 10,
               "frame": 6,
@@ -58206,162 +58362,6 @@
               ],
               "score": 0,
               "rank": 5
-            },
-            {
-              "id": "4afdb15e286d34efaa22",
-              "number": 9,
-              "frame": 6,
-              "name": "ゴールデンダガー",
-              "sexAge": "牡3",
-              "jockey": "横山 琉人",
-              "assignedWeight": 57,
-              "bodyWeight": 482,
-              "bodyWeightChange": 10,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 92.54749147588895,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 385,
-                    "wins": 67,
-                    "rate": 0.17402597402597403,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 9.950088878486346,
-                    "confidenceLow": 0.13942485050558817,
-                    "confidenceHigh": 0.21506808440672573,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 323,
-                    "wins": 34,
-                    "rate": 0.10526315789473684,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 3.073807265362627,
-                    "confidenceLow": 0.07630927773972392,
-                    "confidenceHigh": 0.14349627944761084,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 92.54749147588895,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 92.54749147588895,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 92.54749147588895,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 2,
-                    "wins": 2,
-                    "rate": 1,
-                    "baselineStarts": 2053,
-                    "baselineWins": 153,
-                    "baselineRate": 0.07452508524111057,
-                    "liftPercentagePoints": 92.54749147588895,
-                    "confidenceLow": 0.3423719528896193,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -58386,7 +58386,7 @@
             "weightRule": "馬齢"
           },
           "conditionKey": "札幌|flat|turf|1500|右|maiden|2歳|female-only|馬齢",
-          "runnerCount": 12,
+          "runnerCount": 13,
           "bodyWeightStatus": "published",
           "sampleStarts": 95,
           "sampleRaces": 10,
@@ -58493,6 +58493,162 @@
             }
           ],
           "runners": [
+            {
+              "id": "76d89132ffac171ca118",
+              "number": 1,
+              "frame": 1,
+              "name": "セールデュクール",
+              "sexAge": "牝2",
+              "jockey": "和田 陽希",
+              "assignedWeight": 52,
+              "bodyWeight": 436,
+              "bodyWeightChange": -4,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": -10.526315789473683,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 22,
+                    "wins": 6,
+                    "rate": 0.2727272727272727,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": 16.74641148325359,
+                    "confidenceLow": 0.13150582015814438,
+                    "confidenceHigh": 0.48152123699001975,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": -10.526315789473683,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": -10.526315789473683,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": -10.526315789473683,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": -10.526315789473683,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 95,
+                    "baselineWins": 10,
+                    "baselineRate": 0.10526315789473684,
+                    "liftPercentagePoints": -10.526315789473683,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 1
+            },
             {
               "id": "ec080aef6b019811184e",
               "number": 2,
@@ -60364,162 +60520,6 @@
               ],
               "score": 0,
               "rank": 1
-            },
-            {
-              "id": "76d89132ffac171ca118",
-              "number": 1,
-              "frame": 1,
-              "name": "セールデュクール",
-              "sexAge": "牝2",
-              "jockey": "和田 陽希",
-              "assignedWeight": 52,
-              "bodyWeight": 436,
-              "bodyWeightChange": -4,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": -10.526315789473683,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 22,
-                    "wins": 6,
-                    "rate": 0.2727272727272727,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": 16.74641148325359,
-                    "confidenceLow": 0.13150582015814438,
-                    "confidenceHigh": 0.48152123699001975,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": -10.526315789473683,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": -10.526315789473683,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": -10.526315789473683,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": -10.526315789473683,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 95,
-                    "baselineWins": 10,
-                    "baselineRate": 0.10526315789473684,
-                    "liftPercentagePoints": -10.526315789473683,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -66708,7 +66708,7 @@
             "weightRule": "馬齢"
           },
           "conditionKey": "札幌|flat|turf|1500|右|maiden|3歳|open|馬齢",
-          "runnerCount": 13,
+          "runnerCount": 14,
           "bodyWeightStatus": "published",
           "sampleStarts": 456,
           "sampleRaces": 33,
@@ -68377,6 +68377,162 @@
               "rank": 4
             },
             {
+              "id": "0f51654ead7ac042aaaf",
+              "number": 10,
+              "frame": 6,
+              "name": "ジャーナーリア",
+              "sexAge": "牡3",
+              "jockey": "池添 謙一",
+              "assignedWeight": 57,
+              "bodyWeight": 526,
+              "bodyWeightChange": -2,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": -7.236842105263158,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 95,
+                    "wins": 17,
+                    "rate": 0.17894736842105263,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": 10.657894736842104,
+                    "confidenceLow": 0.11483479785573532,
+                    "confidenceHigh": 0.26801614749521013,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": true,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 25,
+                    "wins": 3,
+                    "rate": 0.12,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": 4.763157894736842,
+                    "confidenceLow": 0.04166741357068093,
+                    "confidenceHigh": 0.29956192183373487,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": -7.236842105263158,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": -7.236842105263158,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": false,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": -7.236842105263158,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 0,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 456,
+                    "baselineWins": 33,
+                    "baselineRate": 0.07236842105263158,
+                    "liftPercentagePoints": -7.236842105263158,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 1,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 4
+            },
+            {
               "id": "c60567fd3af7e369ca05",
               "number": 12,
               "frame": 7,
@@ -68843,162 +68999,6 @@
               ],
               "score": 0,
               "rank": 4
-            },
-            {
-              "id": "0f51654ead7ac042aaaf",
-              "number": 10,
-              "frame": 6,
-              "name": "ジャーナーリア",
-              "sexAge": "牡3",
-              "jockey": "池添 謙一",
-              "assignedWeight": 57,
-              "bodyWeight": 526,
-              "bodyWeightChange": -2,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": -7.236842105263158,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 95,
-                    "wins": 17,
-                    "rate": 0.17894736842105263,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": 10.657894736842104,
-                    "confidenceLow": 0.11483479785573532,
-                    "confidenceHigh": 0.26801614749521013,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": true,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 25,
-                    "wins": 3,
-                    "rate": 0.12,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": 4.763157894736842,
-                    "confidenceLow": 0.04166741357068093,
-                    "confidenceHigh": 0.29956192183373487,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": -7.236842105263158,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": -7.236842105263158,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": false,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": -7.236842105263158,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 0,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 456,
-                    "baselineWins": 33,
-                    "baselineRate": 0.07236842105263158,
-                    "liftPercentagePoints": -7.236842105263158,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 1,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -118375,7 +118375,7 @@
             "weightRule": "定量"
           },
           "conditionKey": "新潟|flat|dirt|1800|左|class-2|3歳以上|open|定量",
-          "runnerCount": 14,
+          "runnerCount": 15,
           "bodyWeightStatus": "pending",
           "sampleStarts": 582,
           "sampleRaces": 41,
@@ -120044,6 +120044,162 @@
               "rank": 1
             },
             {
+              "id": "f7545c9494d309690d52",
+              "number": 11,
+              "frame": 6,
+              "name": "ジェーケーボンバー",
+              "sexAge": "牡4",
+              "jockey": "菊沢 一樹",
+              "assignedWeight": 58,
+              "bodyWeight": null,
+              "bodyWeightChange": null,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 82,
+                    "wins": 11,
+                    "rate": 0.13414634146341464,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 6.369960606822564,
+                    "confidenceLow": 0.07658612768827222,
+                    "confidenceHigh": 0.22445206358495665,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 166,
+                    "wins": 24,
+                    "rate": 0.14457831325301204,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 7.413157785782304,
+                    "confidenceLow": 0.09911975400985602,
+                    "confidenceHigh": 0.20611524142118087,
+                    "classification": "high"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 184,
+                    "wins": 16,
+                    "rate": 0.08695652173913043,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 1.6509786343941428,
+                    "confidenceLow": 0.054232353757765986,
+                    "confidenceHigh": 0.13657522028334096,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 399,
+                    "wins": 34,
+                    "rate": 0.08521303258145363,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 1.4766297186264628,
+                    "confidenceLow": 0.0616183375573238,
+                    "confidenceHigh": 0.1167187557319492,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 195,
+                    "wins": 15,
+                    "rate": 0.07692307692307693,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 0.6476341527887924,
+                    "confidenceLow": 0.047167494695515164,
+                    "confidenceHigh": 0.12302626757555894,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 536,
+                    "wins": 38,
+                    "rate": 0.0708955223880597,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 0.0448786992870695,
+                    "confidenceLow": 0.05208448748376074,
+                    "confidenceHigh": 0.09581371080255141,
+                    "classification": "neutral"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 14,
+                    "wins": 1,
+                    "rate": 0.07142857142857142,
+                    "baselineStarts": 582,
+                    "baselineWins": 41,
+                    "baselineRate": 0.070446735395189,
+                    "liftPercentagePoints": 0.09818360333824216,
+                    "confidenceLow": 0.012721886112291648,
+                    "confidenceHigh": 0.3146926955395781,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 1
+            },
+            {
               "id": "597bc1a265fd7bf5f1f1",
               "number": 12,
               "frame": 7,
@@ -120666,162 +120822,6 @@
               ],
               "score": 0,
               "rank": 1
-            },
-            {
-              "id": "f7545c9494d309690d52",
-              "number": 11,
-              "frame": 6,
-              "name": "ジェーケーボンバー",
-              "sexAge": "牡4",
-              "jockey": "菊沢 一樹",
-              "assignedWeight": 58,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 82,
-                    "wins": 11,
-                    "rate": 0.13414634146341464,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 6.369960606822564,
-                    "confidenceLow": 0.07658612768827222,
-                    "confidenceHigh": 0.22445206358495665,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 166,
-                    "wins": 24,
-                    "rate": 0.14457831325301204,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 7.413157785782304,
-                    "confidenceLow": 0.09911975400985602,
-                    "confidenceHigh": 0.20611524142118087,
-                    "classification": "high"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 184,
-                    "wins": 16,
-                    "rate": 0.08695652173913043,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 1.6509786343941428,
-                    "confidenceLow": 0.054232353757765986,
-                    "confidenceHigh": 0.13657522028334096,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 399,
-                    "wins": 34,
-                    "rate": 0.08521303258145363,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 1.4766297186264628,
-                    "confidenceLow": 0.0616183375573238,
-                    "confidenceHigh": 0.1167187557319492,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 195,
-                    "wins": 15,
-                    "rate": 0.07692307692307693,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 0.6476341527887924,
-                    "confidenceLow": 0.047167494695515164,
-                    "confidenceHigh": 0.12302626757555894,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 536,
-                    "wins": 38,
-                    "rate": 0.0708955223880597,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 0.0448786992870695,
-                    "confidenceLow": 0.05208448748376074,
-                    "confidenceHigh": 0.09581371080255141,
-                    "classification": "neutral"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 14,
-                    "wins": 1,
-                    "rate": 0.07142857142857142,
-                    "baselineStarts": 582,
-                    "baselineWins": 41,
-                    "baselineRate": 0.070446735395189,
-                    "liftPercentagePoints": 0.09818360333824216,
-                    "confidenceLow": 0.012721886112291648,
-                    "confidenceHigh": 0.3146926955395781,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },
@@ -122848,7 +122848,7 @@
             "weightRule": "別定"
           },
           "conditionKey": "新潟|flat|turf|2000|左 外|g3|3歳以上|open|別定",
-          "runnerCount": 10,
+          "runnerCount": 11,
           "bodyWeightStatus": "pending",
           "sampleStarts": 16,
           "sampleRaces": 1,
@@ -123275,6 +123275,162 @@
               "sexAge": "牡3",
               "jockey": "C.ルメール",
               "assignedWeight": 57,
+              "bodyWeight": null,
+              "bodyWeightChange": null,
+              "scratched": false,
+              "features": [
+                {
+                  "featureId": "lastStartWon",
+                  "label": "前走勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartWon",
+                    "label": "前走勝利",
+                    "starts": 3,
+                    "wins": 0,
+                    "rate": 0,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": -6.25,
+                    "confidenceLow": 0,
+                    "confidenceHigh": 0.5615060804490177,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "lastStartTop3",
+                  "label": "前走前三名",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "lastStartTop3",
+                    "label": "前走前三名",
+                    "starts": 7,
+                    "wins": 1,
+                    "rate": 0.14285714285714285,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": 8.035714285714285,
+                    "confidenceLow": 0.02567895594897479,
+                    "confidenceHigh": 0.5131345033190299,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "bodyWeight500Plus",
+                  "label": "馬體重 500 公斤以上",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "bodyWeight500Plus",
+                    "label": "馬體重 500 公斤以上",
+                    "starts": 5,
+                    "wins": 1,
+                    "rate": 0.2,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": 13.750000000000002,
+                    "confidenceLow": 0.036223160969787456,
+                    "confidenceHigh": 0.6244717358814612,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameDistance",
+                  "label": "曾勝出相同距離",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameDistance",
+                    "label": "曾勝出相同距離",
+                    "starts": 14,
+                    "wins": 1,
+                    "rate": 0.07142857142857142,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": 0.8928571428571425,
+                    "confidenceLow": 0.012721886112291648,
+                    "confidenceHigh": 0.3146926955395781,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameVenue",
+                  "label": "曾在相同競馬場勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameVenue",
+                    "label": "曾在相同競馬場勝利",
+                    "starts": 4,
+                    "wins": 1,
+                    "rate": 0.25,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": 18.75,
+                    "confidenceLow": 0.045586062644636216,
+                    "confidenceHigh": 0.6993639475573634,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameSurface",
+                  "label": "曾在相同跑道勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameSurface",
+                    "label": "曾在相同跑道勝利",
+                    "starts": 16,
+                    "wins": 1,
+                    "rate": 0.0625,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": 0,
+                    "confidenceLow": 0.011119057308331216,
+                    "confidenceHigh": 0.2832926836802987,
+                    "classification": "insufficient"
+                  }
+                },
+                {
+                  "featureId": "wonSameOrHigherClass",
+                  "label": "曾在同級或更高級別勝利",
+                  "value": null,
+                  "contribution": 0,
+                  "stat": {
+                    "featureId": "wonSameOrHigherClass",
+                    "label": "曾在同級或更高級別勝利",
+                    "starts": 8,
+                    "wins": 1,
+                    "rate": 0.125,
+                    "baselineStarts": 16,
+                    "baselineWins": 1,
+                    "baselineRate": 0.0625,
+                    "liftPercentagePoints": 6.25,
+                    "confidenceLow": 0.02241690886329618,
+                    "confidenceHigh": 0.4708948057698615,
+                    "classification": "insufficient"
+                  }
+                }
+              ],
+              "score": 0,
+              "rank": 1
+            },
+            {
+              "id": "43299cc9bb4868971a24",
+              "number": 4,
+              "frame": 4,
+              "name": "ドゥレッツァ",
+              "sexAge": "牡6",
+              "jockey": "田辺 裕信",
+              "assignedWeight": 59,
               "bodyWeight": null,
               "bodyWeightChange": null,
               "scratched": false,
@@ -124514,162 +124670,6 @@
               ],
               "score": 0,
               "rank": 1
-            },
-            {
-              "id": "43299cc9bb4868971a24",
-              "number": 4,
-              "frame": 4,
-              "name": "ドゥレッツァ",
-              "sexAge": "牡6",
-              "jockey": "田辺 裕信",
-              "assignedWeight": 59,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": true,
-              "features": [
-                {
-                  "featureId": "lastStartWon",
-                  "label": "前走勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartWon",
-                    "label": "前走勝利",
-                    "starts": 3,
-                    "wins": 0,
-                    "rate": 0,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": -6.25,
-                    "confidenceLow": 0,
-                    "confidenceHigh": 0.5615060804490177,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "lastStartTop3",
-                  "label": "前走前三名",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "lastStartTop3",
-                    "label": "前走前三名",
-                    "starts": 7,
-                    "wins": 1,
-                    "rate": 0.14285714285714285,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": 8.035714285714285,
-                    "confidenceLow": 0.02567895594897479,
-                    "confidenceHigh": 0.5131345033190299,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "bodyWeight500Plus",
-                  "label": "馬體重 500 公斤以上",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "bodyWeight500Plus",
-                    "label": "馬體重 500 公斤以上",
-                    "starts": 5,
-                    "wins": 1,
-                    "rate": 0.2,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": 13.750000000000002,
-                    "confidenceLow": 0.036223160969787456,
-                    "confidenceHigh": 0.6244717358814612,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameDistance",
-                  "label": "曾勝出相同距離",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameDistance",
-                    "label": "曾勝出相同距離",
-                    "starts": 14,
-                    "wins": 1,
-                    "rate": 0.07142857142857142,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": 0.8928571428571425,
-                    "confidenceLow": 0.012721886112291648,
-                    "confidenceHigh": 0.3146926955395781,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameVenue",
-                  "label": "曾在相同競馬場勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameVenue",
-                    "label": "曾在相同競馬場勝利",
-                    "starts": 4,
-                    "wins": 1,
-                    "rate": 0.25,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": 18.75,
-                    "confidenceLow": 0.045586062644636216,
-                    "confidenceHigh": 0.6993639475573634,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameSurface",
-                  "label": "曾在相同跑道勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameSurface",
-                    "label": "曾在相同跑道勝利",
-                    "starts": 16,
-                    "wins": 1,
-                    "rate": 0.0625,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": 0,
-                    "confidenceLow": 0.011119057308331216,
-                    "confidenceHigh": 0.2832926836802987,
-                    "classification": "insufficient"
-                  }
-                },
-                {
-                  "featureId": "wonSameOrHigherClass",
-                  "label": "曾在同級或更高級別勝利",
-                  "value": null,
-                  "contribution": 0,
-                  "stat": {
-                    "featureId": "wonSameOrHigherClass",
-                    "label": "曾在同級或更高級別勝利",
-                    "starts": 8,
-                    "wins": 1,
-                    "rate": 0.125,
-                    "baselineStarts": 16,
-                    "baselineWins": 1,
-                    "baselineRate": 0.0625,
-                    "liftPercentagePoints": 6.25,
-                    "confidenceLow": 0.02241690886329618,
-                    "confidenceHigh": 0.4708948057698615,
-                    "classification": "insufficient"
-                  }
-                }
-              ],
-              "score": 0,
-              "rank": null
             }
           ]
         },

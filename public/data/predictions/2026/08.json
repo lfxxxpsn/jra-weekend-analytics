@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-08",
-    "generatedAt": "2026-08-29T11:22:44.483Z",
+    "generatedAt": "2026-08-29T11:31:12.928Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -94950,7 +94950,7 @@
             "weightRule": "定量"
           },
           "conditionKey": "新潟|flat|dirt|1800|左|class-2|3歳以上|open|定量",
-          "runnerCount": 14,
+          "runnerCount": 15,
           "bodyWeightStatus": "pending",
           "sampleStarts": 582,
           "sampleRaces": 41,
@@ -95148,6 +95148,22 @@
               "actualFinish": null
             },
             {
+              "id": "f7545c9494d309690d52",
+              "number": 11,
+              "frame": 6,
+              "name": "ジェーケーボンバー",
+              "sexAge": "牡4",
+              "jockey": "菊沢 一樹",
+              "assignedWeight": 58,
+              "bodyWeight": null,
+              "bodyWeightChange": null,
+              "scratched": false,
+              "features": [],
+              "score": 0,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
               "id": "597bc1a265fd7bf5f1f1",
               "number": 12,
               "frame": 7,
@@ -95209,22 +95225,6 @@
               "features": [],
               "score": 0,
               "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "f7545c9494d309690d52",
-              "number": 11,
-              "frame": 6,
-              "name": "ジェーケーボンバー",
-              "sexAge": "牡4",
-              "jockey": "菊沢 一樹",
-              "assignedWeight": 58,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": true,
-              "features": [],
-              "score": 0,
-              "rank": null,
               "actualFinish": null
             }
           ],
@@ -95475,7 +95475,7 @@
             "weightRule": "別定"
           },
           "conditionKey": "新潟|flat|turf|2000|左 外|g3|3歳以上|open|別定",
-          "runnerCount": 10,
+          "runnerCount": 11,
           "bodyWeightStatus": "pending",
           "sampleStarts": 16,
           "sampleRaces": 1,
@@ -95523,6 +95523,22 @@
               "sexAge": "牡3",
               "jockey": "C.ルメール",
               "assignedWeight": 57,
+              "bodyWeight": null,
+              "bodyWeightChange": null,
+              "scratched": false,
+              "features": [],
+              "score": 0,
+              "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "43299cc9bb4868971a24",
+              "number": 4,
+              "frame": 4,
+              "name": "ドゥレッツァ",
+              "sexAge": "牡6",
+              "jockey": "田辺 裕信",
+              "assignedWeight": 59,
               "bodyWeight": null,
               "bodyWeightChange": null,
               "scratched": false,
@@ -95641,22 +95657,6 @@
               "features": [],
               "score": 0,
               "rank": 1,
-              "actualFinish": null
-            },
-            {
-              "id": "43299cc9bb4868971a24",
-              "number": 4,
-              "frame": 4,
-              "name": "ドゥレッツァ",
-              "sexAge": "牡6",
-              "jockey": "田辺 裕信",
-              "assignedWeight": 59,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": true,
-              "features": [],
-              "score": 0,
-              "rank": null,
               "actualFinish": null
             }
           ],
