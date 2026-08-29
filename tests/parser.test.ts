@@ -7,9 +7,11 @@ describe('JRA page parser', () => {
     const race = parseRacePage(html, 'https://www.jra.go.jp/JRADB/accessD.html?CNAME=test-entry')
     expect(race).toMatchObject({ date: '2026-08-22', venue: '新潟', number: 7, startTime: '15:25', name: 'テスト杯', isResult: false })
     expect(race.condition).toMatchObject({ distance: 1600, surface: 'turf', courseVariant: '左 外', classCode: 'class-3' })
-    expect(race.runners).toHaveLength(2)
+    expect(race.runners).toHaveLength(3)
     expect(race.runners[0]).toMatchObject({ number: 1, frame: 1, bodyWeight: 502, bodyWeightChange: 4, jockey: '騎手一' })
     expect(race.runners[1]?.bodyWeight).toBeNull()
+    expect(race.runners[2]?.bodyWeight).toBe(440)
+    expect(race.runners[2]?.bodyWeightChange).toBeNull()
   })
 
   it('handles dead heat and excludes a scratched runner later in aggregation', async () => {

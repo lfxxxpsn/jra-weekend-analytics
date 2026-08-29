@@ -13,6 +13,11 @@ function numberFrom(value: string | undefined): number | null {
   return Number.isFinite(parsed) ? parsed : null
 }
 
+function normalizeBodyWeightText(value: string) {
+  // JRA uses this marker when no previous-race weight change exists.
+  return value.replace(/\u521d\u51fa\u8d70/g, '\u8a08\u4e0d')
+}
+
 export function stableRaceId(source: string) {
   return createHash('sha256').update(source).digest('hex').slice(0, 20)
 }
@@ -45,7 +50,7 @@ function parseTableRunners($: cheerio.CheerioAPI, isResult: boolean): ParsedRunn
     const horseAnchor = $(row).find('a[href*="accessU"], a[onclick*="pw01dud"], a[href*="pw01dud"]').first()
     const name = compact(horseAnchor.text())
     if (!name || cells.length < 3 || /馬名|取消馬/.test(name)) return
-    const rowText = compact($(row).text())
+    const rowText = normalizeBodyWeightText(compact($(row).text()))
     const sexAge = rowText.match(/(牡|牝|せん)\s*(\d{1,2})/)?.slice(1).join('') ?? ''
     const weightMatch = rowText.match(/(\d{3})\s*(?:kg)?\s*\(\s*([+−-]?\d+|前計不|計不)\s*\)/i)
     const assignedWeight = numberFrom(rowText.match(/(?:^|\s)(\d{2}(?:\.\d))\s*(?:kg)?(?:\s|$)/)?.[1])
@@ -91,7 +96,7 @@ function parseCardRunners($: cheerio.CheerioAPI): ParsedRunner[] {
     const anchor = root.find('a[href*="accessU"], a[onclick*="pw01dud"], a[href*="pw01dud"]').first()
     const name = compact(anchor.text())
     if (!name) return
-    const text = compact(root.text())
+    const text = normalizeBodyWeightText(compact(root.text()))
     const sexAge = text.match(/(牡|牝|せん)\s*(\d{1,2})/)?.slice(1).join('') ?? ''
     const body = text.match(/(\d{3})\s*(?:kg)?\s*\(\s*([+−-]?\d+|前計不|計不)\s*\)/i)
     runners.push({
