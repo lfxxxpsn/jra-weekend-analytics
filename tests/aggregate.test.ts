@@ -1,4 +1,4 @@
-import { applyRaceResult, featureValues, pruneStore } from '../scripts/jra/aggregate'
+import { applyRaceResult, featureValues, pruneStore, summarizeCondition } from '../scripts/jra/aggregate'
 import { EMPTY_STORE } from '../scripts/jra/store'
 import type { ParsedRace } from '../src/types'
 
@@ -44,5 +44,18 @@ describe('incremental aggregate store', () => {
     ]
     pruneStore(store, '2026-08-18')
     expect(store.buckets.map((bucket) => bucket.conditionKey)).toEqual(['keep'])
+  })
+
+  it('combines legacy graded classes and handicap or special-weight buckets', () => {
+    const store = structuredClone(EMPTY_STORE)
+    store.buckets = [
+      { month: '2024-05', conditionKey: '\u6771\u4eac|flat|turf|2000|\u5de6|g1|3\u6b73\u4ee5\u4e0a|open|\u5225\u5b9a', raceCount: 1, totalStarts: 10, totalWins: 1, features: {} },
+      { month: '2025-05', conditionKey: '\u6771\u4eac|flat|turf|2000|\u5de6|g2|3\u6b73\u4ee5\u4e0a|open|\u30cf\u30f3\u30c7', raceCount: 2, totalStarts: 20, totalWins: 2, features: {} },
+      { month: '2026-05', conditionKey: '\u6771\u4eac|flat|turf|2000|\u5de6|g3|3\u6b73\u4ee5\u4e0a|open|\u5225\u5b9a', raceCount: 3, totalStarts: 30, totalWins: 3, features: {} },
+      { month: '2026-05', conditionKey: '\u6771\u4eac|flat|turf|2000|\u5de6|open|3\u6b73\u4ee5\u4e0a|open|\u30cf\u30f3\u30c7', raceCount: 4, totalStarts: 40, totalWins: 4, features: {} },
+    ]
+
+    expect(summarizeCondition(store, '\u6771\u4eac|flat|turf|2000|\u5de6|graded|3\u6b73\u4ee5\u4e0a|open|\u30cf\u30f3\u30c7', '2026-08-30'))
+      .toMatchObject({ raceCount: 6, totalStarts: 60, totalWins: 6 })
   })
 })

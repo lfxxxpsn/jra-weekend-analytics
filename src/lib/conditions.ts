@@ -16,12 +16,22 @@ const CLASS_PATTERNS: Array<[RegExp, string, string, number]> = [
   [/(?:1勝クラス|500万(?:(?:円)?以下|下))/, 'class-1', '1勝クラス', 1],
   [/(?:2勝クラス|1000万(?:(?:円)?以下|下))/, 'class-2', '2勝クラス', 2],
   [/(?:3勝クラス|1600万(?:(?:円)?以下|下))/, 'class-3', '3勝クラス', 3],
-  [/(?:GIII|GⅢ|ＧⅢ|G3)/i, 'g3', 'GIII', 6],
-  [/(?:GII|GⅡ|ＧⅡ|G2)/i, 'g2', 'GII', 7],
-  [/(?:GI|GⅠ|ＧⅠ|G1)/i, 'g1', 'GI', 8],
+  [/(?:G|\uff27)(?:III|II|I|3|2|1|[\u2160-\u2162])/i, 'graded', '重賞以上', 6],
   [/(?:リステッド|Listed|\(L\)|（L）)/i, 'listed', 'Listed', 5],
   [/(?:オープン|OPEN)/i, 'open', 'Open', 4],
 ]
+
+const LEGACY_GRADED_CLASS_CODES = new Set(['g1', 'g2', 'g3', 'graded'])
+const MERGED_WEIGHT_RULES = new Set(['ハンデ', '別定'])
+
+function normalizeClassCode(code: string) {
+  return LEGACY_GRADED_CLASS_CODES.has(code.toLowerCase()) ? 'graded' : code
+}
+
+function normalizeWeightRule(rule: string) {
+  const normalized = rule.toLowerCase()
+  return MERGED_WEIGHT_RULES.has(normalized) ? 'handicap-special' : rule
+}
 
 export function normalizeClass(text: string): { code: string; label: string; rank: number } {
   const compact = text.replace(/\s+/g, '')
@@ -32,7 +42,15 @@ export function normalizeClass(text: string): { code: string; label: string; ran
 }
 
 export function classRank(code: string): number {
-  return CLASS_PATTERNS.find(([, candidate]) => candidate === code)?.[3] ?? 0
+  const normalizedCode = normalizeClassCode(code)
+  return CLASS_PATTERNS.find(([, candidate]) => candidate === normalizedCode)?.[3] ?? 0
+}
+
+export function canonicalizeConditionKey(conditionKey: string): string {
+  const parts = conditionKey.split('|').map((part) => part.trim().toLowerCase())
+  if (parts.length > 5) parts[5] = normalizeClassCode(parts[5] ?? '')
+  if (parts.length > 8) parts[8] = normalizeWeightRule(parts[8] ?? '')
+  return parts.join('|')
 }
 
 export function normalizeSurface(text: string): Surface {
@@ -49,10 +67,10 @@ export function buildConditionKey(condition: RaceCondition): string {
     condition.surface,
     condition.distance,
     condition.courseVariant || '-',
-    condition.classCode,
+    normalizeClassCode(condition.classCode),
     condition.ageRestriction || '-',
     condition.sexRestriction || '-',
-    condition.weightRule || '-',
+    normalizeWeightRule(condition.weightRule || '-'),
   ].map((part) => String(part).trim().toLowerCase()).join('|')
 }
 

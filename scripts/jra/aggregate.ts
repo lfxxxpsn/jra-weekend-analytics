@@ -1,4 +1,4 @@
-import { buildConditionKey, classRank } from '../../src/lib/conditions'
+import { buildConditionKey, canonicalizeConditionKey, classRank } from '../../src/lib/conditions'
 import { createConditionStat } from '../../src/lib/stats'
 import { FEATURE_IDS, type AggregateBucket, type AggregateStore, type FeatureId, type HorseState, type ParsedRace, type Surface } from '../../src/types'
 
@@ -38,7 +38,9 @@ function updateHorseState(existing: HorseState | undefined, race: ParsedRace, fi
 function bucketFor(store: AggregateStore, race: ParsedRace): AggregateBucket {
   const month = race.date.slice(0, 7)
   const conditionKey = buildConditionKey(race.condition)
-  let bucket = store.buckets.find((candidate) => candidate.month === month && candidate.conditionKey === conditionKey)
+  let bucket = store.buckets.find((candidate) => (
+    candidate.month === month && canonicalizeConditionKey(candidate.conditionKey) === conditionKey
+  ))
   if (!bucket) {
     bucket = { month, conditionKey, raceCount: 0, totalStarts: 0, totalWins: 0, features: {} }
     store.buckets.push(bucket)
@@ -91,7 +93,10 @@ export function pruneStore(store: AggregateStore, asOfDate: string) {
 
 export function summarizeCondition(store: AggregateStore, conditionKey: string, asOfDate: string) {
   const month = asOfDate.slice(0, 7)
-  const buckets = store.buckets.filter((bucket) => bucket.conditionKey === conditionKey && bucket.month <= month)
+  const canonicalKey = canonicalizeConditionKey(conditionKey)
+  const buckets = store.buckets.filter((bucket) => (
+    canonicalizeConditionKey(bucket.conditionKey) === canonicalKey && bucket.month <= month
+  ))
   const totalStarts = buckets.reduce((sum, bucket) => sum + bucket.totalStarts, 0)
   const totalWins = buckets.reduce((sum, bucket) => sum + bucket.totalWins, 0)
   const raceCount = buckets.reduce((sum, bucket) => sum + bucket.raceCount, 0)
