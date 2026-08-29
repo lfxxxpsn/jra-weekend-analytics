@@ -50,7 +50,9 @@ function parseTableRunners($: cheerio.CheerioAPI, isResult: boolean): ParsedRunn
     const horseAnchor = $(row).find('a[href*="accessU"], a[onclick*="pw01dud"], a[href*="pw01dud"]').first()
     const name = compact(horseAnchor.text())
     if (!name || cells.length < 3 || /馬名|取消馬/.test(name)) return
-    const rowText = normalizeBodyWeightText(compact($(row).text()))
+    const currentRaceRow = $(row).clone()
+    currentRaceRow.find('.past').remove()
+    const rowText = normalizeBodyWeightText(compact(currentRaceRow.text()))
     const sexAge = rowText.match(/(牡|牝|せん)\s*(\d{1,2})/)?.slice(1).join('') ?? ''
     const weightMatch = rowText.match(/(\d{3})\s*(?:kg)?\s*\(\s*([+−-]?\d+|前計不|計不)\s*\)/i)
     const assignedWeight = numberFrom(rowText.match(/(?:^|\s)(\d{2}(?:\.\d))\s*(?:kg)?(?:\s|$)/)?.[1])
@@ -96,7 +98,9 @@ function parseCardRunners($: cheerio.CheerioAPI): ParsedRunner[] {
     const anchor = root.find('a[href*="accessU"], a[onclick*="pw01dud"], a[href*="pw01dud"]').first()
     const name = compact(anchor.text())
     if (!name) return
-    const text = normalizeBodyWeightText(compact(root.text()))
+    const currentRaceCard = root.clone()
+    currentRaceCard.find('.past').remove()
+    const text = normalizeBodyWeightText(compact(currentRaceCard.text()))
     const sexAge = text.match(/(牡|牝|せん)\s*(\d{1,2})/)?.slice(1).join('') ?? ''
     const body = text.match(/(\d{3})\s*(?:kg)?\s*\(\s*([+−-]?\d+|前計不|計不)\s*\)/i)
     runners.push({
