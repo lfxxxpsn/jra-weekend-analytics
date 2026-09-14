@@ -4,8 +4,10 @@
     "fetchedAt": "2026-09-13T12:52:12.352Z",
     "historyStart": "2016-09-12",
     "historyEnd": "2026-09-12",
-    "status": "fresh",
-    "warnings": []
+    "status": "stale",
+    "warnings": [
+      "JRA 出馬資料尚未完整（目前 0 場）；保留上次成功資料。"
+    ]
   },
   "meetings": [
     {
