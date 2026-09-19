@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T06:38:10.559Z",
+  "generatedAt": "2026-09-19T01:35:29.363Z",
   "buckets": [
     {
       "month": "2016-09",
@@ -585024,13 +585024,13 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|turf|2000|右|maiden|2歳|open|馬齢",
-      "raceCount": 2,
-      "totalStarts": 14,
-      "totalWins": 2,
+      "raceCount": 3,
+      "totalStarts": 22,
+      "totalWins": 3,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 4,
-          "wins": 2
+          "starts": 5,
+          "wins": 3
         },
         "lastStartTop3": {
           "starts": 5,
@@ -585061,16 +585061,16 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1800|右|maiden|2歳|open|馬齢",
-      "raceCount": 2,
-      "totalStarts": 14,
-      "totalWins": 2,
+      "raceCount": 3,
+      "totalStarts": 22,
+      "totalWins": 3,
       "features": {
         "lastStartWon": {
           "starts": 1,
           "wins": 1
         },
         "lastStartTop3": {
-          "starts": 3,
+          "starts": 5,
           "wins": 1
         },
         "wonSameDistance": {
@@ -585088,6 +585088,10 @@
         "wonSameOrHigherClass": {
           "starts": 1,
           "wins": 1
+        },
+        "bodyWeight500Plus": {
+          "starts": 1,
+          "wins": 0
         }
       }
     },
@@ -585493,9 +585497,9 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1200|右|maiden|2歳|open|馬齢",
-      "raceCount": 2,
-      "totalStarts": 32,
-      "totalWins": 2,
+      "raceCount": 3,
+      "totalStarts": 41,
+      "totalWins": 3,
       "features": {
         "bodyWeight500Plus": {
           "starts": 2,
@@ -626761,7 +626765,10 @@
     "2d2fe8168ba5763dec99",
     "b28a20d8ddd34e31ba7f",
     "e9a6fcf1c585f4f376d0",
-    "5de2040b5b3b62b89057"
+    "5de2040b5b3b62b89057",
+    "936c8da4d93e9ba84f89",
+    "ceaab326f6d94fb4e492",
+    "0e654b68bac87f13b3ef"
   ],
   "horses": {
     "d6c7d782796686f168d7": {
@@ -630356,21 +630363,6 @@
       "highestWonClassRank": 5,
       "updatedAt": "2026-06-14"
     },
-    "29fe3a4fe6f71a6d4be9": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 7,
-      "wonDistances": [
-        1800
-      ],
-      "wonVenues": [
-        "阪神"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 2,
-      "updatedAt": "2023-09-18"
-    },
     "590849acb3eeefd8db73": {
       "lastRaceDate": "2023-10-22",
       "lastFinish": 11,
@@ -630661,23 +630653,6 @@
       ],
       "highestWonClassRank": 2,
       "updatedAt": "2024-05-19"
-    },
-    "a10e436c328b02c76259": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 13,
-      "wonDistances": [
-        1600,
-        1800
-      ],
-      "wonVenues": [
-        "東京",
-        "中山"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 1,
-      "updatedAt": "2023-09-18"
     },
     "fe8c844f20d48bb539e0": {
       "lastRaceDate": "2024-02-17",
@@ -634409,25 +634384,6 @@
       "highestWonClassRank": 4,
       "updatedAt": "2024-04-06"
     },
-    "7c5226192e41f9e8d83d": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 1,
-      "wonDistances": [
-        1800,
-        2000,
-        2880
-      ],
-      "wonVenues": [
-        "東京",
-        "中山"
-      ],
-      "wonSurfaces": [
-        "turf",
-        "jump"
-      ],
-      "highestWonClassRank": 1,
-      "updatedAt": "2023-09-18"
-    },
     "2ae6ee70f16d54ec0c40": {
       "lastRaceDate": "2025-05-24",
       "lastFinish": 13,
@@ -636095,23 +636051,6 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2025-03-02"
-    },
-    "636ddb5345d7729ce41e": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 15,
-      "wonDistances": [
-        1000,
-        1600
-      ],
-      "wonVenues": [
-        "函館",
-        "東京"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 1,
-      "updatedAt": "2023-09-18"
     },
     "3e161c40a7fbf4ca68f1": {
       "lastRaceDate": "2024-08-31",
@@ -643290,23 +643229,6 @@
       "highestWonClassRank": 0,
       "updatedAt": "2025-03-16"
     },
-    "ff74b257ac505c975817": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 14,
-      "wonDistances": [
-        1700,
-        1900
-      ],
-      "wonVenues": [
-        "小倉",
-        "中京"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 1,
-      "updatedAt": "2023-09-18"
-    },
     "f645f83030cf57ba40af": {
       "lastRaceDate": "2024-08-17",
       "lastFinish": 7,
@@ -647842,15 +647764,6 @@
       "highestWonClassRank": 1,
       "updatedAt": "2025-04-06"
     },
-    "1a3e583e290365d60549": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 13,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "b1e9457c60877dc9ffa4": {
       "lastRaceDate": "2024-10-19",
       "lastFinish": 13,
@@ -648537,15 +648450,6 @@
       ],
       "highestWonClassRank": 1,
       "updatedAt": "2024-02-03"
-    },
-    "2da7c6a0c3a208fc72f0": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 9,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
     },
     "3991aa4a4eca473d4e44": {
       "lastRaceDate": "2026-02-21",
@@ -656146,15 +656050,6 @@
       "highestWonClassRank": null,
       "updatedAt": "2023-12-09"
     },
-    "8799b6d3dd6c356b6238": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 7,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "98080c233400fff82b10": {
       "lastRaceDate": "2025-03-22",
       "lastFinish": 12,
@@ -661136,21 +661031,6 @@
       "highestWonClassRank": 1,
       "updatedAt": "2024-04-20"
     },
-    "68ac84ec10c00e4f2ab9": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 10,
-      "wonDistances": [
-        1700
-      ],
-      "wonVenues": [
-        "福島"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 1,
-      "updatedAt": "2023-09-18"
-    },
     "4c795034633c338f4a3d": {
       "lastRaceDate": "2026-08-09",
       "lastFinish": 14,
@@ -661831,21 +661711,6 @@
       ],
       "highestWonClassRank": 3,
       "updatedAt": "2023-12-03"
-    },
-    "9dc8579887a461ead63b": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 13,
-      "wonDistances": [
-        1800
-      ],
-      "wonVenues": [
-        "新潟"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 0,
-      "updatedAt": "2023-09-18"
     },
     "7d431905d307ff705c80": {
       "lastRaceDate": "2026-07-05",
@@ -683231,21 +683096,6 @@
       "highestWonClassRank": 0,
       "updatedAt": "2023-10-29"
     },
-    "88a5517fd0ea663ffb84": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 11,
-      "wonDistances": [
-        1200
-      ],
-      "wonVenues": [
-        "阪神"
-      ],
-      "wonSurfaces": [
-        "dirt"
-      ],
-      "highestWonClassRank": 0,
-      "updatedAt": "2023-09-18"
-    },
     "619927e68f1a7b31927d": {
       "lastRaceDate": "2025-02-16",
       "lastFinish": 13,
@@ -687460,15 +687310,6 @@
       "highestWonClassRank": 2,
       "updatedAt": "2026-04-19"
     },
-    "9d23902a6cbf319993c6": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 11,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "65b82c527b8739253c2d": {
       "lastRaceDate": "2026-05-24",
       "lastFinish": 6,
@@ -689227,21 +689068,6 @@
       ],
       "highestWonClassRank": 0,
       "updatedAt": "2025-10-26"
-    },
-    "ecb0e58ced6388b13f32": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 4,
-      "wonDistances": [
-        2200
-      ],
-      "wonVenues": [
-        "中京"
-      ],
-      "wonSurfaces": [
-        "turf"
-      ],
-      "highestWonClassRank": 0,
-      "updatedAt": "2023-09-18"
     },
     "14452c87a2de286a52ac": {
       "lastRaceDate": "2023-11-19",
@@ -695119,24 +694945,6 @@
       "highestWonClassRank": 1,
       "updatedAt": "2025-10-25"
     },
-    "8f286c993bd524e4e5dd": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 7,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
-    "0773f6c140a4d6dc1253": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 8,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "772d63effade0cdbc688": {
       "lastRaceDate": "2024-09-22",
       "lastFinish": 5,
@@ -696951,15 +696759,6 @@
       "highestWonClassRank": null,
       "updatedAt": "2024-12-15"
     },
-    "5fb76ba1f1ecb4017f1f": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 6,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "7f68e9b95a7464880245": {
       "lastRaceDate": "2025-08-09",
       "lastFinish": 8,
@@ -698276,15 +698075,6 @@
       "highestWonClassRank": 2,
       "updatedAt": "2025-01-06"
     },
-    "e3be718d9460867d64f4": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 9,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "0d66f693b20d54f473a0": {
       "lastRaceDate": "2025-03-15",
       "lastFinish": 11,
@@ -698566,15 +698356,6 @@
       ],
       "highestWonClassRank": 2,
       "updatedAt": "2026-08-09"
-    },
-    "f8c14e8d3867264ad6b2": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 11,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
     },
     "5e1cbd962719a9b43b7c": {
       "lastRaceDate": "2025-03-15",
@@ -706304,15 +706085,6 @@
       "highestWonClassRank": null,
       "updatedAt": "2024-02-10"
     },
-    "c5c96d3f0da6a77f0405": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 10,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
-    },
     "27dee477eca5c7be9d5f": {
       "lastRaceDate": "2025-08-09",
       "lastFinish": 6,
@@ -706500,15 +706272,6 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2024-04-20"
-    },
-    "ca59d482690425bfa0bd": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 2,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
     },
     "6663b57bad59c722dc63": {
       "lastRaceDate": "2024-06-30",
@@ -707673,15 +707436,6 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2024-01-28"
-    },
-    "5094cb02f194c11e04ee": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 11,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
     },
     "fde694206d54c5e70557": {
       "lastRaceDate": "2026-05-17",
@@ -709871,15 +709625,6 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2024-08-31"
-    },
-    "332585d2680f9ad930c9": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 9,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
     },
     "553ca23999a89f506d95": {
       "lastRaceDate": "2026-07-04",
@@ -712201,15 +711946,6 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2024-05-19"
-    },
-    "7c45464b09e8388a46f5": {
-      "lastRaceDate": "2023-09-18",
-      "lastFinish": 11,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2023-09-18"
     },
     "4b59dcbf9fcf7ea51230": {
       "lastRaceDate": "2024-03-30",
@@ -871358,13 +871094,13 @@
       "updatedAt": "2026-08-22"
     },
     "b7e8dbf4fb8c276f5d75": {
-      "lastRaceDate": "2026-08-22",
+      "lastRaceDate": "2026-09-19",
       "lastFinish": 2,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-22"
+      "updatedAt": "2026-09-19"
     },
     "b504c815bb139c79a7f6": {
       "lastRaceDate": "2026-08-22",
@@ -880325,13 +880061,13 @@
       "updatedAt": "2026-08-29"
     },
     "515a4a2e7c67c25cab09": {
-      "lastRaceDate": "2026-08-29",
+      "lastRaceDate": "2026-09-19",
       "lastFinish": 3,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-19"
     },
     "a038113c459844ab7e77": {
       "lastRaceDate": "2026-09-12",
@@ -881966,13 +881702,13 @@
       "updatedAt": "2026-08-29"
     },
     "b738d02829f091b72fe7": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 5,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 6,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-19"
     },
     "bb01a7c4dcdd30d9f03f": {
       "lastRaceDate": "2026-08-29",
@@ -881993,13 +881729,13 @@
       "updatedAt": "2026-08-29"
     },
     "7e19c9d24ebf23f8375f": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 8,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 5,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-19"
     },
     "644569692e42630f08a5": {
       "lastRaceDate": "2026-08-29",
@@ -885293,22 +885029,22 @@
       "updatedAt": "2026-08-30"
     },
     "b72791401a0ce4bfeff6": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 4,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 2,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-19"
     },
     "bb516d6a3688f2662472": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 5,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 7,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-19"
     },
     "83cfeaa3882c4fced7f6": {
       "lastRaceDate": "2026-08-30",
@@ -885698,13 +885434,13 @@
       "updatedAt": "2026-08-30"
     },
     "05c5f5b281120ec2305c": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 7,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 8,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-19"
     },
     "df55162708f4bbf200f6": {
       "lastRaceDate": "2026-08-30",
@@ -889673,13 +889409,13 @@
       "updatedAt": "2026-09-05"
     },
     "da092acd5fa14b4bb2bf": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 4,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 2,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "updatedAt": "2026-09-19"
     },
     "ab4306831856f5522431": {
       "lastRaceDate": "2026-09-05",
@@ -889736,13 +889472,13 @@
       "updatedAt": "2026-09-05"
     },
     "f4a91217b31e9a8ce984": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 11,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 7,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "updatedAt": "2026-09-19"
     },
     "9cad0ad0217ff9a762e5": {
       "lastRaceDate": "2026-09-05",
@@ -889763,13 +889499,13 @@
       "updatedAt": "2026-09-05"
     },
     "4971ca557958846a9515": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 14,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 9,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "updatedAt": "2026-09-19"
     },
     "f8edd47c2ccc52742039": {
       "lastRaceDate": "2026-09-05",
@@ -890939,13 +890675,13 @@
       "updatedAt": "2026-09-05"
     },
     "2eb0ac7eb32c11b85d6a": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 5,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 7,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "updatedAt": "2026-09-19"
     },
     "b2e0e35d287ee8f66a0e": {
       "lastRaceDate": "2026-09-05",
@@ -892568,13 +892304,13 @@
       "updatedAt": "2026-09-06"
     },
     "7fe0481caf8d8b6536d3": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 12,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 5,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-19"
     },
     "05c2670ad33403796c9e": {
       "lastRaceDate": "2026-09-12",
@@ -893567,13 +893303,13 @@
       "updatedAt": "2026-09-06"
     },
     "f3556e21c8f69f3cd40b": {
-      "lastRaceDate": "2026-09-06",
+      "lastRaceDate": "2026-09-19",
       "lastFinish": 5,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-19"
     },
     "332f3400131c7d3c5418": {
       "lastRaceDate": "2026-09-06",
@@ -894617,13 +894353,13 @@
       "updatedAt": "2026-09-06"
     },
     "eeb81279370731c1c6fc": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 4,
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 6,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-19"
     },
     "2408ea9252009c56f35d": {
       "lastRaceDate": "2026-09-06",
@@ -896993,13 +896729,19 @@
       "updatedAt": "2026-09-12"
     },
     "e3ec306f4b3407945043": {
-      "lastRaceDate": "2026-09-12",
-      "lastFinish": 7,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2026-09-12"
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 1,
+      "wonDistances": [
+        1800
+      ],
+      "wonVenues": [
+        "阪神"
+      ],
+      "wonSurfaces": [
+        "dirt"
+      ],
+      "highestWonClassRank": 0,
+      "updatedAt": "2026-09-19"
     },
     "ce38e2830baef068d35e": {
       "lastRaceDate": "2026-09-12",
@@ -899739,6 +899481,108 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2026-09-13"
+    },
+    "bb056b9f5fbccb7a4341": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 1,
+      "wonDistances": [
+        1200
+      ],
+      "wonVenues": [
+        "中山"
+      ],
+      "wonSurfaces": [
+        "dirt"
+      ],
+      "highestWonClassRank": 0,
+      "updatedAt": "2026-09-19"
+    },
+    "eeee5cd51c734298d0c4": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "89f1c0407bd89f6f48a3": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 4,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "12a5c296c31012e772c1": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 6,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "5f4732d7aba5d13c92d7": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "d3f9c4b84c28dacbf65c": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 4,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "d8d08faa660e74cfd30c": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "3bcfc1579768362106f2": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 1,
+      "wonDistances": [
+        2000
+      ],
+      "wonVenues": [
+        "阪神"
+      ],
+      "wonSurfaces": [
+        "turf"
+      ],
+      "highestWonClassRank": 0,
+      "updatedAt": "2026-09-19"
+    },
+    "2c4765bd60e59d4ecf71": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
+    },
+    "89ddfec561c84be0693b": {
+      "lastRaceDate": "2026-09-19",
+      "lastFinish": 4,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-19"
     }
   }
 }
