@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T07:02:15.942Z",
+  "generatedAt": "2026-09-20T12:38:53.324Z",
   "buckets": [
     {
       "month": "2016-09",
@@ -584703,12 +584703,12 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|turf|1200|右 外|class-1|3歳以上|open|定量",
-      "raceCount": 2,
-      "totalStarts": 32,
-      "totalWins": 2,
+      "raceCount": 3,
+      "totalStarts": 48,
+      "totalWins": 3,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 8,
+          "starts": 11,
           "wins": 0
         },
         "lastStartWon": {
@@ -584716,7 +584716,7 @@
           "wins": 1
         },
         "lastStartTop3": {
-          "starts": 3,
+          "starts": 7,
           "wins": 1
         },
         "wonSameDistance": {
@@ -586674,6 +586674,23 @@
         "wonSameSurface": {
           "starts": 1,
           "wins": 0
+        },
+        "bodyWeight500Plus": {
+          "starts": 1,
+          "wins": 0
+        }
+      }
+    },
+    {
+      "month": "2026-09",
+      "conditionKey": "阪神|flat|dirt|1400|右|class-1|3歳以上|female-only|定量",
+      "raceCount": 1,
+      "totalStarts": 15,
+      "totalWins": 1,
+      "features": {
+        "lastStartTop3": {
+          "starts": 1,
+          "wins": 1
         },
         "bodyWeight500Plus": {
           "starts": 1,
@@ -627508,7 +627525,9 @@
     "04e5cfeac58e846dd0c5",
     "141a37fdfea4e98da931",
     "59359c4afbb2e736cb27",
-    "0bf0d5852f97c4f58b55"
+    "0bf0d5852f97c4f58b55",
+    "94e1b5e8ee1b0421268d",
+    "40362491cd9cb902c267"
   ],
   "horses": {
     "d6c7d782796686f168d7": {
@@ -880019,13 +880038,13 @@
       "updatedAt": "2026-08-23"
     },
     "eb015e11181f0cf4c3db": {
-      "lastRaceDate": "2026-08-23",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 11,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-23"
+      "updatedAt": "2026-09-20"
     },
     "33cd4e9ff1a1b2299202": {
       "lastRaceDate": "2026-08-23",
@@ -883169,13 +883188,19 @@
       "updatedAt": "2026-08-29"
     },
     "7ba0b31cf30ab36cac90": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 2,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 1,
+      "wonDistances": [
+        1400
+      ],
+      "wonVenues": [
+        "阪神"
+      ],
+      "wonSurfaces": [
+        "dirt"
+      ],
+      "highestWonClassRank": 1,
+      "updatedAt": "2026-09-20"
     },
     "9098563d4794ef91bd84": {
       "lastRaceDate": "2026-09-13",
@@ -883223,13 +883248,13 @@
       "updatedAt": "2026-08-29"
     },
     "c9887009bdd674d07615": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 8,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 5,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-20"
     },
     "67c638249b0e81fcea86": {
       "lastRaceDate": "2026-08-29",
@@ -884519,13 +884544,13 @@
       "updatedAt": "2026-09-05"
     },
     "f8afa895dd41a64f91b8": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 4,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-20"
     },
     "fad77766fde5b907fd21": {
       "lastRaceDate": "2026-09-06",
@@ -884537,13 +884562,13 @@
       "updatedAt": "2026-09-06"
     },
     "8a547f762ea350933e53": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 4,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 16,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-20"
     },
     "714bd4f9e3308c0b317d": {
       "lastRaceDate": "2026-08-29",
@@ -895871,22 +895896,22 @@
       "updatedAt": "2026-09-06"
     },
     "83a0afaf4d5806ea33b7": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 2,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 9,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-20"
     },
     "388d88f9bb78086d0b2e": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 7,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-20"
     },
     "d90504c486a4638479cb": {
       "lastRaceDate": "2026-09-06",
@@ -895898,13 +895923,13 @@
       "updatedAt": "2026-09-06"
     },
     "a43062737354b98bd1a8": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 5,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 15,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-20"
     },
     "435222d1cfb85e1c66d9": {
       "lastRaceDate": "2026-09-06",
@@ -904082,6 +904107,219 @@
       "updatedAt": "2026-09-20"
     },
     "06f6610a64b8e91b706d": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 15,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "27b45a861bcf8244452c": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 1,
+      "wonDistances": [
+        1200
+      ],
+      "wonVenues": [
+        "中山"
+      ],
+      "wonSurfaces": [
+        "turf"
+      ],
+      "highestWonClassRank": 1,
+      "updatedAt": "2026-09-20"
+    },
+    "17a04bf6c1e8418a0767": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 2,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "d0821eee3b6ca517edfc": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "2cc2be43cde79f35cf6e": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 5,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "551434912754fd2c9cc0": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 6,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "c2221c7830fd5ad264d9": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "49790fcbde108d34168d": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 10,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "f6c88c29ea2f1ccb55b3": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 12,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "30bd6d4c62ee67705cc8": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 13,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "5a637942f0cc25c6c5a1": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 14,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "61ad931b128b1eea87e2": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 2,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "091dda6ef0cb1b2dc521": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "2eb1783d9de0afb6fcc2": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 4,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "e6e85bd3be5a036028a6": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 6,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "303a9228714f365e8b12": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 7,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "2c905576206af2a7290b": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "1e235d99427a0020044b": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 9,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "fd9cfd66b340f4b1ce1b": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 10,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "a1cac21310619fc7dec4": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 11,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "8fafe06b2a69c689b6af": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 12,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "b8ce3948c00a33d5ac9c": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 13,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "1a80c53547678e9a4ab9": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 14,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "9d13db43c0051f290aeb": {
       "lastRaceDate": "2026-09-20",
       "lastFinish": 15,
       "wonDistances": [],
