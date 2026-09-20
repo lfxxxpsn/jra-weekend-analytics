@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T11:33:58.820Z",
+  "generatedAt": "2026-09-20T01:37:42.838Z",
   "buckets": [
     {
       "month": "2016-09",
@@ -582552,16 +582552,16 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1800|右|maiden|2歳|open|馬齢",
-      "raceCount": 4,
-      "totalStarts": 44,
-      "totalWins": 4,
+      "raceCount": 5,
+      "totalStarts": 59,
+      "totalWins": 5,
       "features": {
         "lastStartWon": {
           "starts": 2,
           "wins": 2
         },
         "lastStartTop3": {
-          "starts": 6,
+          "starts": 8,
           "wins": 2
         },
         "wonSameDistance": {
@@ -582579,6 +582579,10 @@
         "wonSameOrHigherClass": {
           "starts": 2,
           "wins": 2
+        },
+        "bodyWeight500Plus": {
+          "starts": 2,
+          "wins": 0
         }
       }
     },
@@ -582655,37 +582659,37 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1200|右|maiden-new|2歳|open|馬齢",
-      "raceCount": 5,
-      "totalStarts": 64,
-      "totalWins": 5,
+      "raceCount": 6,
+      "totalStarts": 76,
+      "totalWins": 6,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 4,
-          "wins": 1
-        },
-        "lastStartWon": {
-          "starts": 2,
-          "wins": 2
-        },
-        "lastStartTop3": {
           "starts": 6,
           "wins": 2
         },
+        "lastStartWon": {
+          "starts": 3,
+          "wins": 3
+        },
+        "lastStartTop3": {
+          "starts": 9,
+          "wins": 3
+        },
         "wonSameDistance": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "wonSameVenue": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "wonSameSurface": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "wonSameOrHigherClass": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         }
       }
     },
@@ -583527,37 +583531,37 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1200|右|class-1|3歳以上|open|定量",
-      "raceCount": 5,
-      "totalStarts": 74,
-      "totalWins": 5,
+      "raceCount": 6,
+      "totalStarts": 90,
+      "totalWins": 6,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 29,
+          "starts": 34,
           "wins": 2
         },
         "lastStartWon": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "lastStartTop3": {
-          "starts": 7,
-          "wins": 2
+          "starts": 10,
+          "wins": 3
         },
         "wonSameDistance": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "wonSameVenue": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "wonSameSurface": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         },
         "wonSameOrHigherClass": {
-          "starts": 2,
-          "wins": 2
+          "starts": 3,
+          "wins": 3
         }
       }
     },
@@ -584473,36 +584477,36 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1800|右|class-1|3歳以上|female-only|定量",
-      "raceCount": 3,
-      "totalStarts": 38,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 52,
+      "totalWins": 4,
       "features": {
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "lastStartTop3": {
-          "starts": 5,
-          "wins": 1
+          "starts": 8,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "bodyWeight500Plus": {
-          "starts": 1,
+          "starts": 2,
           "wins": 0
         }
       }
@@ -584843,49 +584847,49 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|turf|1600|右 外|maiden|2歳|open|馬齢",
-      "raceCount": 3,
-      "totalStarts": 36,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 48,
+      "totalWins": 4,
       "features": {
         "lastStartTop3": {
-          "starts": 8,
-          "wins": 2
+          "starts": 11,
+          "wins": 3
         },
         "bodyWeight500Plus": {
           "starts": 2,
           "wins": 0
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "阪神|jump|jump|2970|→ダート|maiden|3歳以上|open|定量",
-      "raceCount": 2,
-      "totalStarts": 14,
-      "totalWins": 2,
+      "raceCount": 3,
+      "totalStarts": 26,
+      "totalWins": 3,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 2,
+          "starts": 6,
           "wins": 0
         },
         "lastStartWon": {
@@ -584893,7 +584897,7 @@
           "wins": 1
         },
         "lastStartTop3": {
-          "starts": 3,
+          "starts": 5,
           "wins": 1
         },
         "wonSameDistance": {
@@ -585028,73 +585032,73 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|turf|2000|右|maiden|2歳|open|馬齢",
-      "raceCount": 3,
-      "totalStarts": 22,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 30,
+      "totalWins": 4,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 5,
-          "wins": 3
+          "starts": 6,
+          "wins": 4
         },
         "lastStartTop3": {
-          "starts": 5,
-          "wins": 1
+          "starts": 8,
+          "wins": 2
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1800|右|maiden|2歳|open|馬齢",
-      "raceCount": 3,
-      "totalStarts": 22,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 30,
+      "totalWins": 4,
       "features": {
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "lastStartTop3": {
-          "starts": 5,
-          "wins": 1
+          "starts": 8,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "bodyWeight500Plus": {
-          "starts": 1,
+          "starts": 2,
           "wins": 0
         }
       }
@@ -585172,37 +585176,37 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1800|右|maiden-new|2歳|open|馬齢",
-      "raceCount": 3,
-      "totalStarts": 27,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 38,
+      "totalWins": 4,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 7,
+          "starts": 10,
           "wins": 0
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "lastStartTop3": {
-          "starts": 3,
-          "wins": 1
+          "starts": 6,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         }
       }
     },
@@ -585431,37 +585435,37 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1200|右|class-1|3歳以上|open|定量",
-      "raceCount": 3,
-      "totalStarts": 48,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 64,
+      "totalWins": 4,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 14,
-          "wins": 3
+          "starts": 20,
+          "wins": 4
         },
         "lastStartTop3": {
-          "starts": 6,
-          "wins": 1
+          "starts": 9,
+          "wins": 2
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         }
       }
     },
@@ -585501,74 +585505,74 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1200|右|maiden|2歳|open|馬齢",
-      "raceCount": 3,
-      "totalStarts": 41,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 50,
+      "totalWins": 4,
       "features": {
         "bodyWeight500Plus": {
           "starts": 2,
           "wins": 0
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "lastStartTop3": {
-          "starts": 3,
-          "wins": 1
+          "starts": 6,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|turf|1800|右|maiden-new|2歳|open|馬齢",
-      "raceCount": 3,
-      "totalStarts": 34,
-      "totalWins": 3,
+      "raceCount": 4,
+      "totalStarts": 46,
+      "totalWins": 4,
       "features": {
         "bodyWeight500Plus": {
           "starts": 4,
           "wins": 0
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "lastStartTop3": {
-          "starts": 3,
-          "wins": 1
+          "starts": 6,
+          "wins": 2
         },
         "wonSameDistance": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameVenue": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         },
         "wonSameOrHigherClass": {
-          "starts": 1,
-          "wins": 1
+          "starts": 2,
+          "wins": 2
         }
       }
     },
@@ -586015,11 +586019,31 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1800|右|maiden|2歳|female-only|馬齢",
-      "raceCount": 1,
-      "totalStarts": 8,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 16,
+      "totalWins": 2,
       "features": {
         "lastStartTop3": {
+          "starts": 4,
+          "wins": 2
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
           "starts": 1,
           "wins": 1
         }
@@ -586028,25 +586052,73 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|turf|1200|右 外|maiden-new|2歳|open|馬齢",
-      "raceCount": 1,
-      "totalStarts": 16,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 32,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 1,
+          "starts": 2,
           "wins": 0
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "lastStartTop3": {
+          "starts": 3,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|2400|右|class-1|3歳以上|open|定量",
-      "raceCount": 1,
-      "totalStarts": 14,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 28,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
+          "starts": 6,
+          "wins": 2
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "lastStartTop3": {
           "starts": 3,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
           "wins": 1
         }
       }
@@ -586054,11 +586126,31 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1800|右|class-1|3歳以上|female-only|定量",
-      "raceCount": 1,
-      "totalStarts": 13,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 26,
+      "totalWins": 2,
       "features": {
         "lastStartTop3": {
+          "starts": 4,
+          "wins": 2
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
           "starts": 1,
           "wins": 1
         }
@@ -586067,70 +586159,175 @@
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|turf|1200|右 外|open|2歳|open|handicap-special",
-      "raceCount": 1,
-      "totalStarts": 9,
-      "totalWins": 1,
-      "features": {}
+      "raceCount": 2,
+      "totalStarts": 18,
+      "totalWins": 2,
+      "features": {
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "lastStartTop3": {
+          "starts": 3,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
+        }
+      }
     },
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|turf|2500|右|class-2|3歳以上|open|定量",
-      "raceCount": 1,
-      "totalStarts": 12,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 24,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 4,
+          "starts": 8,
           "wins": 0
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "lastStartTop3": {
+          "starts": 3,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1400|右|maiden|2歳|female-only|馬齢",
-      "raceCount": 1,
-      "totalStarts": 11,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 22,
+      "totalWins": 2,
       "features": {
         "lastStartTop3": {
+          "starts": 4,
+          "wins": 1
+        },
+        "lastStartWon": {
           "starts": 1,
-          "wins": 0
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "阪神|jump|jump|3140|-|graded|3歳以上|open|handicap-special",
-      "raceCount": 1,
-      "totalStarts": 12,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 24,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 4,
+          "starts": 8,
           "wins": 0
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 0
+          "starts": 2,
+          "wins": 1
         },
         "lastStartTop3": {
-          "starts": 1,
-          "wins": 0
+          "starts": 4,
+          "wins": 1
         },
         "wonSameSurface": {
+          "starts": 3,
+          "wins": 1
+        },
+        "wonSameDistance": {
           "starts": 1,
-          "wins": 0
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|turf|1200|右|maiden-new|2歳|open|馬齢",
-      "raceCount": 1,
-      "totalStarts": 10,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 20,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
+          "starts": 2,
+          "wins": 2
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "lastStartTop3": {
+          "starts": 3,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
           "starts": 1,
           "wins": 1
         }
@@ -586139,49 +586336,65 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|turf|2400|右 外|class-1|3歳以上|open|定量",
-      "raceCount": 1,
-      "totalStarts": 12,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 24,
+      "totalWins": 2,
       "features": {
         "lastStartTop3": {
-          "starts": 2,
-          "wins": 1
+          "starts": 5,
+          "wins": 2
         },
         "lastStartWon": {
-          "starts": 1,
-          "wins": 0
+          "starts": 2,
+          "wins": 1
         },
         "wonSameSurface": {
-          "starts": 1,
-          "wins": 0
-        }
-      }
-    },
-    {
-      "month": "2026-09",
-      "conditionKey": "阪神|flat|turf|1600|右 外|open|2歳|open|handicap-special",
-      "raceCount": 1,
-      "totalStarts": 6,
-      "totalWins": 1,
-      "features": {
-        "lastStartWon": {
-          "starts": 2,
-          "wins": 1
-        },
-        "lastStartTop3": {
-          "starts": 2,
+          "starts": 3,
           "wins": 1
         },
         "wonSameDistance": {
-          "starts": 2,
+          "starts": 1,
           "wins": 1
         },
         "wonSameVenue": {
           "starts": 1,
           "wins": 1
         },
-        "wonSameSurface": {
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
+        }
+      }
+    },
+    {
+      "month": "2026-09",
+      "conditionKey": "阪神|flat|turf|1600|右 外|open|2歳|open|handicap-special",
+      "raceCount": 2,
+      "totalStarts": 12,
+      "totalWins": 2,
+      "features": {
+        "lastStartWon": {
+          "starts": 3,
+          "wins": 2
+        },
+        "lastStartTop3": {
+          "starts": 5,
+          "wins": 2
+        },
+        "wonSameDistance": {
+          "starts": 4,
+          "wins": 2
+        },
+        "wonSameVenue": {
           "starts": 2,
+          "wins": 2
+        },
+        "wonSameSurface": {
+          "starts": 4,
+          "wins": 2
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
           "wins": 1
         }
       }
@@ -586189,49 +586402,122 @@
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|turf|1200|右|class-2|3歳以上|open|定量",
-      "raceCount": 1,
-      "totalStarts": 15,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 30,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 1,
+          "starts": 2,
           "wins": 0
         },
         "lastStartTop3": {
+          "starts": 4,
+          "wins": 1
+        },
+        "lastStartWon": {
           "starts": 1,
-          "wins": 0
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "中山|flat|dirt|1800|右|open|3歳以上|open|handicap-special",
-      "raceCount": 1,
-      "totalStarts": 13,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 26,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 9,
-          "wins": 1
+          "starts": 18,
+          "wins": 2
         },
         "lastStartTop3": {
+          "starts": 4,
+          "wins": 1
+        },
+        "lastStartWon": {
           "starts": 1,
-          "wins": 0
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
         }
       }
     },
     {
       "month": "2026-09",
       "conditionKey": "阪神|flat|dirt|1400|右|class-3|3歳以上|open|定量",
-      "raceCount": 1,
-      "totalStarts": 16,
-      "totalWins": 1,
+      "raceCount": 2,
+      "totalStarts": 32,
+      "totalWins": 2,
       "features": {
         "bodyWeight500Plus": {
-          "starts": 8,
+          "starts": 16,
           "wins": 0
         },
         "lastStartTop3": {
+          "starts": 4,
+          "wins": 1
+        },
+        "lastStartWon": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameDistance": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameVenue": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameSurface": {
+          "starts": 1,
+          "wins": 1
+        },
+        "wonSameOrHigherClass": {
+          "starts": 1,
+          "wins": 1
+        }
+      }
+    },
+    {
+      "month": "2026-09",
+      "conditionKey": "阪神|flat|dirt|1200|右|maiden|2歳|open|馬齢",
+      "raceCount": 1,
+      "totalStarts": 13,
+      "totalWins": 1,
+      "features": {
+        "bodyWeight500Plus": {
           "starts": 1,
           "wins": 0
         }
@@ -627018,7 +627304,34 @@
     "c471b0cb0c411ec0ef2c",
     "b6bc13d69af34059d1ee",
     "942c62ccd8ad87b9e48e",
-    "3a95a1418d40d751ad1d"
+    "3a95a1418d40d751ad1d",
+    "2aecee3ff3ef4d74c6b0",
+    "f45074f5c6e19fb9c880",
+    "1ebb775f69acce2bf42f",
+    "c9ee2e1dfbdc9026a4f2",
+    "107a5decadc05da76008",
+    "dc8a2e734ab566a81ec5",
+    "e6f5583e830b192b4641",
+    "5cc5aef1f24574950ac2",
+    "725196e787ec3250cfb8",
+    "1b0707e9bee1e2989241",
+    "96a533efe0421a4ca801",
+    "7e19d70182b800da0f2d",
+    "23c481d64623aff7b33f",
+    "aeab7fb1616bcd371f9c",
+    "4eb8aeaf6c356e0db67c",
+    "aeb1cb1b8d03ea882b4d",
+    "2eeddec2430644b69b7a",
+    "8b1c64028410dcf9ac17",
+    "cf1b6a02737a1aa06e70",
+    "8cbfef4130ef5e2cc64d",
+    "35726c095b489f9d6ad3",
+    "44a34ad68ab8196a9728",
+    "8476754c94c144877bd3",
+    "44c4b3df1abaa6d1eab1",
+    "9ae2ea0f8b9d19f46b3c",
+    "cc5d9c32791eb1048432",
+    "2727b446648a95e24817"
   ],
   "horses": {
     "d6c7d782796686f168d7": {
@@ -871602,13 +871915,13 @@
       "updatedAt": "2026-08-22"
     },
     "98c55a0fe4001087fef0": {
-      "lastRaceDate": "2026-08-22",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 14,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-22"
+      "updatedAt": "2026-09-20"
     },
     "c5fc9a028b6840535db5": {
       "lastRaceDate": "2026-09-12",
@@ -871635,13 +871948,13 @@
       "updatedAt": "2026-08-22"
     },
     "fedd4e023f2da95615af": {
-      "lastRaceDate": "2026-08-22",
-      "lastFinish": 6,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 4,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-22"
+      "updatedAt": "2026-09-20"
     },
     "dc682a8e6b628ddd9d14": {
       "lastRaceDate": "2026-09-12",
@@ -875952,13 +876265,13 @@
       "updatedAt": "2026-09-06"
     },
     "4348358c368364cf6b40": {
-      "lastRaceDate": "2026-08-23",
-      "lastFinish": 5,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 6,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-23"
+      "updatedAt": "2026-09-20"
     },
     "802eaa51337bc091bf12": {
       "lastRaceDate": "2026-08-23",
@@ -878868,13 +879181,13 @@
       "updatedAt": "2026-09-13"
     },
     "4ce01a58c3535e86bb93": {
-      "lastRaceDate": "2026-08-23",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 10,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-23"
+      "updatedAt": "2026-09-20"
     },
     "4b0d255be7bd500623ae": {
       "lastRaceDate": "2026-08-23",
@@ -880824,13 +881137,13 @@
       "updatedAt": "2026-08-29"
     },
     "51f84629baf4fce6af6a": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 5,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-20"
     },
     "7e08b1afa1da338c2d60": {
       "lastRaceDate": "2026-08-29",
@@ -880851,13 +881164,13 @@
       "updatedAt": "2026-08-29"
     },
     "0262873ecddc85f7cd1f": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 6,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 11,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-20"
     },
     "41629bba4c7f1134c7c6": {
       "lastRaceDate": "2026-08-29",
@@ -881946,13 +882259,13 @@
       "updatedAt": "2026-08-29"
     },
     "580c4ce01030cf3d6c2e": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 3,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 15,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-20"
     },
     "5b8042ed47f421344881": {
       "lastRaceDate": "2026-08-29",
@@ -882018,13 +882331,13 @@
       "updatedAt": "2026-08-29"
     },
     "c434d2f97d6d670ec212": {
-      "lastRaceDate": "2026-08-29",
-      "lastFinish": 11,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 6,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-29"
+      "updatedAt": "2026-09-20"
     },
     "5a5569052e6ab2c9620c": {
       "lastRaceDate": "2026-08-29",
@@ -884793,13 +885106,13 @@
       "updatedAt": "2026-09-19"
     },
     "b908cb934c28e1b32fa6": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 10,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 4,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-20"
     },
     "aa1a80cbf855f9a51d1a": {
       "lastRaceDate": "2026-08-30",
@@ -884853,13 +885166,19 @@
       "updatedAt": "2026-08-30"
     },
     "25874808d41a5fb8080b": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 6,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 1,
+      "wonDistances": [
+        2970
+      ],
+      "wonVenues": [
+        "阪神"
+      ],
+      "wonSurfaces": [
+        "jump"
+      ],
+      "highestWonClassRank": 0,
+      "updatedAt": "2026-09-20"
     },
     "83c5689737c721a46dac": {
       "lastRaceDate": "2026-08-30",
@@ -885063,13 +885382,13 @@
       "updatedAt": "2026-09-13"
     },
     "6a3bc86d73118c4d54ca": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 6,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 9,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-20"
     },
     "015f54f96e6189195452": {
       "lastRaceDate": "2026-09-13",
@@ -885687,13 +886006,13 @@
       "updatedAt": "2026-08-30"
     },
     "ba616998e6c960bcb40b": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 6,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 12,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-20"
     },
     "05c5f5b281120ec2305c": {
       "lastRaceDate": "2026-09-19",
@@ -886434,13 +886753,13 @@
       "updatedAt": "2026-08-30"
     },
     "2524244dce74830cfbd6": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 4,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 11,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-20"
     },
     "d24ccb28055edca9b8e7": {
       "lastRaceDate": "2026-08-30",
@@ -886803,13 +887122,13 @@
       "updatedAt": "2026-09-19"
     },
     "e366aec9ef5382d585fd": {
-      "lastRaceDate": "2026-08-30",
-      "lastFinish": 8,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 12,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-08-30"
+      "updatedAt": "2026-09-20"
     },
     "6d0db89aa343d10f6b3a": {
       "lastRaceDate": "2026-08-30",
@@ -889242,22 +889561,28 @@
       "updatedAt": "2026-09-19"
     },
     "fc57e636d38909481c1c": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 5,
-      "wonDistances": [],
-      "wonVenues": [],
-      "wonSurfaces": [],
-      "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 1,
+      "wonDistances": [
+        1200
+      ],
+      "wonVenues": [
+        "阪神"
+      ],
+      "wonSurfaces": [
+        "dirt"
+      ],
+      "highestWonClassRank": 0,
+      "updatedAt": "2026-09-20"
     },
     "f7f50d2967e80115f600": {
-      "lastRaceDate": "2026-09-13",
-      "lastFinish": 8,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 9,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-13"
+      "updatedAt": "2026-09-20"
     },
     "7f5f424e325a473bce1a": {
       "lastRaceDate": "2026-09-05",
@@ -889428,13 +889753,13 @@
       "updatedAt": "2026-09-05"
     },
     "745187360cec8a4a115b": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 4,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 8,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "updatedAt": "2026-09-20"
     },
     "89ae219b1c6e23bd683b": {
       "lastRaceDate": "2026-09-05",
@@ -891258,13 +891583,13 @@
       "updatedAt": "2026-09-05"
     },
     "0a0dcc59b7c0c8648286": {
-      "lastRaceDate": "2026-09-05",
-      "lastFinish": 7,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 3,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-05"
+      "updatedAt": "2026-09-20"
     },
     "ebd06ce6a49fad9501f3": {
       "lastRaceDate": "2026-09-05",
@@ -893019,22 +893344,22 @@
       "updatedAt": "2026-09-06"
     },
     "7f0c1f1a2afe3f803db5": {
-      "lastRaceDate": "2026-09-06",
+      "lastRaceDate": "2026-09-20",
       "lastFinish": 7,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-20"
     },
     "6627c6c366844d201df4": {
-      "lastRaceDate": "2026-09-06",
-      "lastFinish": 8,
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 5,
       "wonDistances": [],
       "wonVenues": [],
       "wonSurfaces": [],
       "highestWonClassRank": null,
-      "updatedAt": "2026-09-06"
+      "updatedAt": "2026-09-20"
     },
     "4c9fe1ece50145125b7e": {
       "lastRaceDate": "2026-09-06",
@@ -901600,6 +901925,192 @@
       "wonSurfaces": [],
       "highestWonClassRank": null,
       "updatedAt": "2026-09-19"
+    },
+    "23644d277f8cbda83843": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 1,
+      "wonDistances": [
+        1800
+      ],
+      "wonVenues": [
+        "中山"
+      ],
+      "wonSurfaces": [
+        "dirt"
+      ],
+      "highestWonClassRank": 0,
+      "updatedAt": "2026-09-20"
+    },
+    "73d4eb7bbc8de315305c": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 2,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "0412290fbdb5d7fcc61f": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "599d2768be3b64a07521": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 10,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "c05fcbc6936d002af0c8": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 13,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "c1570de40a332a10458b": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 2,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "0d39ad5aaf63393c5e7d": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 3,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "1e828f5c35fd4df6a850": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 4,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "7a000353a25c26edeacc": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 6,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "32b32d94c0baad98221a": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 7,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "3a3baa54521727d1aa5f": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "de0e339c418346046e3e": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 9,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "4ceeb8929e808aa41fd5": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 12,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "89fdc9799bd493d7da44": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 2,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "a7d6cf9246d39b57f219": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 5,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "609b3ae87b7da7cb1eed": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 7,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "989e823bf25519cdf7d6": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 8,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "1d2e8a95259e020f7911": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 10,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "a56b28b4693185e6c3ad": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 11,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
+    },
+    "59efb6b12e58b11d22f5": {
+      "lastRaceDate": "2026-09-20",
+      "lastFinish": 13,
+      "wonDistances": [],
+      "wonVenues": [],
+      "wonSurfaces": [],
+      "highestWonClassRank": null,
+      "updatedAt": "2026-09-20"
     }
   }
 }
