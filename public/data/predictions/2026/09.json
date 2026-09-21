@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-09",
-    "generatedAt": "2026-09-20T12:38:54.003Z",
+    "generatedAt": "2026-09-21T01:38:36.545Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -48529,7 +48529,7 @@
       "races": [
         {
           "id": "3a485a319e19a4435dd4",
-          "sourceUrl": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0109202604070120260921%2F92",
+          "sourceUrl": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0109202604070120260921%2F4E",
           "date": "2026-09-21",
           "venue": "阪神",
           "number": 1,
@@ -48549,7 +48549,7 @@
           },
           "conditionKey": "阪神|flat|dirt|1800|右|maiden|2歳|open|馬齢",
           "runnerCount": 8,
-          "bodyWeightStatus": "pending",
+          "bodyWeightStatus": "published",
           "sampleStarts": 1566,
           "sampleRaces": 132,
           "highConditions": [
@@ -48592,7 +48592,7 @@
               ],
               "score": 15,
               "rank": 1,
-              "actualFinish": null
+              "actualFinish": 3
             },
             {
               "id": "d1003c5e218510091902",
@@ -48608,7 +48608,7 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 4
             },
             {
               "id": "d53f1a37f2633a53d0a0",
@@ -48624,7 +48624,7 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 2
             },
             {
               "id": "5ec471d1459daa1cc785",
@@ -48640,7 +48640,7 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 7
             },
             {
               "id": "45a0b59f7695b52fb211",
@@ -48656,7 +48656,7 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 1
             },
             {
               "id": "c0411ed6b61e42851ebe",
@@ -48672,7 +48672,7 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 6
             },
             {
               "id": "8ff3f5aa532d9453144b",
@@ -48688,7 +48688,7 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 8
             },
             {
               "id": "f661ebb9b7912096ff1e",
@@ -48704,10 +48704,10 @@
               "features": [],
               "score": 0,
               "rank": 2,
-              "actualFinish": null
+              "actualFinish": 5
             }
           ],
-          "predictionStatus": "upcoming"
+          "predictionStatus": "completed"
         },
         {
           "id": "99d94c46528e0a8888b5",
