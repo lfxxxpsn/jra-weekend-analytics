@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-11",
-    "generatedAt": "2026-10-29T14:39:25.356Z",
+    "generatedAt": "2026-10-30T07:43:55.769Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -33,7 +33,7 @@
             "weightRule": "馬齢"
           },
           "conditionKey": "京都|flat|dirt|1400|右|maiden|2歳|female-only|馬齢",
-          "runnerCount": 12,
+          "runnerCount": 11,
           "bodyWeightStatus": "pending",
           "sampleStarts": 269,
           "sampleRaces": 20,
@@ -170,22 +170,6 @@
               "actualFinish": null
             },
             {
-              "id": "9bea2f24da2a016550d3",
-              "number": null,
-              "frame": null,
-              "name": "ペプチドカトレア",
-              "sexAge": "牝2",
-              "jockey": "斎藤 新",
-              "assignedWeight": 55,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
               "id": "5f3d12c5461496548afa",
               "number": null,
               "frame": null,
@@ -231,6 +215,22 @@
               "features": [],
               "score": 0,
               "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "9bea2f24da2a016550d3",
+              "number": null,
+              "frame": null,
+              "name": "ペプチドカトレア",
+              "sexAge": "牝2",
+              "jockey": "斎藤 新",
+              "assignedWeight": 55,
+              "bodyWeight": null,
+              "bodyWeightChange": null,
+              "scratched": true,
+              "features": [],
+              "score": 0,
+              "rank": null,
               "actualFinish": null
             }
           ],
@@ -5400,7 +5400,7 @@
             "weightRule": "定量"
           },
           "conditionKey": "東京|flat|turf|1600|左|class-3|3歳以上|open|定量",
-          "runnerCount": 15,
+          "runnerCount": 14,
           "bodyWeightStatus": "pending",
           "sampleStarts": 61,
           "sampleRaces": 5,
@@ -5537,22 +5537,6 @@
               "actualFinish": null
             },
             {
-              "id": "a1f74761aeba02ab6b66",
-              "number": null,
-              "frame": null,
-              "name": "ジャサルディア",
-              "sexAge": "牝4",
-              "jockey": "C.ルメール",
-              "assignedWeight": 56,
-              "bodyWeight": null,
-              "bodyWeightChange": null,
-              "scratched": false,
-              "features": [],
-              "score": 0,
-              "rank": 1,
-              "actualFinish": null
-            },
-            {
               "id": "fbcd61127f284c85b54f",
               "number": null,
               "frame": null,
@@ -5646,6 +5630,22 @@
               "features": [],
               "score": 0,
               "rank": 1,
+              "actualFinish": null
+            },
+            {
+              "id": "a1f74761aeba02ab6b66",
+              "number": null,
+              "frame": null,
+              "name": "ジャサルディア",
+              "sexAge": "牝4",
+              "jockey": "C.ルメール",
+              "assignedWeight": 56,
+              "bodyWeight": null,
+              "bodyWeightChange": null,
+              "scratched": true,
+              "features": [],
+              "score": 0,
+              "rank": null,
               "actualFinish": null
             }
           ],
