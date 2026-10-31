@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "year": 2026,
     "month": "2026-11",
-    "generatedAt": "2026-10-31T02:44:00.448Z",
+    "generatedAt": "2026-10-31T09:58:47.902Z",
     "methodology": "pre-race-only"
   },
   "meetings": [
@@ -765,21 +765,21 @@
           "conditionKey": "京都|jump|jump|2910|→ダート|maiden|3歳以上|open|定量",
           "runnerCount": 13,
           "bodyWeightStatus": "pending",
-          "sampleStarts": 223,
-          "sampleRaces": 22,
+          "sampleStarts": 233,
+          "sampleRaces": 23,
           "highConditions": [
             {
               "featureId": "lastStartTop3",
               "label": "前走前三名",
-              "starts": 44,
-              "wins": 12,
-              "rate": 0.2727272727272727,
-              "baselineStarts": 223,
-              "baselineWins": 22,
-              "baselineRate": 0.09865470852017937,
-              "liftPercentagePoints": 17.407256420709334,
-              "confidenceLow": 0.16346223395491324,
-              "confidenceHigh": 0.418491546855093,
+              "starts": 45,
+              "wins": 13,
+              "rate": 0.28888888888888886,
+              "baselineStarts": 233,
+              "baselineWins": 23,
+              "baselineRate": 0.09871244635193133,
+              "liftPercentagePoints": 19.017644253695753,
+              "confidenceLow": 0.17729918031900158,
+              "confidenceHigh": 0.43368817472260224,
               "classification": "high"
             }
           ],
@@ -802,10 +802,10 @@
                   "featureId": "lastStartTop3",
                   "label": "前走前三名",
                   "value": true,
-                  "contribution": 11.5
+                  "contribution": 12.8
                 }
               ],
-              "score": 11.5,
+              "score": 12.8,
               "rank": 1,
               "actualFinish": null
             },
